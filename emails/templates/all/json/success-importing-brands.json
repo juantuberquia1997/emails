@@ -1,0 +1,34 @@
+{
+  "Name": "success-importing-brands",
+  "FriendlyName": "success-importing-brands",
+  "Description": "Email informing the brands import is done and has been successful",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 48,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{to.0.email}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Plantilla de mapeo de marcas importada con éxito",
+      "Message": "success-importing-brands.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

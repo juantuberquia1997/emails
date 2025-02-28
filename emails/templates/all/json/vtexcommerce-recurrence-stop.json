@@ -1,0 +1,43 @@
+{
+  "Name": "vtexcommerce-recurrence-stop",
+  "FriendlyName": "Recurrence - Paused",
+  "Description": "When a subscription is paused",
+  "IsDefaultTemplate": true,
+  "AccountId": null,
+  "AccountName": null,
+  "ApplicationId": 83,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{orders.0.clientProfileData.email}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "ASUNTO",
+      "Message": "vtexcommerce-recurrence-stop.html",
+      "Type": "E",
+      "ProviderId": "556ab22d-861c-42a2-9bdb-2925c53977c3",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": null,
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": [
+        {
+          "Name": "Destination",
+          "Value": null
+        },
+        {
+          "Name": "MessageText",
+          "Value": null
+        }
+      ]
+    }
+  }
+}

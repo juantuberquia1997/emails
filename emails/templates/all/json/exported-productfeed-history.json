@@ -1,0 +1,34 @@
+{
+  "Name": "exported-productfeed-history",
+  "FriendlyName": "exported-productFeed-history",
+  "Description": "Email with exported history spreadsheet from product feed",
+  "IsDefaultTemplate": true,
+  "AccountId": null,
+  "AccountName": null,
+  "ApplicationId": 48,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{to.0.email}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Plantilla de registro de los SKU exportada con éxito",
+      "Message": "exported-productfeed-history.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": null,
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

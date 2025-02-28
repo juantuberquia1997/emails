@@ -1,0 +1,34 @@
+{
+  "Name": "portal-contato",
+  "FriendlyName": "[PO] Customer contact",
+  "Description": "[Internal Review Required] E-mail sent when the customer contacts your store.",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 27,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{addressee.address}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Notificación de contacto - el cliente {{firstName}} {{lastName}} envió un {{contactType}}",
+      "Message": "portal-contato.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

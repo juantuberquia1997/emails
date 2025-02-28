@@ -1,0 +1,509 @@
+{
+    "package": null,
+	"subjectItemAttachment": {
+		"item": "Balsamo labial lip t...",
+		"totalItems": 1
+	},
+	"cancellationReason": null,
+	"paymentData": {
+		"giftCards": [],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "CEAC72C6396E4AB5B802E775C00028A9",
+				"merchantName": "F**********",
+				"payments": [
+					{
+						"id": "956B8FDD5AFA490B91A33290AB2D9AB1",
+						"paymentSystem": "127",
+						"paymentSystemName": "M*************",
+						"value": 441059,
+						"installments": 1,
+						"referenceValue": 441059,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": null,
+						"lastDigits": null,
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": null,
+						"giftCardId": null,
+						"giftCardName": null,
+						"giftCardCaption": null,
+						"redemptionCode": null,
+						"group": "MercadoPagoPro",
+						"tid": "103523347612",
+						"dueDate": null,
+						"connectorResponses": {
+							"Tid": "103523347612",
+							"ReturnCode": null,
+							"Message": null,
+							"authId": "103523347612",
+							"nsu": "103523347612",
+							"acquirer": "MercadoPagoV2"
+						},
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"koinUrl": null,
+						"accountId": null,
+						"parentAccountId": null,
+						"bankIssuedInvoiceIdentificationNumber": null,
+						"bankIssuedInvoiceIdentificationNumberFormatted": null,
+						"bankIssuedInvoiceBarCodeNumber": null,
+						"bankIssuedInvoiceBarCodeType": null,
+						"billingAddress": null,
+						"paymentOrigin": null
+					}
+				]
+			}
+		]
+	},
+	"cancellationRequests": null,
+	"invoiceData": null,
+	"clientProfileData": {
+		"id": "clientProfileData",
+		"email": "v*****************@g****.c****************.c*.v***.c**.b*",
+		"firstName": "V********",
+		"lastName": "P********",
+		"documentType": "dni",
+		"document": "9*******",
+		"phone": "1*********",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": null,
+		"corporatePhone": null,
+		"isCorporate": false,
+		"userProfileId": "60a6a93a-2271-4b60-ae51-ec22427cced2",
+		"userProfileVersion": null,
+		"customerClass": null,
+		"customerCode": null
+	},
+	"shippingData": {
+		"id": "shippingData",
+		"address": {
+			"addressType": "pickup",
+			"receiverName": "V******** P********",
+			"addressId": "1459",
+			"versionId": null,
+			"entityId": null,
+			"postalCode": "1***",
+			"city": "C***** A******* d* B***** A****",
+			"state": "Ciudad Autónoma de Buenos Aires",
+			"country": "ARG",
+			"street": "A** M***** d* O**",
+			"number": "9**",
+			"neighborhood": "",
+			"complement": "",
+			"reference": null,
+			"geoCoordinates": [
+				-51.4779552,
+				-0.0039779
+			]
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"itemId": "8132992",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retiro en Farmacias CABA (1459)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": null,
+				"deliveryCompany": null,
+				"shippingEstimate": "2bd",
+				"shippingEstimateDate": "2025-02-28T17:10:15.6948922Z",
+				"slas": [
+					{
+						"id": "Retiro en Farmacias CABA (1459)",
+						"name": "R******************************",
+						"shippingEstimate": "2bd",
+						"shippingEstimateDate": "2025-02-28T17:10:15.6948922Z",
+						"deliveryWindow": null,
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "FARAMBA",
+								"courierName": "F*************",
+								"dockId": "1",
+								"quantity": 1,
+								"warehouseId": "1_1",
+								"accountCarrierName": "f**********",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 17:00 horas\nDomingos y Feriados:  CERRADO",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "1459",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "1***",
+								"city": "C***** A******* d* B***** A****",
+								"state": "Ciudad Autónoma de Buenos Aires",
+								"country": "ARG",
+								"street": "A** M***** d* O**",
+								"number": "9**",
+								"neighborhood": "",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": "1",
+							"friendlyName": "F***************************",
+							"isPickupStore": true
+						},
+						"polygonName": "A**",
+						"lockTTL": "12d",
+						"pickupPointId": "1_1459",
+						"transitTime": "2bd",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"ARG"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "FARAMBA",
+						"courierName": "F*************",
+						"dockId": "1",
+						"quantity": 1,
+						"warehouseId": "1_1",
+						"accountCarrierName": "f**********",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 17:00 horas\nDomingos y Feriados:  CERRADO",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "1459",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "1***",
+						"city": "C***** A******* d* B***** A****",
+						"state": "Ciudad Autónoma de Buenos Aires",
+						"country": "ARG",
+						"street": "A** M***** d* O**",
+						"number": "9**",
+						"neighborhood": "",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": "1",
+					"friendlyName": "F***************************",
+					"isPickupStore": true
+				},
+				"addressId": "1459",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "A**",
+				"pickupPointId": "1_1459",
+				"transitTime": "2bd"
+			}
+		],
+		"trackingHints": [],
+		"selectedAddresses": [
+			{
+				"addressId": "1459",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "V******** P********",
+				"street": "A** M***** d* O**",
+				"number": "9**",
+				"complement": "",
+				"neighborhood": "",
+				"postalCode": "1***",
+				"city": "C***** A******* d* B***** A****",
+				"state": "Ciudad Autónoma de Buenos Aires",
+				"country": "ARG",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressId": "1459",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "V******** P********",
+				"street": "A** M***** d* O**",
+				"number": "9**",
+				"complement": "",
+				"neighborhood": "",
+				"postalCode": "1***",
+				"city": "C***** A******* d* B***** A****",
+				"state": "Ciudad Autónoma de Buenos Aires",
+				"country": "ARG",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"contactInformation": []
+	},
+	"items": [
+		{
+			"additionalInfo": {
+				"categoriesIds": "/20000/20300/20302/",
+				"productClusterId": "5508,5568,7960,8154",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.02,
+					"height": 10,
+					"length": 2,
+					"weight": 0.02,
+					"width": 9
+				},
+				"brandName": "V*******",
+				"brandId": "2180",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "8132992",
+			"priceTable": null,
+			"priceValidUntil": "2026-02-26T17:09:23Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:farmaonline:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/8132992",
+			"uniqueId": "92BFCD75FD304F40AD5639A56CB030B2",
+			"id": "8132992",
+			"productId": "8132992",
+			"productRefId": "8132992",
+			"refId": "8132992",
+			"ean": "859581006853",
+			"name": "B*****************************************",
+			"skuName": "B*****************************************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 441059,
+			"listPrice": 441059,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 441059,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/20000/20300/20302/",
+			"productCategories": {
+				"20000": "Maquillaje",
+				"20300": "Labios",
+				"20302": "Protectores Labiales"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1316602-100-100/8132992_0.jpg?v=638756880654800000",
+			"detailUrl": "/vaseline-8132992/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 441059,
+				"total": 441059,
+				"sellingPrices": [
+					{
+						"value": 441059,
+						"quantity": 1
+					}
+				]
+			}
+		}
+	],
+	"sellers": [
+		{
+			"subSellerId": "1",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=farmaonline",
+			"id": "farmaonlineotc",
+			"name": "f*************",
+			"logo": ""
+		}
+	],
+	"giftRegistryData": null,
+	"receiptData": null,
+	"contextData": null,
+	"marketPlaceOrderId": "",
+	"marketPlaceOrderGroup": null,
+	"marketplaceServicesEndpoint": null,
+	"orderFormId": "a5ef90fa01a548479b24c9e173b5c400",
+	"sequence": "9164487",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "",
+	"userProfileId": "60a6a93a-2271-4b60-ae51-ec22427cced2",
+	"hostName": "f**********",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"marketplacePaymentValue": null,
+	"orderId": "1513619164487-01",
+	"orderGroup": "1513619164487",
+	"state": "payment-approved",
+	"isCheckedIn": false,
+	"sellerOrderId": "00-1513619164487-01",
+	"storeId": null,
+	"checkedInPickupPointId": null,
+	"value": 441059,
+	"totals": [
+		{
+			"id": "Items",
+			"name": "T*****************",
+			"value": 441059
+		},
+		{
+			"id": "Discounts",
+			"name": "T******************",
+			"value": 0
+		},
+		{
+			"id": "Shipping",
+			"name": "C********************",
+			"value": 0
+		},
+		{
+			"id": "Tax",
+			"name": "C*********************",
+			"value": 0
+		}
+	],
+	"ratesAndBenefitsData": {
+		"rateAndBenefitsIdentifiers": [],
+		"teaser": []
+	},
+	"clientPreferencesData": {
+		"locale": "es-AR",
+		"optinNewsLetter": false
+	},
+	"commercialConditionData": null,
+	"marketingData": null,
+	"storePreferencesData": {
+		"countryCode": "ARG",
+		"saveUserData": false,
+		"timeZone": "Argentina Standard Time",
+		"currencyCode": "ARS",
+		"currencyLocale": 11274,
+		"currencySymbol": "$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"itemMetadata": null,
+	"taxData": null,
+	"customData": {
+		"customApps": [
+			{
+				"fields": {
+					"sessionId": "1740588572",
+					"clientId": "850233446.1740528294"
+				},
+				"id": "ids",
+				"major": 1
+			}
+		]
+	},
+	"hooksData": null,
+	"changeData": null,
+	"subscriptionData": null,
+	"salesChannel": "1",
+	"followUpEmail": "b**********************************.v***.c**.b*",
+	"creationDate": "2025-02-26T17:10:39.4747084Z",
+	"lastChange": "2025-02-26T17:11:06.5656569Z",
+	"timeZoneCreationDate": "2025-02-26T14:10:39.4747084",
+	"timeZoneLastChange": "2025-02-26T14:11:06.5656569",
+	"isCompleted": true,
+	"merchantName": null,
+	"userType": "",
+	"roundingError": 0,
+	"allowEdition": false,
+	"allowCancellation": false,
+	"isUserDataVisible": false,
+	"allowChangeSeller": false,
+	"_accountInfo": {
+		"MainAccountName": "f**********",
+		"AccountName": "f**********",
+		"Cnpj": "99999999999999",
+		"Id": "9b6d8ea5-120a-40eb-931e-79f06e0732d0",
+		"AppId": null,
+		"IsActive": true,
+		"IsOperating": true,
+		"CreationDate": "2018-12-05T20:30:03",
+		"OperationDate": "2019-03-05T15:51:03",
+		"CompanyName": "S*******************",
+		"TradingName": "F**********",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": "4000",
+		"Licenses": [
+			7
+		],
+		"ParentAccountId": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null,
+		"Sponsor": "3f29e577-433f-42b8-9ded-d2ede67d8ab3"
+	}
+}

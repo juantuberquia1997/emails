@@ -1,0 +1,34 @@
+{
+  "Name": "seller-connected-active",
+  "FriendlyName": "seller-connected-active",
+  "Description": "Seller Connected Active",
+  "IsDefaultTemplate": true,
+  "AccountId": null,
+  "AccountName": null,
+  "ApplicationId": 48,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{targetEmail}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Tu tienda está conectada y lista para vender en el marketplace",
+      "Message": "seller-connected-active.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": null,
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

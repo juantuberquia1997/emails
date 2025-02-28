@@ -1,0 +1,1066 @@
+{
+	"package": {
+		"items": [
+			{
+				"itemIndex": 0,
+				"quantity": 1,
+				"price": 1507500,
+				"description": null,
+				"unitMultiplier": 0
+			},
+			{
+				"itemIndex": 1,
+				"quantity": 1,
+				"price": 643650,
+				"description": null,
+				"unitMultiplier": 0
+			},
+			{
+				"itemIndex": 2,
+				"quantity": 1,
+				"price": 748800,
+				"description": null,
+				"unitMultiplier": 0
+			}
+		],
+		"courier": null,
+		"invoiceNumber": "0415-02357895",
+		"description": null,
+		"invoiceValue": 2899950,
+		"invoiceUrl": "h*************.s*************.c**.a**************************************************************",
+		"issuanceDate": "2025-01-24T00:00:00",
+		"trackingNumber": "T-2837502",
+		"invoiceKey": "suministro",
+		"trackingUrl": null,
+		"embeddedInvoice": "",
+		"type": "Output",
+		"courierStatus": {
+			"status": "ok",
+			"finished": true,
+			"deliveredDate": "2025-02-06T15:33:47.5550574Z",
+			"data": [
+				{
+					"lastChange": "2025-02-06T12:33:00",
+					"city": "",
+					"state": "",
+					"description": "Productos entregados",
+					"createDate": "2025-02-06T15:33:47.5550573Z"
+				},
+				{
+					"lastChange": "2025-01-29T08:31:00",
+					"city": "",
+					"state": "",
+					"description": "Los productos se encuentran disponibles para retirar en farmacia.",
+					"createDate": "2025-01-29T11:31:26.7501434Z"
+				}
+			]
+		},
+		"cfop": null,
+		"restitutions": {},
+		"volumes": null,
+		"EnableInferItems": null
+	},
+	"subjectItemAttachment": {
+		"item": "Mascara de pestañas ...",
+		"totalItems": 3,
+		"extraItems": 2
+	},
+	"cancellationReason": null,
+	"paymentData": {
+		"giftCards": [],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "EDCE780A85464AB18EAE78C452B26F56",
+				"merchantName": "F**********",
+				"payments": [
+					{
+						"id": "561EBDA566E745A6970A14CDDBC73604",
+						"paymentSystem": "187",
+						"paymentSystemName": "M***********",
+						"value": 2899950,
+						"installments": 1,
+						"referenceValue": 2899950,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": null,
+						"lastDigits": null,
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": null,
+						"giftCardId": null,
+						"giftCardName": null,
+						"giftCardCaption": null,
+						"redemptionCode": null,
+						"group": "Modo Payment",
+						"tid": "c0c53463-827a-42bc-8100-fd826b2c6907",
+						"dueDate": null,
+						"connectorResponses": {
+							"Tid": "c0c53463-827a-42bc-8100-fd826b2c6907",
+							"ReturnCode": null,
+							"Message": null,
+							"authId": "c0c53463-827a-42bc-8100-fd826b2c6907",
+							"nsu": "NSU-c0c53463-827a-42bc-8100-fd826b2c6907"
+						},
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"koinUrl": null,
+						"accountId": null,
+						"parentAccountId": null,
+						"bankIssuedInvoiceIdentificationNumber": null,
+						"bankIssuedInvoiceIdentificationNumberFormatted": null,
+						"bankIssuedInvoiceBarCodeNumber": null,
+						"bankIssuedInvoiceBarCodeType": null,
+						"billingAddress": null,
+						"paymentOrigin": null
+					}
+				]
+			}
+		]
+	},
+	"cancellationRequests": null,
+	"invoiceData": {
+		"address": null,
+		"userPaymentInfo": null,
+		"invoiceSubject": null
+	},
+	"clientProfileData": {
+		"id": "clientProfileData",
+		"email": "g*********@g****.c****************.c*.v***.c**.b*",
+		"firstName": "G*******",
+		"lastName": "S*********",
+		"documentType": "dni",
+		"document": "3*******",
+		"phone": "3*********",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": null,
+		"corporatePhone": null,
+		"isCorporate": false,
+		"userProfileId": "abe425a3-e6d5-4a12-8dbf-01f4068f0783",
+		"userProfileVersion": null,
+		"customerClass": null,
+		"customerCode": null
+	},
+	"shippingData": {
+		"id": "shippingData",
+		"address": {
+			"addressType": "pickup",
+			"receiverName": "G******* S*********",
+			"addressId": "111221",
+			"versionId": null,
+			"entityId": null,
+			"postalCode": "2***",
+			"city": "R******",
+			"state": "Santa Fé",
+			"country": "ARG",
+			"street": "B* O****",
+			"number": "3***",
+			"neighborhood": "M*****",
+			"complement": "",
+			"reference": null,
+			"geoCoordinates": [
+				-51.4779552,
+				-0.0039779
+			]
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"itemId": "8121647",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retiro en Farmacias 120hs (111221)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": null,
+				"deliveryCompany": null,
+				"shippingEstimate": "5bd",
+				"shippingEstimateDate": "2025-01-31T17:39:17.8244649Z",
+				"slas": [
+					{
+						"id": "Retiro en Farmacias 120hs (111221)",
+						"name": "R*********************************",
+						"shippingEstimate": "5bd",
+						"shippingEstimateDate": "2025-01-31T17:39:17.8244649Z",
+						"deliveryWindow": null,
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "INTBA",
+								"courierName": "F***********************",
+								"dockId": "1",
+								"quantity": 1,
+								"warehouseId": "1_1",
+								"accountCarrierName": "f**********",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "LU A VI: 8.30 A 20HS\nSA: 8.30 A 12HS\nDO: CERRADO",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "111221",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "2***",
+								"city": "R******",
+								"state": "Santa Fé",
+								"country": "ARG",
+								"street": "B* O****",
+								"number": "3***",
+								"neighborhood": "M*****",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": "1",
+							"friendlyName": "F****************",
+							"isPickupStore": true
+						},
+						"polygonName": "A**",
+						"lockTTL": "12d",
+						"pickupPointId": "1_111221",
+						"transitTime": "5bd",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"ARG"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "INTBA",
+						"courierName": "F***********************",
+						"dockId": "1",
+						"quantity": 1,
+						"warehouseId": "1_1",
+						"accountCarrierName": "f**********",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					},
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "LU A VI: 8.30 A 20HS\nSA: 8.30 A 12HS\nDO: CERRADO",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "111221",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "2***",
+						"city": "R******",
+						"state": "Santa Fé",
+						"country": "ARG",
+						"street": "B* O****",
+						"number": "3***",
+						"neighborhood": "M*****",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": "1",
+					"friendlyName": "F****************",
+					"isPickupStore": true
+				},
+				"addressId": "111221",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "A**",
+				"pickupPointId": "1_111221",
+				"transitTime": "5bd"
+			},
+			{
+				"itemIndex": 1,
+				"itemId": "6310157",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retiro en Farmacias 120hs (111221)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": null,
+				"deliveryCompany": null,
+				"shippingEstimate": "5bd",
+				"shippingEstimateDate": "2025-01-31T17:39:17.8244649Z",
+				"slas": [
+					{
+						"id": "Retiro en Farmacias 120hs (111221)",
+						"name": "R*********************************",
+						"shippingEstimate": "5bd",
+						"shippingEstimateDate": "2025-01-31T17:39:17.8244649Z",
+						"deliveryWindow": null,
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "INTBA",
+								"courierName": "F***********************",
+								"dockId": "1",
+								"quantity": 1,
+								"warehouseId": "1_1",
+								"accountCarrierName": "f**********",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "LU A VI: 8.30 A 20HS\nSA: 8.30 A 12HS\nDO: CERRADO",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "111221",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "2***",
+								"city": "R******",
+								"state": "Santa Fé",
+								"country": "ARG",
+								"street": "B* O****",
+								"number": "3***",
+								"neighborhood": "M*****",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": "1",
+							"friendlyName": "F****************",
+							"isPickupStore": true
+						},
+						"polygonName": "A**",
+						"lockTTL": "12d",
+						"pickupPointId": "1_111221",
+						"transitTime": "5bd",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"ARG"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "INTBA",
+						"courierName": "F***********************",
+						"dockId": "1",
+						"quantity": 1,
+						"warehouseId": "1_1",
+						"accountCarrierName": "f**********",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					},
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "LU A VI: 8.30 A 20HS\nSA: 8.30 A 12HS\nDO: CERRADO",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "111221",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "2***",
+						"city": "R******",
+						"state": "Santa Fé",
+						"country": "ARG",
+						"street": "B* O****",
+						"number": "3***",
+						"neighborhood": "M*****",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": "1",
+					"friendlyName": "F****************",
+					"isPickupStore": true
+				},
+				"addressId": "111221",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "A**",
+				"pickupPointId": "1_111221",
+				"transitTime": "5bd"
+			},
+			{
+				"itemIndex": 2,
+				"itemId": "8128508",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retiro en Farmacias 120hs (111221)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": null,
+				"deliveryCompany": null,
+				"shippingEstimate": "5bd",
+				"shippingEstimateDate": "2025-01-31T17:39:17.8244649Z",
+				"slas": [
+					{
+						"id": "Retiro en Farmacias 120hs (111221)",
+						"name": "R*********************************",
+						"shippingEstimate": "5bd",
+						"shippingEstimateDate": "2025-01-31T17:39:17.8244649Z",
+						"deliveryWindow": null,
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "INTBA",
+								"courierName": "F***********************",
+								"dockId": "1",
+								"quantity": 1,
+								"warehouseId": "1_1",
+								"accountCarrierName": "f**********",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "LU A VI: 8.30 A 20HS\nSA: 8.30 A 12HS\nDO: CERRADO",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "111221",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "2***",
+								"city": "R******",
+								"state": "Santa Fé",
+								"country": "ARG",
+								"street": "B* O****",
+								"number": "3***",
+								"neighborhood": "M*****",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": "1",
+							"friendlyName": "F****************",
+							"isPickupStore": true
+						},
+						"polygonName": "A**",
+						"lockTTL": "12d",
+						"pickupPointId": "1_111221",
+						"transitTime": "5bd",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"ARG"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "INTBA",
+						"courierName": "F***********************",
+						"dockId": "1",
+						"quantity": 1,
+						"warehouseId": "1_1",
+						"accountCarrierName": "f**********",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					},
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "LU A VI: 8.30 A 20HS\nSA: 8.30 A 12HS\nDO: CERRADO",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "111221",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "2***",
+						"city": "R******",
+						"state": "Santa Fé",
+						"country": "ARG",
+						"street": "B* O****",
+						"number": "3***",
+						"neighborhood": "M*****",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": "1",
+					"friendlyName": "F****************",
+					"isPickupStore": true
+				},
+				"addressId": "111221",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "A**",
+				"pickupPointId": "1_111221",
+				"transitTime": "5bd"
+			}
+		],
+		"trackingHints": [],
+		"selectedAddresses": [
+			{
+				"addressId": "111221",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "G******* S*********",
+				"street": "B* O****",
+				"number": "3***",
+				"complement": "",
+				"neighborhood": "M*****",
+				"postalCode": "2***",
+				"city": "R******",
+				"state": "Santa Fé",
+				"country": "ARG",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressId": "111221",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "G******* S*********",
+				"street": "B* O****",
+				"number": "3***",
+				"complement": "",
+				"neighborhood": "M*****",
+				"postalCode": "2***",
+				"city": "R******",
+				"state": "Santa Fé",
+				"country": "ARG",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"contactInformation": []
+	},
+	"items": [
+		{
+			"additionalInfo": {
+				"categoriesIds": "/20000/20200/20201/",
+				"productClusterId": "159,380,419,585,1983,2180,2839,2955,2984,3078,3677,3679,3681,3749,3828,3835,3862,3991,4280,4333,4341,4394,4464,4501,4558,4560,4567,4610,4615,4653,4655,4656,4793,4930,5077,5173,5174,5223,5299,5300,5376,5454,5494,5502,5518,5568,5576,5581,5583,5584,5598,5701,5703,5704,5707,5789,5790,5791,5793,5794,5807,5888,6127,6515,6517,6519,6521,6522,6637,6722,6724,6731,6742,6749,6823,6824,6838,6876,7082,7086,7089,7094,7140,7312,7323,7378,7571,7712,7834,7835,7881,7886,7887,7919,7935,7937,7960,8108,8110,8143,8147,8153,8159,8208,8226,8266",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.02,
+					"height": 12.5,
+					"length": 1.8,
+					"weight": 0.02,
+					"width": 1.8
+				},
+				"brandName": "m*********",
+				"brandId": "910",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "8121647",
+			"priceTable": null,
+			"priceValidUntil": "2026-01-24T17:32:49Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:farmaonline:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/8121647",
+			"uniqueId": "BAEA199C37D14E2CA01D90E2AEF68698",
+			"id": "8121647",
+			"productId": "8121647",
+			"productRefId": "8121647",
+			"refId": "8121647",
+			"ean": "41554590500",
+			"name": "M***********************************************",
+			"skuName": "M***********************************************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 3015000,
+			"listPrice": 3015000,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 1507500,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/20000/20200/20201/",
+			"productCategories": {
+				"20000": "Maquillaje",
+				"20200": "Ojos",
+				"20201": "Máscaras de Pestañas"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1295269-100-100/8121647_1.jpg?v=638721147677300000",
+			"detailUrl": "/maybelline-mascara-de-pestaas-sky-high-very-black-washable-8121647/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -1507500,
+					"rawValue": -15075,
+					"isPercentual": false,
+					"identifier": "6bb6dfd6-2324-45fc-8a01-1a330dcedf80"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 1507500,
+				"total": 1507500,
+				"sellingPrices": [
+					{
+						"value": 1507500,
+						"quantity": 1
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/10000/10100/10103/",
+				"productClusterId": "159,380,1271,2214,2489,2502,4074,4155,4394,5080,5299,5300,5401,5402,5403,5405,5436,5441,5576,5590,8102,8154,8209,8218",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.29,
+					"height": 6.5,
+					"length": 14.5,
+					"weight": 0.02,
+					"width": 6.5
+				},
+				"brandName": "b*******",
+				"brandId": "577",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "6310157",
+			"priceTable": null,
+			"priceValidUntil": "2026-01-24T17:32:37Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:farmaonline:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/6310157",
+			"uniqueId": "2780EF9DAA5A40A6BB9510E737F2CD31",
+			"id": "6310157",
+			"productId": "6310157",
+			"productRefId": "6310157",
+			"refId": "6310157",
+			"ean": "7791001005011",
+			"name": "C*****************************************",
+			"skuName": "C*****************************************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 1287300,
+			"listPrice": 1287300,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 643650,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/10000/10100/10103/",
+			"productCategories": {
+				"10000": "Cuidado Personal",
+				"10100": "Cuidado del Cabello",
+				"10103": "Tratamientos Capilares"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1208726-100-100/6310157_0.jpg?v=638528281815600000",
+			"detailUrl": "/biferdil-crema-para-peinar-rulos--definidos-270-ml-6310157/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -643650,
+					"rawValue": -6436.5,
+					"isPercentual": false,
+					"identifier": "f2339629-eb32-4db0-a771-31cd64856896"
+				},
+				{
+					"name": "d***************************************************************************************",
+					"value": 0,
+					"rawValue": 0,
+					"isPercentual": false,
+					"identifier": "fe1001b3-421a-4df5-a605-940cc741b5cb"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 643650,
+				"total": 643650,
+				"sellingPrices": [
+					{
+						"value": 643650,
+						"quantity": 1
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/10000/10500/10501/",
+				"productClusterId": "159,380,419,1778,1788,1983,2214,2489,2501,2502,2817,3078,4975,5304,5434,5439,5441,5454,5494,5518,5582,5583,5701,5703,5704,5714,5717,5793,5795,5807,5858,5887,5888,5898,5899,6166,6519,6520,6524,6722,6723,6731,6742,6747,6749,6823,6824,6865,6876,6886,6888,7008,7082,7084,7089,7094,7139,7166,7299,7323,7378,7881,7937,7961,8155,8217,8218,8226,8237",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.02,
+					"height": 3,
+					"length": 10,
+					"weight": 0.02,
+					"width": 3
+				},
+				"brandName": "G******",
+				"brandId": "1145",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "8128508",
+			"priceTable": null,
+			"priceValidUntil": "2026-01-24T17:36:09Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:farmaonline:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/8128508",
+			"uniqueId": "9B501B515B0F4FFD8CDA54CD4E83EEFB",
+			"id": "8128508",
+			"productId": "8128508",
+			"productRefId": "8128508",
+			"refId": "8128508",
+			"ean": "7899706194273",
+			"name": "G*******************************************",
+			"skuName": "G*******************************************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 1152000,
+			"listPrice": 1152000,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 748800,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/10000/10500/10501/",
+			"productCategories": {
+				"10000": "Cuidado Personal",
+				"10500": "Cuidado de la Piel",
+				"10501": "Faciales"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1255047-100-100/8128508_0.jpg?v=638567417723700000",
+			"detailUrl": "/garnier-8128508/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -403200,
+					"rawValue": -4032,
+					"isPercentual": false,
+					"identifier": "91b7d9a1-7c25-4149-95f5-ae6f76ea6859"
+				},
+				{
+					"name": "d***************************************************************************************",
+					"value": 0,
+					"rawValue": 0,
+					"isPercentual": false,
+					"identifier": "fe1001b3-421a-4df5-a605-940cc741b5cb"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 748800,
+				"total": 748800,
+				"sellingPrices": [
+					{
+						"value": 748800,
+						"quantity": 1
+					}
+				]
+			}
+		}
+	],
+	"sellers": [
+		{
+			"subSellerId": "1",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=farmaonline",
+			"id": "1",
+			"name": "F**********",
+			"logo": ""
+		}
+	],
+	"giftRegistryData": null,
+	"receiptData": null,
+	"contextData": null,
+	"marketPlaceOrderId": "",
+	"marketPlaceOrderGroup": null,
+	"marketplaceServicesEndpoint": null,
+	"orderFormId": "dc32999f715e44788188d05f0e94699f",
+	"sequence": "9000279",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "",
+	"userProfileId": "abe425a3-e6d5-4a12-8dbf-01f4068f0783",
+	"hostName": "f**********",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"marketplacePaymentValue": null,
+	"orderId": "1505709000279-01",
+	"orderGroup": "1505709000279",
+	"state": "invoiced",
+	"isCheckedIn": false,
+	"sellerOrderId": "00-1505709000279-01",
+	"storeId": null,
+	"checkedInPickupPointId": null,
+	"value": 2899950,
+	"totals": [
+		{
+			"id": "Items",
+			"name": "T*****************",
+			"value": 5454300
+		},
+		{
+			"id": "Discounts",
+			"name": "T******************",
+			"value": -2554350
+		},
+		{
+			"id": "Shipping",
+			"name": "C********************",
+			"value": 0
+		},
+		{
+			"id": "Tax",
+			"name": "C*********************",
+			"value": 0
+		}
+	],
+	"ratesAndBenefitsData": {
+		"rateAndBenefitsIdentifiers": [
+			{
+				"id": "6bb6dfd6-2324-45fc-8a01-1a330dcedf80",
+				"name": "d***************",
+				"featured": true,
+				"description": "dto-50-mes-impar\n\n01 al 26 01",
+				"matchedParameters": {
+					"productCluster@CatalogSystem": "8208|inclusive"
+				},
+				"additionalInfo": null
+			},
+			{
+				"id": "f2339629-eb32-4db0-a771-31cd64856896",
+				"name": "d***************",
+				"featured": true,
+				"description": "dto-50-mes-impar\n\n01 al 31 01",
+				"matchedParameters": {
+					"productCluster@CatalogSystem": "8209|inclusive"
+				},
+				"additionalInfo": null
+			},
+			{
+				"id": "fe1001b3-421a-4df5-a605-940cc741b5cb",
+				"name": "c***********",
+				"featured": true,
+				"description": null,
+				"matchedParameters": {
+					"productCluster@CatalogSystem": "2489|inclusive"
+				},
+				"additionalInfo": null
+			},
+			{
+				"id": "91b7d9a1-7c25-4149-95f5-ae6f76ea6859",
+				"name": "d***************",
+				"featured": true,
+				"description": "dto-35-mes-impar\n\n13 al 26 01",
+				"matchedParameters": {
+					"productCluster@CatalogSystem": "8237|inclusive"
+				},
+				"additionalInfo": null
+			}
+		],
+		"teaser": []
+	},
+	"clientPreferencesData": {
+		"locale": "es-AR",
+		"optinNewsLetter": false
+	},
+	"commercialConditionData": null,
+	"marketingData": null,
+	"storePreferencesData": {
+		"countryCode": "ARG",
+		"saveUserData": false,
+		"timeZone": "Argentina Standard Time",
+		"currencyCode": "ARS",
+		"currencyLocale": 11274,
+		"currencySymbol": "$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"itemMetadata": null,
+	"taxData": null,
+	"customData": {
+		"customApps": [
+			{
+				"fields": {
+					"sessionId": "1737738607",
+					"clientId": "170377440.1694292740"
+				},
+				"id": "ids",
+				"major": 1
+			}
+		]
+	},
+	"hooksData": null,
+	"changeData": null,
+	"subscriptionData": null,
+	"salesChannel": "1",
+	"followUpEmail": "6**********************************.v***.c**.b*",
+	"creationDate": "2025-01-24T17:37:17.7365225Z",
+	"lastChange": "2025-01-27T15:15:11.7825501Z",
+	"timeZoneCreationDate": "2025-01-24T14:37:17.7365225",
+	"timeZoneLastChange": "2025-01-27T12:15:11.7825501",
+	"isCompleted": true,
+	"merchantName": null,
+	"userType": "",
+	"roundingError": 0,
+	"allowEdition": false,
+	"allowCancellation": false,
+	"isUserDataVisible": false,
+	"allowChangeSeller": false,
+	"_accountInfo": {
+		"MainAccountName": "f**********",
+		"AccountName": "f**********",
+		"Cnpj": "99999999999999",
+		"Id": "9b6d8ea5-120a-40eb-931e-79f06e0732d0",
+		"AppId": null,
+		"IsActive": true,
+		"IsOperating": true,
+		"CreationDate": "2018-12-05T20:30:03",
+		"OperationDate": "2019-03-05T15:51:03",
+		"CompanyName": "S*******************",
+		"TradingName": "F**********",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": "4000",
+		"Licenses": [
+			7
+		],
+		"ParentAccountId": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null,
+		"Sponsor": "3f29e577-433f-42b8-9ded-d2ede67d8ab3"
+	}
+}

@@ -1,0 +1,1672 @@
+{
+	"package": null,
+	"subjectItemAttachment": {
+		"item": "Ureadin podos gel oi...",
+		"totalItems": 6,
+		"extraItems": 5
+	},
+	"cancellationReason": null,
+	"paymentData": {
+		"giftCards": [],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "B0301FFBAB33439384EBF5796F2A4214",
+				"merchantName": "F**********",
+				"payments": [
+					{
+						"id": "9E320F31BCFE455C95C1C59A0760A417",
+						"paymentSystem": "2",
+						"paymentSystemName": "V***",
+						"value": 5490342,
+						"installments": 3,
+						"referenceValue": 5490342,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": "402918",
+						"lastDigits": "2375",
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": null,
+						"giftCardId": null,
+						"giftCardName": null,
+						"giftCardCaption": null,
+						"redemptionCode": null,
+						"group": "creditCard",
+						"tid": "101058969015",
+						"dueDate": null,
+						"connectorResponses": {
+							"Tid": "101058969015",
+							"ReturnCode": null,
+							"Message": "accredited",
+							"authId": "101058969015",
+							"nsu": "101058969015",
+							"acquirer": "MercadoPagoV2"
+						},
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"koinUrl": null,
+						"accountId": "4646CD4035CE4945A65AD8C82375513F",
+						"parentAccountId": null,
+						"bankIssuedInvoiceIdentificationNumber": null,
+						"bankIssuedInvoiceIdentificationNumberFormatted": null,
+						"bankIssuedInvoiceBarCodeNumber": null,
+						"bankIssuedInvoiceBarCodeType": null,
+						"billingAddress": {
+							"postalCode": "1***",
+							"city": "H****",
+							"state": "Buenos Aires",
+							"country": "ARG",
+							"street": "F**** ",
+							"number": "8**",
+							"neighborhood": "",
+							"complement": "",
+							"reference": null,
+							"geoCoordinates": [
+								-51.4779552,
+								-0.0039779
+							]
+						},
+						"paymentOrigin": null
+					}
+				]
+			}
+		]
+	},
+	"cancellationRequests": null,
+	"invoiceData": null,
+	"clientProfileData": {
+		"id": "clientProfileData",
+		"email": "m************@h******.c****************.c*.v***.c**.b*",
+		"firstName": "M****** ",
+		"lastName": "N****",
+		"documentType": "dni",
+		"document": "2*******",
+		"phone": "0**********",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": null,
+		"corporatePhone": null,
+		"isCorporate": false,
+		"userProfileId": "7af5a627-c1be-4dfe-ad64-377f111d40e6",
+		"userProfileVersion": null,
+		"customerClass": null,
+		"customerCode": null
+	},
+	"shippingData": {
+		"id": "shippingData",
+		"address": {
+			"addressType": "pickup",
+			"receiverName": "M******  N****",
+			"addressId": "5887",
+			"versionId": null,
+			"entityId": null,
+			"postalCode": "1***",
+			"city": "H****",
+			"state": "Buenos Aires",
+			"country": "ARG",
+			"street": "A****** R********",
+			"number": "1****",
+			"neighborhood": "",
+			"complement": "",
+			"reference": null,
+			"geoCoordinates": [
+				-51.4779552,
+				-0.0039779
+			]
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"itemId": "8017389",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retiro en Farmacias CABA (5887)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": null,
+				"deliveryCompany": null,
+				"shippingEstimate": "2bd",
+				"shippingEstimateDate": "2025-02-08T00:48:12.6961919Z",
+				"slas": [
+					{
+						"id": "Retiro en Farmacias CABA (5887)",
+						"name": "R******************************",
+						"shippingEstimate": "2bd",
+						"shippingEstimateDate": "2025-02-08T00:48:12.6961919Z",
+						"deliveryWindow": null,
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "FARAMBA",
+								"courierName": "F*************",
+								"dockId": "1",
+								"quantity": 1,
+								"warehouseId": "1_1",
+								"accountCarrierName": "f**********",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "5887",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "1***",
+								"city": "H****",
+								"state": "Buenos Aires",
+								"country": "ARG",
+								"street": "A****** R********",
+								"number": "1****",
+								"neighborhood": "",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": "1",
+							"friendlyName": "F*********************",
+							"isPickupStore": true
+						},
+						"polygonName": "A**",
+						"lockTTL": "12d",
+						"pickupPointId": "1_5887",
+						"transitTime": "2bd",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"ARG"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "FARAMBA",
+						"courierName": "F*************",
+						"dockId": "1",
+						"quantity": 1,
+						"warehouseId": "1_1",
+						"accountCarrierName": "f**********",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "5887",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "1***",
+						"city": "H****",
+						"state": "Buenos Aires",
+						"country": "ARG",
+						"street": "A****** R********",
+						"number": "1****",
+						"neighborhood": "",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": "1",
+					"friendlyName": "F*********************",
+					"isPickupStore": true
+				},
+				"addressId": "5887",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "A**",
+				"pickupPointId": "1_5887",
+				"transitTime": "2bd"
+			},
+			{
+				"itemIndex": 1,
+				"itemId": "8110727",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retiro en Farmacias CABA (5887)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": null,
+				"deliveryCompany": null,
+				"shippingEstimate": "2bd",
+				"shippingEstimateDate": "2025-02-08T00:48:12.6967042Z",
+				"slas": [
+					{
+						"id": "Retiro en Farmacias CABA (5887)",
+						"name": "R******************************",
+						"shippingEstimate": "2bd",
+						"shippingEstimateDate": "2025-02-08T00:48:12.6967042Z",
+						"deliveryWindow": null,
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "FARAMBA",
+								"courierName": "F*************",
+								"dockId": "1",
+								"quantity": 1,
+								"warehouseId": "1_1",
+								"accountCarrierName": "f**********",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "5887",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "1***",
+								"city": "H****",
+								"state": "Buenos Aires",
+								"country": "ARG",
+								"street": "A****** R********",
+								"number": "1****",
+								"neighborhood": "",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": "1",
+							"friendlyName": "F*********************",
+							"isPickupStore": true
+						},
+						"polygonName": "A**",
+						"lockTTL": "12d",
+						"pickupPointId": "1_5887",
+						"transitTime": "2bd",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"ARG"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "FARAMBA",
+						"courierName": "F*************",
+						"dockId": "1",
+						"quantity": 1,
+						"warehouseId": "1_1",
+						"accountCarrierName": "f**********",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "5887",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "1***",
+						"city": "H****",
+						"state": "Buenos Aires",
+						"country": "ARG",
+						"street": "A****** R********",
+						"number": "1****",
+						"neighborhood": "",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": "1",
+					"friendlyName": "F*********************",
+					"isPickupStore": true
+				},
+				"addressId": "5887",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "A**",
+				"pickupPointId": "1_5887",
+				"transitTime": "2bd"
+			},
+			{
+				"itemIndex": 2,
+				"itemId": "8114114",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retiro en Farmacias CABA (5887)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": null,
+				"deliveryCompany": null,
+				"shippingEstimate": "2bd",
+				"shippingEstimateDate": "2025-02-08T00:48:12.6967042Z",
+				"slas": [
+					{
+						"id": "Retiro en Farmacias CABA (5887)",
+						"name": "R******************************",
+						"shippingEstimate": "2bd",
+						"shippingEstimateDate": "2025-02-08T00:48:12.6967042Z",
+						"deliveryWindow": null,
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "FARAMBA",
+								"courierName": "F*************",
+								"dockId": "1",
+								"quantity": 1,
+								"warehouseId": "1_1",
+								"accountCarrierName": "f**********",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "5887",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "1***",
+								"city": "H****",
+								"state": "Buenos Aires",
+								"country": "ARG",
+								"street": "A****** R********",
+								"number": "1****",
+								"neighborhood": "",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": "1",
+							"friendlyName": "F*********************",
+							"isPickupStore": true
+						},
+						"polygonName": "A**",
+						"lockTTL": "12d",
+						"pickupPointId": "1_5887",
+						"transitTime": "2bd",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"ARG"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "FARAMBA",
+						"courierName": "F*************",
+						"dockId": "1",
+						"quantity": 1,
+						"warehouseId": "1_1",
+						"accountCarrierName": "f**********",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "5887",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "1***",
+						"city": "H****",
+						"state": "Buenos Aires",
+						"country": "ARG",
+						"street": "A****** R********",
+						"number": "1****",
+						"neighborhood": "",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": "1",
+					"friendlyName": "F*********************",
+					"isPickupStore": true
+				},
+				"addressId": "5887",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "A**",
+				"pickupPointId": "1_5887",
+				"transitTime": "2bd"
+			},
+			{
+				"itemIndex": 3,
+				"itemId": "6530740",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retiro en Farmacias CABA (5887)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": null,
+				"deliveryCompany": null,
+				"shippingEstimate": "2bd",
+				"shippingEstimateDate": "2025-02-08T00:48:12.6967042Z",
+				"slas": [
+					{
+						"id": "Retiro en Farmacias CABA (5887)",
+						"name": "R******************************",
+						"shippingEstimate": "2bd",
+						"shippingEstimateDate": "2025-02-08T00:48:12.6967042Z",
+						"deliveryWindow": null,
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "FARAMBA",
+								"courierName": "F*************",
+								"dockId": "1",
+								"quantity": 1,
+								"warehouseId": "1_1",
+								"accountCarrierName": "f**********",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "5887",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "1***",
+								"city": "H****",
+								"state": "Buenos Aires",
+								"country": "ARG",
+								"street": "A****** R********",
+								"number": "1****",
+								"neighborhood": "",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": "1",
+							"friendlyName": "F*********************",
+							"isPickupStore": true
+						},
+						"polygonName": "A**",
+						"lockTTL": "12d",
+						"pickupPointId": "1_5887",
+						"transitTime": "2bd",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"ARG"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "FARAMBA",
+						"courierName": "F*************",
+						"dockId": "1",
+						"quantity": 1,
+						"warehouseId": "1_1",
+						"accountCarrierName": "f**********",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "5887",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "1***",
+						"city": "H****",
+						"state": "Buenos Aires",
+						"country": "ARG",
+						"street": "A****** R********",
+						"number": "1****",
+						"neighborhood": "",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": "1",
+					"friendlyName": "F*********************",
+					"isPickupStore": true
+				},
+				"addressId": "5887",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "A**",
+				"pickupPointId": "1_5887",
+				"transitTime": "2bd"
+			},
+			{
+				"itemIndex": 4,
+				"itemId": "8123192",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retiro en Farmacias CABA (5887)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": null,
+				"deliveryCompany": null,
+				"shippingEstimate": "2bd",
+				"shippingEstimateDate": "2025-02-08T00:48:12.6967042Z",
+				"slas": [
+					{
+						"id": "Retiro en Farmacias CABA (5887)",
+						"name": "R******************************",
+						"shippingEstimate": "2bd",
+						"shippingEstimateDate": "2025-02-08T00:48:12.6967042Z",
+						"deliveryWindow": null,
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "FARAMBA",
+								"courierName": "F*************",
+								"dockId": "1",
+								"quantity": 1,
+								"warehouseId": "1_1",
+								"accountCarrierName": "f**********",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "5887",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "1***",
+								"city": "H****",
+								"state": "Buenos Aires",
+								"country": "ARG",
+								"street": "A****** R********",
+								"number": "1****",
+								"neighborhood": "",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": "1",
+							"friendlyName": "F*********************",
+							"isPickupStore": true
+						},
+						"polygonName": "A**",
+						"lockTTL": "12d",
+						"pickupPointId": "1_5887",
+						"transitTime": "2bd",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"ARG"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "FARAMBA",
+						"courierName": "F*************",
+						"dockId": "1",
+						"quantity": 1,
+						"warehouseId": "1_1",
+						"accountCarrierName": "f**********",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "5887",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "1***",
+						"city": "H****",
+						"state": "Buenos Aires",
+						"country": "ARG",
+						"street": "A****** R********",
+						"number": "1****",
+						"neighborhood": "",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": "1",
+					"friendlyName": "F*********************",
+					"isPickupStore": true
+				},
+				"addressId": "5887",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "A**",
+				"pickupPointId": "1_5887",
+				"transitTime": "2bd"
+			},
+			{
+				"itemIndex": 5,
+				"itemId": "8130933",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retiro en Farmacias CABA (5887)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": null,
+				"deliveryCompany": null,
+				"shippingEstimate": "2bd",
+				"shippingEstimateDate": "2025-02-08T00:48:12.6967042Z",
+				"slas": [
+					{
+						"id": "Retiro en Farmacias CABA (5887)",
+						"name": "R******************************",
+						"shippingEstimate": "2bd",
+						"shippingEstimateDate": "2025-02-08T00:48:12.6967042Z",
+						"deliveryWindow": null,
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "FARAMBA",
+								"courierName": "F*************",
+								"dockId": "1",
+								"quantity": 1,
+								"warehouseId": "1_1",
+								"accountCarrierName": "f**********",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "5887",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "1***",
+								"city": "H****",
+								"state": "Buenos Aires",
+								"country": "ARG",
+								"street": "A****** R********",
+								"number": "1****",
+								"neighborhood": "",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": "1",
+							"friendlyName": "F*********************",
+							"isPickupStore": true
+						},
+						"polygonName": "A**",
+						"lockTTL": "12d",
+						"pickupPointId": "1_5887",
+						"transitTime": "2bd",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"ARG"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "FARAMBA",
+						"courierName": "F*************",
+						"dockId": "1",
+						"quantity": 1,
+						"warehouseId": "1_1",
+						"accountCarrierName": "f**********",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "Horarios de atención:\nLunes a viernes de 09:00  a 20:00 horas\nSábados: 09:00 a 13:00 horas\nDomingos y Feriados:  CERRADO",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "5887",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "1***",
+						"city": "H****",
+						"state": "Buenos Aires",
+						"country": "ARG",
+						"street": "A****** R********",
+						"number": "1****",
+						"neighborhood": "",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": "1",
+					"friendlyName": "F*********************",
+					"isPickupStore": true
+				},
+				"addressId": "5887",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "A**",
+				"pickupPointId": "1_5887",
+				"transitTime": "2bd"
+			}
+		],
+		"trackingHints": [],
+		"selectedAddresses": [
+			{
+				"addressId": "5887",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "M******  N****",
+				"street": "A****** R********",
+				"number": "1****",
+				"complement": "",
+				"neighborhood": "",
+				"postalCode": "1***",
+				"city": "H****",
+				"state": "Buenos Aires",
+				"country": "ARG",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressId": "5887",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "M******  N****",
+				"street": "A****** R********",
+				"number": "1****",
+				"complement": "",
+				"neighborhood": "",
+				"postalCode": "1***",
+				"city": "H****",
+				"state": "Buenos Aires",
+				"country": "ARG",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"contactInformation": []
+	},
+	"items": [
+		{
+			"additionalInfo": {
+				"categoriesIds": "/70000/70200/",
+				"productClusterId": "159,278,297,369,380,542,548,549,629,635,1535,1562,1762,1825,1829,1963,2050,2181,2196,2324,2600,2626,2750,2770,2802,2817,2979,2980,2990,3129,3460,3515,3825,3834,3862,4664,4767,5376,5576,5703,5704,5708,5898,6667,6671,6749,6968,7310,7332,7617,7961,8218,8319,8335",
+				"commercialConditionId": "4",
+				"dimension": {
+					"cubicweight": 0.02,
+					"height": 3.7,
+					"length": 20,
+					"weight": 0.02,
+					"width": 5.3
+				},
+				"brandName": "i****",
+				"brandId": "813",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "8017389",
+			"priceTable": null,
+			"priceValidUntil": "2026-02-06T00:42:40Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:farmaonline:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/8017389",
+			"uniqueId": "069EB3E668504BD88E88600AF229542D",
+			"id": "8017389",
+			"productId": "8017389",
+			"productRefId": "8017389",
+			"refId": "8017389",
+			"ean": "8470001527349",
+			"name": "U************************************************",
+			"skuName": "U************************************************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 5084015,
+			"listPrice": 5084015,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 2995843,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/70000/70200/",
+			"productCategories": {
+				"70000": "Dermocosmética",
+				"70200": "Cremas Corporales"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1261864-100-100/8017389_0.jpg?v=638597740454630000",
+			"detailUrl": "/isdin-ureadin-podos-gel-oil-repara-talones-y-piel-75-ml-8017389/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -2033606,
+					"rawValue": -20336.06,
+					"isPercentual": false,
+					"identifier": "01607a78-21aa-47f0-8f06-20c6e9cbb909"
+				},
+				{
+					"name": "d***************************************************************************************",
+					"value": -54566,
+					"rawValue": -545.66,
+					"isPercentual": false,
+					"identifier": "1c064571-a8bd-4344-a6af-d96727801f18"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 2995843,
+				"total": 2995843,
+				"sellingPrices": [
+					{
+						"value": 2995843,
+						"quantity": 1
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/10000/10200/10201/",
+				"productClusterId": "159,380,2214,2502,2978",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.02,
+					"height": 3,
+					"length": 17,
+					"weight": 0.02,
+					"width": 5
+				},
+				"brandName": "f********",
+				"brandId": "758",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "8110727",
+			"priceTable": null,
+			"priceValidUntil": "2026-02-06T00:42:40Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:farmaonline:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/8110727",
+			"uniqueId": "2D7D1FFDD358472C939244A830B81BD6",
+			"id": "8110727",
+			"productId": "8110727",
+			"productRefId": "8110727",
+			"refId": "8110727",
+			"ean": "7798032936765",
+			"name": "G**********************************************",
+			"skuName": "G**********************************************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 769900,
+			"listPrice": 769900,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 756128,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/10000/10200/10201/",
+			"productCategories": {
+				"10000": "Cuidado Personal",
+				"10200": "Higiene Oral",
+				"10201": "Pasta Dental"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1234301-100-100/8110727_0.jpg?v=638535232204830000",
+			"detailUrl": "/fluorogel-gel-dental-con-fluor-junior-tutti-frutti-60-gr--8110727/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -13772,
+					"rawValue": -137.72,
+					"isPercentual": false,
+					"identifier": "1c064571-a8bd-4344-a6af-d96727801f18"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 756128,
+				"total": 756128,
+				"sellingPrices": [
+					{
+						"value": 756128,
+						"quantity": 1
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/10000/10200/10201/",
+				"productClusterId": "159,380,2053,2214,2502",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.02,
+					"height": 3,
+					"length": 16.8,
+					"weight": 0.02,
+					"width": 10
+				},
+				"brandName": "f********",
+				"brandId": "758",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "8114114",
+			"priceTable": null,
+			"priceValidUntil": "2026-02-06T00:42:40Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:farmaonline:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/8114114",
+			"uniqueId": "06AAE5C590364506886A6A1864FBBA21",
+			"id": "8114114",
+			"productId": "8114114",
+			"productRefId": "8114114",
+			"refId": "8114114",
+			"ean": "7798032937298",
+			"name": "G**********************************************************",
+			"skuName": "G**********************************************************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 799900,
+			"listPrice": 799900,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 785591,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/10000/10200/10201/",
+			"productCategories": {
+				"10000": "Cuidado Personal",
+				"10200": "Higiene Oral",
+				"10201": "Pasta Dental"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1234919-100-100/8114114_0.jpg?v=638535519861030000",
+			"detailUrl": "/fluorogel-gel-dental-con-fluor-original-menta-60-gr-pack-2-unidades-8114114/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -14309,
+					"rawValue": -143.09,
+					"isPercentual": false,
+					"identifier": "1c064571-a8bd-4344-a6af-d96727801f18"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 785591,
+				"total": 785591,
+				"sellingPrices": [
+					{
+						"value": 785591,
+						"quantity": 1
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/50000/50100/50104/",
+				"productClusterId": "159,380,1825,2314,7378",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.02,
+					"height": 2,
+					"length": 12,
+					"weight": 0.02,
+					"width": 8
+				},
+				"brandName": "c******",
+				"brandId": "678",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "6530740",
+			"priceTable": null,
+			"priceValidUntil": "2026-02-06T00:42:40Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:farmaonline:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/6530740",
+			"uniqueId": "1B2E1A09AC664161B88B571D79E8A27A",
+			"id": "6530740",
+			"productId": "6530740",
+			"productRefId": "6530740",
+			"refId": "6530740",
+			"ean": "7702003010736",
+			"name": "A********************************************************************",
+			"skuName": "A********************************************************************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 176567,
+			"listPrice": 176567,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 173409,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/50000/50100/50104/",
+			"productCategories": {
+				"50000": "Cuidado de Salud",
+				"50100": "Primeros Auxilios",
+				"50104": "Apósitos"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1208971-100-100/6530740_0.jpg?v=638528352690000000",
+			"detailUrl": "/curitas-apsitos-adhesivos-tela-elstica-ideal-para-heridas-en-articulaciones-6530740/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -3158,
+					"rawValue": -31.58,
+					"isPercentual": false,
+					"identifier": "1c064571-a8bd-4344-a6af-d96727801f18"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 173409,
+				"total": 173409,
+				"sellingPrices": [
+					{
+						"value": 173409,
+						"quantity": 1
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/10000/10500/10505/",
+				"productClusterId": "159,380,2214,2502,3922,4674,5704,5714,7961,8102",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.02,
+					"height": 16,
+					"length": 2,
+					"weight": 0.02,
+					"width": 4
+				},
+				"brandName": "o**",
+				"brandId": "942",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "8123192",
+			"priceTable": null,
+			"priceValidUntil": "2026-02-06T00:42:40Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:farmaonline:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/8123192",
+			"uniqueId": "39E52E4011D84C16BB773DC4634A2889",
+			"id": "8123192",
+			"productId": "8123192",
+			"productRefId": "8123192",
+			"refId": "8123192",
+			"ean": "7790520998934",
+			"name": "C****************************************",
+			"skuName": "C****************************************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 438219,
+			"listPrice": 438219,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 430380,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/10000/10500/10505/",
+			"productCategories": {
+				"10000": "Cuidado Personal",
+				"10500": "Cuidado de la Piel",
+				"10505": "Repelentes"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1278726-100-100/8123192_0.jpg?v=638648641763800000",
+			"detailUrl": "/off-8123192/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -7839,
+					"rawValue": -78.39,
+					"isPercentual": false,
+					"identifier": "1c064571-a8bd-4344-a6af-d96727801f18"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 430380,
+				"total": 430380,
+				"sellingPrices": [
+					{
+						"value": 430380,
+						"quantity": 1
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/110000/110400/",
+				"productClusterId": "159,380,8223",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.02,
+					"height": 15,
+					"length": 25,
+					"weight": 0.02,
+					"width": 5
+				},
+				"brandName": "c**",
+				"brandId": "1388",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "8130933",
+			"priceTable": null,
+			"priceValidUntil": "2026-02-06T00:42:40Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:farmaonline:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/8130933",
+			"uniqueId": "376ECFCEF9EB4A0E918A697497989F22",
+			"id": "8130933",
+			"productId": "8130933",
+			"productRefId": "8130933",
+			"refId": "8130933",
+			"ean": "7791290795815",
+			"name": "L********************************************",
+			"skuName": "L********************************************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 355347,
+			"listPrice": 355347,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 348991,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/110000/110400/",
+			"productCategories": {
+				"110000": "Hogar",
+				"110400": "Limpieza de Hogar"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1236725-100-100/8130933_0.jpg?v=638536204104200000",
+			"detailUrl": "/cif-8130933/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -6356,
+					"rawValue": -63.56,
+					"isPercentual": false,
+					"identifier": "1c064571-a8bd-4344-a6af-d96727801f18"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 348991,
+				"total": 348991,
+				"sellingPrices": [
+					{
+						"value": 348991,
+						"quantity": 1
+					}
+				]
+			}
+		}
+	],
+	"sellers": [
+		{
+			"subSellerId": "1",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=farmaonline",
+			"id": "1",
+			"name": "F**********",
+			"logo": ""
+		}
+	],
+	"giftRegistryData": null,
+	"receiptData": null,
+	"contextData": null,
+	"marketPlaceOrderId": "",
+	"marketPlaceOrderGroup": null,
+	"marketplaceServicesEndpoint": null,
+	"orderFormId": "ad0b8127fc8a41f5b8e8bd3f8ff83294",
+	"sequence": "9065419",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "",
+	"userProfileId": "7af5a627-c1be-4dfe-ad64-377f111d40e6",
+	"hostName": "f**********",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"marketplacePaymentValue": null,
+	"orderId": "1508659065419-01",
+	"orderGroup": "1508659065419",
+	"state": "payment-approved",
+	"isCheckedIn": false,
+	"sellerOrderId": "00-1508659065419-01",
+	"storeId": null,
+	"checkedInPickupPointId": null,
+	"value": 4704751,
+	"totals": [
+		{
+			"id": "Items",
+			"name": "T*****************",
+			"value": 7623948
+		},
+		{
+			"id": "Discounts",
+			"name": "T******************",
+			"value": -2133606
+		},
+		{
+			"id": "Shipping",
+			"name": "C********************",
+			"value": 0
+		},
+		{
+			"id": "Tax",
+			"name": "C*********************",
+			"value": 0
+		},
+		{
+			"id": "Change",
+			"name": "C************",
+			"value": -785591
+		}
+	],
+	"ratesAndBenefitsData": {
+		"rateAndBenefitsIdentifiers": [
+			{
+				"id": "01607a78-21aa-47f0-8f06-20c6e9cbb909",
+				"name": "d*************",
+				"featured": true,
+				"description": "dto-40-mes-par\n\n1 al 28-2",
+				"matchedParameters": {
+					"productCluster@CatalogSystem": "8319|inclusive"
+				},
+				"additionalInfo": null
+			},
+			{
+				"id": "1c064571-a8bd-4344-a6af-d96727801f18",
+				"name": "F*******************",
+				"featured": false,
+				"description": "Nuevos clientes que navegan con dispositivos móviles, no han visitado el sitio en los últimos 7 días, tienen un valor de carrito; Entre $22,000 y $36,000 y permanecen en el sitio por al menos 28S",
+				"matchedParameters": {
+					"couponCode@Marketing": "FPPR1FO02"
+				},
+				"additionalInfo": null
+			}
+		],
+		"teaser": []
+	},
+	"clientPreferencesData": {
+		"locale": "es-AR",
+		"optinNewsLetter": false
+	},
+	"commercialConditionData": null,
+	"marketingData": {
+		"utmSource": null,
+		"utmMedium": null,
+		"utmCampaign": null,
+		"utmipage": null,
+		"utmiPart": null,
+		"utmiCampaign": null,
+		"coupon": "FPPR1FO02",
+		"marketingTags": []
+	},
+	"storePreferencesData": {
+		"countryCode": "ARG",
+		"saveUserData": false,
+		"timeZone": "Argentina Standard Time",
+		"currencyCode": "ARS",
+		"currencyLocale": 11274,
+		"currencySymbol": "$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"itemMetadata": null,
+	"taxData": null,
+	"customData": {
+		"customApps": [
+			{
+				"fields": {
+					"sessionId": "1738801712",
+					"clientId": "1688423777.1738796100"
+				},
+				"id": "ids",
+				"major": 1
+			}
+		]
+	},
+	"hooksData": null,
+	"changeData": {
+		"changesData": [
+			{
+				"reason": "Faltante de Stock",
+				"discountValue": 785591,
+				"incrementValue": 0,
+				"itemsAdded": [],
+				"itemsRemoved": [
+					{
+						"id": "8114114",
+						"name": "G**********************************************************",
+						"quantity": 1,
+						"price": 785591,
+						"unitMultiplier": 1,
+						"measurementUnit": "un",
+						"imageUrl": "https://farmaonline.vteximg.com.br/arquivos/ids/1234919-100-100/8114114_0.jpg?v=638535519861030000"
+					}
+				],
+				"receipt": {
+					"orderId": "1508659065419-01",
+					"date": "2025-02-06T06:38:01.0686803Z",
+					"receipt": "e50b9315-b937-4c1d-9fc9-9d65f76404b5"
+				}
+			}
+		]
+	},
+	"subscriptionData": null,
+	"salesChannel": "1",
+	"followUpEmail": "c**********************************.v***.c**.b*",
+	"creationDate": "2025-02-06T00:47:56.6803751Z",
+	"lastChange": "2025-02-06T06:38:03.8076917Z",
+	"timeZoneCreationDate": "2025-02-05T21:47:56.6803751",
+	"timeZoneLastChange": "2025-02-06T03:38:03.8076917",
+	"isCompleted": true,
+	"merchantName": null,
+	"userType": "",
+	"roundingError": 0,
+	"allowEdition": false,
+	"allowCancellation": false,
+	"isUserDataVisible": false,
+	"allowChangeSeller": false,
+	"_accountInfo": {
+		"MainAccountName": "f**********",
+		"AccountName": "f**********",
+		"Cnpj": "99999999999999",
+		"Id": "9b6d8ea5-120a-40eb-931e-79f06e0732d0",
+		"AppId": null,
+		"IsActive": true,
+		"IsOperating": true,
+		"CreationDate": "2018-12-05T20:30:03",
+		"OperationDate": "2019-03-05T15:51:03",
+		"CompanyName": "S*******************",
+		"TradingName": "F**********",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": "4000",
+		"Licenses": [
+			7
+		],
+		"ParentAccountId": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null,
+		"Sponsor": "3f29e577-433f-42b8-9ded-d2ede67d8ab3"
+	}
+}

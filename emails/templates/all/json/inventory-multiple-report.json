@@ -1,0 +1,34 @@
+{
+  "Name": "inventory-multiple-report",
+  "FriendlyName": "Inventory Multiple Report",
+  "Description": "[Internal Request] Sends multiple spreadsheets with the inventory by SKU.",
+  "IsDefaultTemplate": true,
+  "AccountId": null,
+  "AccountName": null,
+  "ApplicationId": 9,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{to}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Informe de stock - {{GeneratedDate}}",
+      "Message": "inventory-multiple-report.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": null,
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

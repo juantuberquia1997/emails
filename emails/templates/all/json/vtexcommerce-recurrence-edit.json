@@ -1,0 +1,34 @@
+{
+  "Name": "vtexcommerce-recurrence-edit",
+  "FriendlyName": "[OMS] Recurrence - Edited",
+  "Description": "When any data in a subscription is updated",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 19,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{recurrence.clientProfileData.email}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "¡Tu pedido recurrente ha sido actualizado con éxito!",
+      "Message": "vtexcommerce-recurrence-edit.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

@@ -1,0 +1,473 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:v="urn:schemas-microsoft-com:vml"
+    style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; width: 100%; height: 100%; margin: 0; padding: 0; background: #e9e9e9 !important;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+
+    <title>{{_accountInfo.TradingName}}</title>
+
+    <!--[if gte mso 9]>
+  <xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+
+
+
+  <style>
+    .paquete-item{
+        border-bottom: 1px solid #C4C4C4; 
+        box-sizing: border-box !important;
+    }
+    .paquete-item:last-child{
+        border: none;
+    }
+
+    .paquete-item:last-child td + td{
+        padding-bottom: 0 !important
+    }
+  </style>
+
+
+</head>
+
+<body
+    style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; width: 100%; height: 100%; margin: 0; padding: 0; background: #e9e9e9 !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    <table id="body-table" width="100%" border="0" cellpadding="0" cellspacing="0"
+        style="box-sizing: border-box; padding: 0; background: #e9e9e9; max-width: 585px; margin: 0 auto; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%; height: 100%; line-height: 100% !important;">
+        <tbody>
+
+            <tr style="box-sizing: border-box !important;">
+                <td class="ph4-ns top-header" id="top-header"
+                    style="font-size: 14px; line-height: 20px; border-collapse: collapse; box-sizing: border-box; max-width: 360px; width: 100%; padding: 12px 24px 21px; background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; padding-left: 2rem; padding-right: 2rem !important;"
+                    align="left" bgcolor="#fff">
+
+                    <div style="box-sizing: border-box; text-align: center !important;">
+                        <img src="http://farmaonline.vteximg.com.br/arquivos/farmaonline.png"
+                            style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; width: 166px; height: auto !important;">
+                    </div>
+                    {{#shippingData.logisticsInfo.[0]}}
+                    {{#eq selectedDeliveryChannel "pickup-in-point"}}
+                    <h1
+                        style="margin: 0; line-height: 24px; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: 700; font-size: 22px; color: #262626; text-align: center; margin-top: 36px; padding: 30px 40px 0 40px; border-top: 1px solid #D2D2D2; box-sizing: border-box !important;">
+                        Tu pedido fue modificado</h1>
+                    {{else}}
+                    <h1
+                        style="margin: 0; line-height: 58px; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: bold; font-size: 36px; line-height: 44px; color: #000; color: #000; text-align: center; margin-top: 36px; padding: 0 40px; box-sizing: border-box !important;">
+                        Tu pedido fue modificado</h1>
+                    {{/eq}}
+                    {{/shippingData.logisticsInfo.[0]}}
+
+                    <div class="top-header_numero"
+                        style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: 500; font-size: 14px; line-height: 18px;  color: #262626; text-align: center; box-sizing: border-box; margin-top: .5rem !important;">
+                        Nro <span style="font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+text-align: center;
+">#{{orderId}}</span>
+                    </div>
+                </td>
+            </tr>
+            <tr style="box-sizing: border-box !important;" class="ver-factura">
+                <td class="ph4-ns" align="left"
+                    style="font-size: 14px; line-height: 20px; border-collapse: collapse; box-sizing: border-box; max-width: 360px; width: 100%; background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; padding-left: 2rem; padding-right: 2rem !important;"
+                    bgcolor="#fff">
+                    <label class="ver-factura-top"
+                        style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; text-align: justify; color: #000 !important;">Hola
+                        <span style="font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+"> {{clientProfileData.firstName}},</span>
+                        </label>
+                         <br> </br>   
+                    <p class="ver-factura-text"
+                        style="margin-top: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: 400; font-size: 14px; line-height: 20px; color: #262626; text-align: left; border-bottom: 1px solid #D2D2D2; padding-bottom: 15px;">
+                        {{#shippingData.logisticsInfo.[0]}}
+                        {{#eq selectedDeliveryChannel "pickup-in-point"}}
+                        Tu pedido fue modificado y a continuación te detallamos cómo quedó conformado. <br> Queremos darte la tranquilidad que el resto de los productos siguen su curso normal. 
+                        <br>
+                        <br>
+                        {{else}}
+                        Tu pedido fue modificado y a continuación te detallamos cómo quedó conformado. Queremos darte la tranquilidad que el resto de los productos siguen su curso normal. 
+                        <br>
+                        <br>
+                        En el próximo correo recibirás tu factura con el detalle de los productos que conforman tu pedido. Sólo serán facturados los productos que se encuentren en stock dentro de tu pedido.
+                        {{/eq}}
+                        {{/shippingData.logisticsInfo.[0]}}
+                    </p>
+                </td>
+            </tr>
+            <tr style="box-sizing: border-box !important;" class="items-changed">
+                <td class="ph4-ns" align="left"
+                    style="font-size: 14px; line-height: 20px; border-collapse: collapse; box-sizing: border-box; max-width: 360px; width: 100%; background-color: #fff; padding: 0px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; padding-left: 2rem; padding-right: 2rem !important;"
+                    bgcolor="#fff">
+                    {{#if changeData}}
+                    {{#each changeData.changesData}}
+                    <table width="100%" cellspacing="0" border="0"
+                        style="width: 100%; height: 100%; padding: 0; background: #fff; box-sizing: border-box; margin: 5px 0; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 100% !important;">
+                        <tbody>
+
+                            <tr style="box-sizing: border-box !important;">
+                                <td style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; padding: 0px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left !important;"
+                                    align="left">
+                                    <table align="left"
+                                        style="width: 100%; height: 100%; padding: 0; background: #fff; box-sizing: border-box; margin: 5px 0; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 100% !important;">
+                                        <tbody>
+                                            <tr style="box-sizing: border-box !important;">
+                                                <td style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; padding: 0px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left !important;"
+                                                    align="left">
+                                                    <div class="items-changed-cont"
+                                                        style="box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; font-weight: bold; padding-top: 20px !important;">
+                                                        {{#if itemsRemoved}}
+                                                        <span class="items-changed-title"
+                                                            style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: 700; font-size: 16px; line-height: 18px; text-align: justify; color: #262626;">PRODUCTOS NO DISPONIBLES:
+                                                            <span/>
+                                                            <br>
+                                                            </strong>
+                                                            <br>
+                                                        {{/if}}
+                                                        {{#each itemsRemoved}}
+                                                        <table width="100%"
+                                                            style="width: 100%; height: 100%; padding: 0; background: #fff; box-sizing: border-box; margin: 5px 0; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 100% !important;">
+                                                            <tbody>
+                                                                <tr style="box-sizing: border-box !important;">
+                                                                    <td style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; padding: 0px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left !important;"
+                                                                        align="left">
+                                                                        <span class="items-changed-name"
+                                                                            style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify !important;">{{name}}</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="box-sizing: border-box !important;">
+                                                                    <td style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; padding: 0px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left !important;"
+                                                                        align="left">
+                                                                        <span class="items-changed-price"
+                                                                            style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; color: #7D7D82 !important;">{{quantity}}
+                                                                            unidad/es x $ {{formatCurrency
+                                                                            price}}</span><br>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        {{/each}}
+                                                        {{#if itemsAdded}}
+                                                        <strong class="items-changed-title"
+                                                            style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; font-weight: bold !important;">Productos
+                                                            agregados:</strong><br>
+                                                        {{/if}}
+                                                        {{#each itemsAdded}}
+                                                        <table width="100%"
+                                                            style="width: 100%; height: 100%; padding: 0; background: #fff; box-sizing: border-box; margin: 5px 0; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 100% !important;">
+                                                            <tbody>
+                                                                <tr style="box-sizing: border-box !important;">
+                                                                    <td style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; padding: 0px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left !important;"
+                                                                        align="left">
+                                                                        <span class="items-changed-name"
+                                                                            style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify !important;">{{name}}</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="box-sizing: border-box !important;">
+                                                                    <td style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; padding: 0px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left !important;"
+                                                                        align="left">
+                                                                        <span class="items-changed-price"
+                                                                            style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; color: #7D7D82 !important;">{{quantity}}
+                                                                            unidad/es x $ {{formatCurrency
+                                                                            price}}</span><br>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        {{/each}}
+                                                        Devolución por $ -{{ formatCurrency discountValue }}
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    {{/each}}
+                    {{/if}}
+                </td>
+            </tr>
+
+            <tr style="box-sizing: border-box !important;" class="resumen-orden">
+                <td class="ph4-ns"
+                    style="max-width: 360px; background-color: #fff; font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; width: 100%; padding-top: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; padding-left: 2rem; padding-right: 2rem; padding-bottom: 0 !important;"
+                    align="left" bgcolor="#fff">
+                    <h3
+                        style="margin: 0; margin-top: 5px; box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; font-family: 'Montserrat'; font-weight: bold !important;">
+                        Resumen del pedido:</h3>
+                    <span>Nro #{{orderId}}</span>
+                    <div class="resumen-orden-cont"
+                        style="margin-top: 15px; box-sizing: border-box; display: flex; align-items: flex-start; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; font-family: 'Montserrat' !important;">
+                        <table class="resumen-orden-price" width="100%" border="0" cellpadding="0" cellspacing="0"
+                            style="height: 100%; margin: 0; padding: 0; background: #fff; box-sizing: border-box; width: 60%; margin-right: 11px; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 100% !important;">
+                            {{#each totals}}
+                            {{#if value}}
+                            <tr style="border-bottom: 1px solid #5C5A5A; box-sizing: border-box !important;">
+                                <td align="left"
+                                    style="box-sizing: border-box; border-collapse: collapse; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; padding: 8px 0; text-align: left; font-family: 'Montserrat' !important;">
+                                    {{#eq id "Items"}}Items{{/eq}}
+                                    {{#eq id "Shipping"}}Envío{{/eq}}
+                                    {{#eq id "Discounts"}}Descuentos{{/eq}}
+                                    {{#eq id "Change"}}Modificaciones{{/eq}}
+                                    {{#eq id "Tax"}}Impuestos{{/eq}}
+                                </td>
+                                <td style="box-sizing: border-box; border-collapse: collapse; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; padding: 8px 0; text-align: right; font-family: 'Montserrat' !important;"
+                                    class="resumen-orden-price-value" align="right">$ {{formatCurrency value}}</td>
+                            </tr>
+                            {{/if}}
+                            {{/each}}
+                            {{#if value}}
+                            <tr style="box-sizing: border-box !important;">
+                                <td align="left"
+                                    style="box-sizing: border-box; border-collapse: collapse; font-style: normal; font-size: 18px; line-height: 22px; padding: 8px 0 0; font-weight: bold; text-align: left; font-family: 'Montserrat' !important;">
+                                    Total</td>
+                                <td class="resumen-orden-price-value" align="right"
+                                    style="box-sizing: border-box; border-collapse: collapse; font-style: normal; font-size: 18px; line-height: 22px; padding: 8px 0 0; font-weight: bold; text-align: right; font-family: 'Montserrat' !important;">
+                                    $ {{formatCurrency value}}</td>
+                            </tr>
+                            {{/if}}
+                        </table>
+                        <div class="resumen-orden-payment"
+                            style="box-sizing: border-box; width: 40%; background: #C4C4C4; padding: 23px 12px; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; text-align: initial !important;">
+                            {{#each paymentData.transactions}}
+                            {{#compare payments.length "==" 1}}
+                            {{#each payments}}
+                            <div style="box-sizing: border-box !important;">
+                                {{paymentSystemName}}
+                                {{#if lastDigits}} terminada en {{lastDigits}} {{/if}}
+                                <div class="resumen-orden-payment-digit"
+                                    style="box-sizing: border-box; font-weight: bold !important; display: inline-block">$ {{formatCurrency
+                                    value}}</div>
+                                {{#eq installments 1}}
+                                en un pago
+                                {{else}}
+                                en {{installments}} cuotas
+                                {{/eq}}
+                            </div>
+                            {{/each}}
+                            {{/compare}}
+                            {{#compare payments.length "!=" 1}}
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                                style="width: 100%; height: 100%; margin: 0; padding: 0; background: #fff; box-sizing: border-box; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 100% !important;">
+                                {{#each payments}}
+                                <tr style="border-bottom: 1px solid #5C5A5A; box-sizing: border-box !important;">
+                                    <td align="left"
+                                        style="box-sizing: border-box; border-collapse: collapse; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; padding: 8px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left !important;">
+                                        {{paymentSystemName}}
+                                        {{#if lastDigits}} terminada en {{lastDigits}} {{/if}}
+                                        {{#eq installments 1}}
+                                        en un pago
+                                        {{else}}
+                                        en {{installments}} cuotas
+                                        {{/eq}}
+                                    </td>
+                                    <td align="left"
+                                        style="box-sizing: border-box; border-collapse: collapse; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; padding: 8px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left;">
+                                        <div class="resumen-orden-payment-digit"
+                                            style="box-sizing: border-box; font-weight: bold !important; display: inline-block">$
+                                            {{formatCurrency value}}</div>
+                                    </td>
+                                </tr>
+                                {{/each}}
+                            </table>
+                            {{/compare}}
+                            {{/each}}
+                        </div>
+                    </div>
+
+                </td>
+            </tr>
+
+            <tr style="background: white; box-sizing: border-box !important;" class="paquete-entrega">
+                <td class="ph4-ns"
+                    style="max-width: 360px; width: 100%; background-color: #fff; padding: 5px 0; font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; border-top-style: solid; border-top-width: 1px; border-color: #eee; padding-top: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; padding-left: 2rem; padding-right: 2rem; border-top: none; border-bottom: none; padding-bottom: 1rem !important;"
+                    align="left" bgcolor="#fff">
+                    <div class="paquete-entrega-cont"
+                        style=" box-sizing: border-box; clear: both; float: none !important;">
+                        <span class="paquete-entrega-title"
+                            style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; font-family: 'Montserrat' !important;">Productos
+                            en preparación:</span>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                            style="width: 100%; height: 100%; margin: 0; padding: 0; background: #fff; margin-top: 4px; box-sizing: border-box; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 100%; mso-table-rspace: 0pt !important;">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                {{#each items}}
+                                {{#each ../changeData.changesData}}
+                                {{#each itemsRemoved}}
+                                {{#eq id ../../id}}
+                                {{else}}
+                                <tr class="paquete-item">
+                                    <td style="padding: 5px 0; display: none; font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; width: 4rem; padding-right: .5rem; padding-top: .5rem; padding-bottom: .5rem; vertical-align: top; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; border-top: none; border-bottom: none;"
+                                        align="left" valign="top"><img alt="" src="{{../../imageUrl}}"
+                                            style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100% !important;">
+                                    </td>
+                                    <td style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; padding: 5px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; border-top: none; border-bottom: none !important;"
+                                        align="left" valign="top">
+                                        <div class="mv1-ns"
+                                            style="box-sizing: border-box; font-family: Montserrat; font-size: 18px !important;">
+                                            {{../../name}}</div>
+                                        <div style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; font-family: 'Montserrat'; color: #7D7D82; box-sizing: border-box !important;"
+                                            class="paquete-entrega-price">
+                                            {{../../quantity}} unidad(es) x
+                                            {{#if ../../sellingPrice}}
+                                            ${{formatCurrency ../../sellingPrice}}
+                                            {{else}}
+                                            Gratis
+                                            {{/if}}
+                                        </div>
+                                    </td>
+                                </tr>
+                                {{#if ../../bundleItems}}
+                                {{#each ../../bundleItems}}
+                                <tr class="paquete-item">
+                                    <td style="padding: 5px 0; display: none; font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; width: 4rem; padding-right: .5rem; padding-top: .5rem; padding-bottom: .5rem; vertical-align: top; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; border-top: none; border-bottom: none;"
+                                        align="left" valign="top"><img alt="" src="{{../../imageUrl}}"
+                                            style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100% !important;">
+                                    </td>
+                                    <td style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; padding: 5px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; border-top: none; border-bottom: none !important;"
+                                        align="left" valign="top">
+                                        <div class="mv1-ns"
+                                            style="box-sizing: border-box; font-family: Montserrat; font-size: 18px !important;">
+                                            {{../../name}}</div>
+                                        <div style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; font-family: 'Montserrat'; color: #7D7D82; box-sizing: border-box !important;"
+                                            class="paquete-entrega-price">
+                                            {{../../quantity}} unidad(es) x
+                                            {{#if ../../price}}
+                                            ${{formatCurrency ../../price}}
+                                            {{else}}
+                                            Gratis
+                                            {{/if}}
+                                        </div>
+                                    </td>
+                                </tr>
+                                {{/each}}
+                                {{/if}}
+                                {{/eq}}
+                                {{/each}}
+                                {{/each}}
+                                {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+
+            <tr style="box-sizing: border-box !important;" class="pre-footer">
+                <td class="ph4-ns" align="left"
+                    style="font-size: 14px; line-height: 20px; border-collapse: collapse; box-sizing: border-box; max-width: 360px; width: 100%; background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; padding-left: 2rem; padding-right: 2rem !important;"
+                    bgcolor="#fff">
+                    <div class="pre-footer-cont"
+                        style="box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify !important;">
+                        La <strong>devolución</strong> de tu dinero se realiza de forma automática al medio de pago que utilizaste y la verás reflejada según los plazos correspondientes. 
+                        A continuación te informamos los plazos estimados de cada uno: 
+                        <ul class="pre-footer-list"
+                            style="margin: 0; box-sizing: border-box; padding: 15px 0; margin-left: 15px; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify !important;">
+                            <li class="pre-footer-list-item"
+                                style="box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify !important;">
+                                Billetera Mercado Pago : 72hs.</li>
+                            <li class="pre-footer-list-item"
+                                style="box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify !important;">
+                                Tarjeta de Débito, Crédito o MODO: 2 a 35 días (estos plazos dependen de tu banco y el cierre
+                                mensual de cada tarjeta)</li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+
+
+            <tr style="box-sizing: border-box !important;" class="footer">
+                <td class="ph4-ns"
+                    style="font-size: 14px; line-height: 20px; border-collapse: collapse; box-sizing: border-box; max-width: 360px; width: 100%; background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; padding-left: 2rem; padding-right: 2rem; padding: 0px 24px; border: none !important;"
+                    bgcolor="#fff" align="left">
+                    <p
+                        style="font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; color: #000; text-align: center; box-sizing: border-box !important;">
+                        Este mail es un envío automático, por favor, no lo respondas.<br>Ante cualquier consulta nos podés escribir desde <a href="https://www.farmaonline.com/contacto"
+                            style="box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; color: #000; font-weight: bold !important;">www.farmaonline.com/contacto</a>
+                    </p>
+                    <div class="footer-bottom" style="box-sizing: border-box !important; border-top: 1px solid black;">
+                        <ul
+                            style="margin: 0; box-sizing: border-box; padding: 14px 0 17px 0; list-style: none; display: flex; justify-content: center; align-items: center !important;">
+                            <li style="box-sizing: border-box !important; padding: 0 14px;">
+                                <a href="https://twitter.com/farmaonlineok?utm_campaign=transaccional&utm_source=mail&utm_medium=email&utm_term=footer"
+                                    style="box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; color: #000; font-weight: bold !important;">
+                                    <img src="http://farmaonline.vteximg.com.br/arquivos/icon-tw-mail.png"
+                                        style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; border: none !important;">
+                                </a>
+                            </li>
+                            <li style="box-sizing: border-box !important; padding: 0 14px;">
+                                <a href="https://www.facebook.com/farmaonlineok?utm_campaign=transaccional&utm_source=mail&utm_medium=email&utm_term=footer"
+                                    style="box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; color: #000; font-weight: bold !important;">
+                                    <img src="http://farmaonline.vteximg.com.br/arquivos/icon-fb-mail.png"
+                                        style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; border: none !important;">
+                                </a>
+                            </li>
+                            <li style="box-sizing: border-box !important; padding: 0 14px;">
+                                <a href="https://www.instagram.com/farmaonlineok/?utm_campaign=transaccional&utm_source=mail&utm_medium=email&utm_term=footer"
+                                    style="box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; color: #000; font-weight: bold !important;">
+                                    <img src="http://farmaonline.vteximg.com.br/arquivos/icon-in-mail.png"
+                                        style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; border: none !important;">
+                                </a>
+                            </li>
+                            <li style="box-sizing: border-box !important; padding: 0 14px;">
+                                <a href="https://blog.farmaonline.com/"
+                                    style="box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 22px; text-align: justify; color: #000; font-weight: bold !important;">
+                                    <img src="http://farmaonline.vteximg.com.br/arquivos/icon-ch-mail.png"
+                                        style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; border: none !important;">
+                                </a>
+                            </li>
+                             <li style="box-sizing: border-box !important; padding: 0 14px">
+                        <a
+                          href="https://www.tiktok.com/@farmaonline/"
+                          style="
+                            box-sizing: border-box;
+                            font-family: 'Montserrat', sans-serif;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 22px;
+                            text-align: justify;
+                            color: #000;
+                            font-weight: bold !important;
+                          "
+                        >
+                          <img
+                            src="http://farmaonlineio.vteximg.com.br/arquivos/tiktok-icon-mails.png"
+                            style="
+                              vertical-align: top;
+                              outline: none;
+                              text-decoration: none;
+                              -ms-interpolation-mode: bicubic;
+                              max-width: 100%;
+                              border: none !important;
+                              width: 17px;
+                            "
+                          />
+                        </a>
+                      </li>
+                        </ul>
+
+                    </div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

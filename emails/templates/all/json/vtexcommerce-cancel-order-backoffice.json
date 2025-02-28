@@ -1,0 +1,34 @@
+{
+  "Name": "vtexcommerce-cancel-order-backoffice",
+  "FriendlyName": "[OMS] Backoffice order cancel",
+  "Description": "[Internal Review Required] Order cancellation made by the backoffice.",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 19,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{sacEmail}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Cancelación de pedido en el backoffice: ID del pedido {{order.orderId}}",
+      "Message": "vtexcommerce-cancel-order-backoffice.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Name": "messageservice-teste-sms",
+  "FriendlyName": "[MC] Message Service Test SMS",
+  "Description": "SMS test",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 23,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": null,
+      "CC": null,
+      "BCC": null,
+      "Subject": null,
+      "Message": "messageservice-teste-sms.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "556ab22d-861c-42a2-9bdb-2925c53977c5",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false,
+      "Parameters": [
+        {
+          "Name": "Destination",
+          "Value": "{{phone}}"
+        },
+        {
+          "Name": "MessageText",
+          "Value": "SMS Provider configured successfully!"
+        }
+      ]
+    }
+  }
+}

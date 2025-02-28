@@ -1,0 +1,34 @@
+{
+  "Name": "vtexcommerce-payment-pending",
+  "FriendlyName": "[OMS] Payment pending",
+  "Description": "Notify payment pending.",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 19,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{orders.0.clientProfileData.email}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "El pago de {{subjectItemAttachment.item}} {{#if subjectItemAttachment.extraItems}} y más {{subjectItemAttachment.extraItems}} ítem(s) {{/if}} está pendiente",
+      "Message": "vtexcommerce-payment-pending.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

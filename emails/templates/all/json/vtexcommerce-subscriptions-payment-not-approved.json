@@ -1,0 +1,34 @@
+{
+  "Name": "vtexcommerce-subscriptions-payment-not-approved",
+  "FriendlyName": "[OMS] Subscriptions Payment Not Approved",
+  "Description": "When a payment from subscription order is not approved",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 19,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{targetEmail}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Pago no aprobado",
+      "Message": "vtexcommerce-subscriptions-payment-not-approved.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

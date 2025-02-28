@@ -1,0 +1,34 @@
+{
+  "Name": "vtex-payment-status-update",
+  "FriendlyName": "[OMS] Payment status update",
+  "Description": "Notify customer when payment updates.",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 19,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{orders.0.clientProfileData.email}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Cambio en el status del pago",
+      "Message": "vtex-payment-status-update.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

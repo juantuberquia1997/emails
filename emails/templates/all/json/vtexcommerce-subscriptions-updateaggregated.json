@@ -1,0 +1,34 @@
+{
+  "Name": "vtexcommerce-subscriptions-updateaggregated",
+  "FriendlyName": "vtexcommerce-subscriptions-updateaggregated",
+  "Description": "Subscripton Updated after delayed event",
+  "IsDefaultTemplate": true,
+  "AccountId": null,
+  "AccountName": null,
+  "ApplicationId": 19,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{targetEmail}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Suscripción actualizada",
+      "Message": "vtexcommerce-subscriptions-updateaggregated.html",
+      "Type": "E",
+      "ProviderId": "556ab22d-861c-42a2-9bdb-2925c53977c3",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": null,
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

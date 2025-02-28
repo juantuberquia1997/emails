@@ -1,0 +1,34 @@
+{
+  "Name": "exportacao-de-sku",
+  "FriendlyName": "Inventory report",
+  "Description": "[Internal Request] Sends spreadsheet with the inventory by SKU.",
+  "IsDefaultTemplate": true,
+  "AccountId": "e39d05f9-0c54-4469-a626-8bb5cff169f8",
+  "AccountName": "vtex",
+  "ApplicationId": 9,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{to}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Informe de stock - {{GeneratedDate}}",
+      "Message": "exportacao-de-sku.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

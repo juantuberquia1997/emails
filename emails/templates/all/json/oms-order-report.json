@@ -1,0 +1,34 @@
+{
+  "Name": "oms-order-report",
+  "FriendlyName": "[OMS] Sales report export",
+  "Description": "[Internal Request] Sales report exported from OMS.",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 19,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{to}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Informe de pedidos generado en {{GeneratedDate}}",
+      "Message": "oms-order-report.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

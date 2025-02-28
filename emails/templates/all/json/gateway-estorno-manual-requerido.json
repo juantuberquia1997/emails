@@ -1,0 +1,34 @@
+{
+  "Name": "gateway-estorno-manual-requerido",
+  "FriendlyName": "[PCI] Manual refund",
+  "Description": "[Internal Review Required] Notify the user to manually refund the customer.",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 6,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{accountInfo.Email}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Reembolso manual",
+      "Message": "gateway-estorno-manual-requerido.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

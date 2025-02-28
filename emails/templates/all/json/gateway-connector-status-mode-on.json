@@ -1,0 +1,34 @@
+{
+  "Name": "gateway-connector-status-mode-on",
+  "FriendlyName": "Gateway Connector Status - Mode On",
+  "Description": "Gateway Connector Status - Mode On",
+  "IsDefaultTemplate": true,
+  "AccountId": null,
+  "AccountName": null,
+  "ApplicationId": 6,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{Email}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Tu sistema de pago vuelve a ser estable, por lo que se ha desactivado el modo de desactivación",
+      "Message": "gateway-connector-status-mode-on.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": null,
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

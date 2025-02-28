@@ -1,0 +1,34 @@
+{
+  "Name": "pricing-import-prices",
+  "FriendlyName": "Import price list",
+  "Description": "[Internal Request] Price list upload.",
+  "IsDefaultTemplate": true,
+  "AccountId": "e39d05f9-0c54-4469-a626-8bb5cff169f8",
+  "AccountName": "vtex",
+  "ApplicationId": 16,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{to}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Tu solicitud de importación de precios está lista",
+      "Message": "pricing-import-prices.html",
+      "Type": "E",
+      "ProviderId": "556ab22d-861c-42a2-9bdb-2925c53977c3",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

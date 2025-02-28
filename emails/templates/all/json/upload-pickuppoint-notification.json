@@ -1,0 +1,34 @@
+{
+  "Name": "upload-pickuppoint-notification",
+  "FriendlyName": "[LOG] Notificação de upload de Pickup Point",
+  "Description": "Notificação de upload de Pickup Point",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 9,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{to}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Puntos de recogida cargados con éxito",
+      "Message": "upload-pickuppoint-notification.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

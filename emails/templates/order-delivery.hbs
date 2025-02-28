@@ -1,0 +1,1020 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  style="
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #e9e9e9 !important;
+  "
+>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+
+    <title>{{_accountInfo.TradingName}}</title>
+
+    <!--[if gte mso 9]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG />
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    <![endif]-->
+  </head>
+
+  <body
+    style="
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #e9e9e9 !important;
+      font-family: 'Montserrat', sans-serif;
+    "
+  >
+    <table
+      id="body-table"
+      width="100%"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      style="
+        box-sizing: border-box;
+        padding: 0;
+        background: #e9e9e9;
+        max-width: 585px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        border-spacing: 0;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        height: 100%;
+        line-height: 100% !important;
+      "
+    >
+      <tbody>
+        <tr style="box-sizing: border-box !important">
+          <td
+            class="ph4-ns top-header"
+            id="top-header"
+            style="
+              font-size: 14px;
+              line-height: 20px;
+              border-collapse: collapse;
+              box-sizing: border-box;
+              max-width: 360px;
+              width: 100%;
+              padding: 36px 24px 21px;
+              background-color: #fff;
+              font-family: 'Montserrat', sans-serif;
+              text-align: left;
+              padding-left: 2rem;
+              padding-right: 2rem !important;
+            "
+            align="left"
+            bgcolor="#fff"
+          >
+            <div style="box-sizing: border-box; text-align: center !important">
+              <img
+                src="http://farmaonline.vteximg.com.br/arquivos/farmaonline.png"
+                style="
+                  vertical-align: top;
+                  outline: none;
+                  text-decoration: none;
+                  -ms-interpolation-mode: bicubic;
+                  max-width: 100%;
+                  width: 165px;
+                  padding-bottom: 20px;
+                "
+              />
+            </div>
+            {{#shippingData.logisticsInfo.[0]}} {{#eq selectedDeliveryChannel
+            "pickup-in-point"}}
+            <h1
+              style="
+             margin: 0;
+                line-height: 58px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 24px;
+                color: #000;
+                text-align: center;
+                padding: 30px 40px 0 40px;
+                box-sizing: border-box !important;
+                border-top: 1px solid #D2D2D2;
+              "
+            >
+              Tu pedido fue entregado!
+            </h1>
+            {{else}}
+            <h1
+              style="
+                margin: 0;
+                line-height: 58px;
+                font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 44px;
+                color: #000;
+                text-align: center;
+                margin-top: 36px;
+                padding: 0 40px;
+                box-sizing: border-box !important;
+              "
+            >
+              Tu pedido fue entregado!
+            </h1>
+            {{/eq}} {{/shippingData.logisticsInfo.[0]}}
+
+            <div
+              class="top-header_numero"
+              style="
+                font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                color: #000;
+                text-align: center;
+                box-sizing: border-box;
+                margin-top: 0.5rem !important;
+              "
+            >
+              Nro <span>#{{orderId}}</span>
+            </div>
+          </td>
+        </tr>
+
+        <tr style="box-sizing: border-box !important">
+          <td
+            class="ph4-ns"
+            style="
+              max-width: 360px;
+              background-color: #fff;
+              font-size: 14px;
+              line-height: 20px;
+              box-sizing: border-box;
+              border-collapse: collapse;
+              font-family: 'Montserrat', sans-serif;
+              text-align: left;
+              padding-left: 2rem;
+              padding-right: 2rem;
+              width: 100% !important;
+            "
+            align="left"
+            bgcolor="#fff"
+          >
+            <div
+              style="
+                box-sizing: border-box;
+                padding: 15px 0;
+                display: flex;
+                text-align: center;
+                justify-content: center !important;
+              "
+              class="status-pedido"
+            >
+                <img style="margin: 0 auto;" src="https://farmaonline.vtexassets.com/assets/vtex.file-manager-graphql/images/54712c2c-4e73-4062-b096-f197baa16b74___c9e147e91645372c29e30c18f02560a1.png" alt="traking">
+            </div>
+          </td>
+        </tr>
+
+        <tr style="box-sizing: border-box !important" class="ver-factura">
+          <td
+            class="ph4-ns"
+            align="left"
+            style="
+              font-size: 14px;
+              line-height: 20px;
+              border-collapse: collapse;
+              box-sizing: border-box;
+              max-width: 360px;
+              width: 100%;
+              background-color: #fff;
+              font-family: 'Montserrat', sans-serif;
+              text-align: left;
+              padding-left: 2rem;
+              padding-right: 2rem !important;
+            "
+            bgcolor="#fff"
+          >
+            <label
+              class="ver-factura-top"
+              style="
+                font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: justify;
+                color: #262626 ;
+              "
+              >Hola <span 
+              style="
+                font-weight: 600;
+">{{clientProfileData.firstName}},</span> </label
+            >
+            <br></br>
+            <p
+              class="ver-factura-text"
+              style="
+                box-sizing: border-box;
+                font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                margin-top: 0;
+                text-align: left;
+                color: #262626;
+                padding: 0 0 30px 0;
+                border-bottom: 1px solid #D2D2D2;
+              "
+            >
+              {{#shippingData.logisticsInfo.[0]}} {{#eq selectedDeliveryChannel
+              "pickup-in-point"}}¡Ya retiraste tu pedido! Gracias por confiar en nosotros, esperamos volver a verte pronto
+              {{else}} ¡Tu pedido ya fue entregado, que lo disfrutes! Gracias por confiar en nosotros, esperamos volver a verte pronto {{/eq}}
+              {{/shippingData.logisticsInfo.[0]}}
+            </p>
+          </td>
+        </tr>
+
+        <tr style="box-sizing: border-box !important">
+          <td
+            class="ph4-ns"
+            style="
+              max-width: 360px;
+              background-color: #fff;
+              font-size: 14px;
+              line-height: 20px;
+              box-sizing: border-box;
+              border-collapse: collapse;
+              font-family: 'Montserrat', sans-serif;
+              text-align: left;
+              padding-left: 0rem;
+              padding-right: 0rem;
+              width: 100% !important;
+            "
+            align="left"
+            bgcolor="#fff"
+          >
+            <div
+              class="experience"
+              style="
+                box-sizing: border-box;
+                text-align: center;
+                padding-top: 30px;
+              "
+            >
+              <span
+                class="experience-title"
+                style="
+                  font-family: 'Montserrat', Sans-serif;
+                  line-height: 16px;
+                  color: #262626;
+                  text-align: center;
+                  font-weight: 600;
+                  font-size: 12px ;
+                "
+                >Evaluá tu experiencia de compra</span
+              >
+              <br></br>
+              <p
+                class="experience-text"
+                style="
+                  box-sizing: border-box;
+                  font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 16px;
+                  color: #262626;
+                  text-align: center !important;
+                "
+              >
+                Para nosotros, es muy importante conocer cómo fue tu experiencia
+                para seguir mejorando.Te pedimos sólo unos segundos para que nos
+                indiques:
+              </p>
+              </br>
+              <label
+                class="experience-subtitle"
+                style="
+                  font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                  font-weight: 600;
+                  font-size: 12px;
+                  line-height: 16px;
+                  color: #262626;
+                  color: black;
+                "
+                >¿Qué tan probable es que recomiendes el sitio de
+                {{_accountInfo.TradingName}} a tus amigos o familiares?</label
+              >
+              <ul
+                class="experience-value"
+                style="
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: inline-flex;
+                  list-style: none;
+                  justify-content: center;
+                  gap: 10px;
+                  padding: 0px;
+                  padding-top: 24px;
+                  padding-bottom: 36px !important;
+                  border-bottom: 1px solid #D2D2D2;
+                "
+              >
+                <li
+                  class="experience-value-number number0"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #ea4335;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=0"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >0</a
+                  >
+                </li>
+                <li
+                  class="experience-value-number number1"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #ea4335;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=1"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >1</a
+                  >
+                </li>
+                <li
+                  class="experience-value-number number2"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #ef6440;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=2"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >2</a
+                  >
+                </li>
+                <li
+                  class="experience-value-number number3"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #f4854b;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=3"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >3</a
+                  >
+                </li>
+                <li
+                  class="experience-value-number number4"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #f9a656;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=4"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >4</a
+                  >
+                </li>
+                <li
+                  class="experience-value-number number5"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #fdc661;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=5"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >5</a
+                  >
+                </li>
+                <li
+                  class="experience-value-number number6"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #e8d063;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=6"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >6</a
+                  >
+                </li>
+                <li
+                  class="experience-value-number number7"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #bbc65f;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=7"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >7</a
+                  >
+                </li>
+                <li
+                  class="experience-value-number number8"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #8ebc5b;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=8"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >8</a
+                  >
+                </li>
+                <li
+                  class="experience-value-number number9"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #61b257;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=9"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >9</a
+                  >
+                </li>
+                <li
+                  class="experience-value-number number10"
+                  style="
+                    box-sizing: border-box;
+                    width: 37px;
+                    height: 37px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #34a853;
+                  "
+                >
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdUTxLgmF2lE-CgKFaYj6dCXZPxkysJ_pIPQyjuR3rs99pFfA/viewform?usp=pp_url&entry.550579144={{orderId}}&entry.355795575=10"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 24px;
+                      color: #000;
+                      text-decoration: none;
+                      width: 100%;
+                      margin: auto;
+                      text-align: center !important;
+                    "
+                    >10</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+
+        <tr style="box-sizing: border-box !important" class="pre-footer">
+          <td
+            class="ph4-ns"
+            align="left"
+            style="
+              font-size: 14px;
+              line-height: 20px;
+              border-collapse: collapse;
+              box-sizing: border-box;
+              max-width: 360px;
+              width: 100%;
+              background-color: #fff;
+              font-family: 'Montserrat', sans-serif;
+              text-align: left;
+              padding-left: 2rem;
+              padding-right: 2rem !important;
+            "
+            bgcolor="#fff"
+          >
+            <table
+              width="100%"
+              border="0"
+              cellpadding="0"
+              cellspacing="0"
+              style="
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background: #fff;
+                box-sizing: border-box;
+                border-collapse: collapse;
+                border-spacing: 0;
+                mso-table-lspace: 0pt;
+                font-family: 'Montserrat', sans-serif;
+                line-height: 100%;
+                mso-table-rspace: 0pt !important;
+              "
+            >
+              <thead></thead>
+              <tbody>
+                <tr style="box-sizing: border-box !important">
+                  <td
+                    style="
+                      font-size: 14px;
+                      line-height: 20px;
+                      box-sizing: border-box;
+                      border-collapse: collapse;
+                      width: 4rem;
+                      padding-right: 0.5rem;
+                      padding-top: 30px;
+                      padding-bottom: 0.5rem;
+                      vertical-align: top;
+                      font-family: 'Montserrat', sans-serif;
+                      text-align: center;
+                    "
+                    align="left"
+                    valign="top"
+                  >
+                    <img
+                      alt=""
+                      src="https://farmaonline.vtexassets.com/assets/vtex.file-manager-graphql/images/d0dd1c92-699e-4d4d-83c2-71d2f24f0239___0150bcf450b75598cc102164c8525e7d.png"
+                      style="
+                        vertical-align: top;
+                        outline: none;
+                        text-decoration: none;
+                        -ms-interpolation-mode: bicubic;
+                        max-width: 100% !important;
+                      "
+                    />
+                  </td>
+                  <td
+                    style="
+                      font-size: 14px;
+                      line-height: 20px;
+                      box-sizing: border-box;
+                      border-collapse: collapse;
+                      padding: 30px 0px 10px 0;
+                      font-family: 'Montserrat', sans-serif;
+                      text-align: left !important;
+                    "
+                    align="left"
+                    valign="top"
+                  >
+                    <div
+                      class="mv1-ns"
+                      style="
+                        color: #BFBE51;
+                        box-sizing: border-box;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 14px;
+                        font-weight: 600;
+                        text-align: justify;
+                      "
+                    >
+                      Recordá que todo nuestro packaging es reciclable. <br> Tené
+                      esto en cuenta al momento de desecharlo.
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              class="pre-footer-end"
+              style="
+                box-sizing: border-box;
+                font-family: 'Montserrat';
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center !important;
+                color: #262626;
+                padding-bottom: 30px;
+              "
+            >
+              Este mail es un envío automático, por favor, no lo respondas
+            </div>
+          </td>
+        </tr>
+
+        <tr style="box-sizing: border-box !important" class="footer">
+          <td
+            class="ph4-ns"
+            style="
+              font-size: 14px;
+              line-height: 20px;
+              border-collapse: collapse;
+              box-sizing: border-box;
+              max-width: 360px;
+              width: 100%;
+              background-color: #fff;
+              font-family: 'Montserrat', sans-serif;
+              text-align: left;
+              padding-left: 2rem;
+              padding-right: 2rem;
+              padding: 0px 24px;
+              border: none !important;
+            "
+            bgcolor="#fff"
+            align="left"
+          >
+            {{!-- <p
+              style="
+                font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: justify;
+                color: #000;
+                text-align: center;
+                box-sizing: border-box !important;
+              "
+            >
+              Ante cualquier consulta nos podés escribir desde
+              <a
+                href="https://www.farmaonline.com/contacto"
+                style="
+                  box-sizing: border-box;
+                  font-family: 'Montserrat', Sans-serif, Geneva, Trebuchet MS;
+                  font-weight: normal;
+                  font-size: 18px;
+                  line-height: 22px;
+                  text-align: justify;
+                  color: #000;
+                  font-weight: bold !important;
+                  text-decoration: none;
+                "
+                >www.farmaonline.com/contacto</a
+              >
+            </p> --}}
+            <div
+              class="footer-bottom"
+              style="
+                box-sizing: border-box !important;
+                border-top: 1px solid #D2D2D2;
+              "
+            >
+            <ul
+                style="
+                  margin: 0 auto !important;
+                  box-sizing: border-box;
+                  padding: 14px 0 17px 0;
+                  list-style: none;
+                  justify-content: center !important;
+                  align-items: center !important;
+                  display: flex !important;
+                  
+                "
+              >
+              <li style="box-sizing: border-box !important; padding: 0 14px">
+                  <a
+                    href="https://www.facebook.com/farmaonlineok?utm_campaign=transaccional&utm_source=mail&utm_medium=email&utm_term=footer"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', sans-serif;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 18px;
+                      line-height: 22px;
+                      text-align: justify;
+                      color: #000;
+                      font-weight: bold !important;
+                    "
+                  >
+                    <img
+                      src="https://farmaonline.vtexassets.com/assets/vtex.file-manager-graphql/images/dc2035a0-b23e-4a3b-bff2-2982af250771___0b921ccd220d18989b92d17eb1241a7c.svg"
+                      style="
+                        vertical-align: top;
+                        outline: none;
+                        text-decoration: none;
+                        -ms-interpolation-mode: bicubic;
+                        max-width: 100%;
+                        border: none !important;
+                      "
+                    />
+                  </a>
+                </li>
+                 <li style="box-sizing: border-box !important; padding: 0 14px">
+                  <a
+                    href="https://blog.farmaonline.com/"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', sans-serif;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 18px;
+                      line-height: 22px;
+                      text-align: justify;
+                      color: #000;
+                      font-weight: bold !important;
+                    "
+                  >
+                    <img
+                      src="https://farmaonline.vtexassets.com/assets/vtex.file-manager-graphql/images/08f6809f-8ddc-4cea-8dc1-5767449d10f2___083e94bd6f586d1f035ec25d713bf3e1.svg"
+                      style="
+                        vertical-align: top;
+                        outline: none;
+                        text-decoration: none;
+                        -ms-interpolation-mode: bicubic;
+                        max-width: 100%;
+                        border: none !important;
+                      "
+                    />
+                  </a>
+                </li>
+                   <li style="box-sizing: border-box !important; padding: 0 14px">
+                  <a
+                    href="https://twitter.com/farmaonlineok?utm_campaign=transaccional&utm_source=mail&utm_medium=email&utm_term=footer"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', sans-serif;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 18px;
+                      line-height: 22px;
+                      text-align: justify;
+                      color: #000;
+                      font-weight: bold !important;
+                      display: flex;
+                    "
+                  >
+                    <img
+                      src="http://farmaonline.vteximg.com.br/arquivos/icon-tw-mail.png"
+                      style="
+                        vertical-align: top;
+                        outline: none;
+                        text-decoration: none;
+                        -ms-interpolation-mode: bicubic;
+                        max-width: 100%;
+                        border: none !important;
+                      "
+                    />
+                  </a>
+                </li>
+             
+                
+                <li style="box-sizing: border-box !important; padding: 0 14px">
+                  <a
+                    href="https://www.instagram.com/farmaonlineok/?utm_campaign=transaccional&utm_source=mail&utm_medium=email&utm_term=footer"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', sans-serif;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 18px;
+                      line-height: 22px;
+                      text-align: justify;
+                      color: #000;
+                      font-weight: bold !important;
+                      display:flex "
+                  >
+                    <img
+                      src="http://farmaonline.vteximg.com.br/arquivos/icon-in-mail.png"
+                      style="
+                        vertical-align: top;
+                        outline: none;
+                        text-decoration: none;
+                        -ms-interpolation-mode: bicubic;
+                        max-width: 100%;
+                        border: none !important;
+                      "
+                    />
+                  </a>
+                </li>
+                
+               
+                <!--<li style="box-sizing: border-box !important; padding: 0 14px">
+                  <a
+                    href="https://www.tiktok.com/@farmaonline/"
+                    style="
+                      box-sizing: border-box;
+                      font-family: 'Montserrat', sans-serif;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 18px;
+                      line-height: 22px;
+                      text-align: justify;
+                      color: #000;
+                      font-weight: bold !important;
+                    "
+                  >
+                    <img
+                      src="http://farmaonlineio.vteximg.com.br/arquivos/tiktok-icon-mails.png"
+                      style="
+                        vertical-align: top;
+                        outline: none;
+                        text-decoration: none;
+                        -ms-interpolation-mode: bicubic;
+                        max-width: 100%;
+                        border: none !important;
+                        width: 17px;
+                      "
+                    />
+                  </a>
+                </li>-->
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

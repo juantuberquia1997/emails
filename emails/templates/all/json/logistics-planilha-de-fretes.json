@@ -1,0 +1,34 @@
+{
+  "Name": "logistics-planilha-de-fretes",
+  "FriendlyName": "Download freight table",
+  "Description": "[Internal Request] E-mail to download to download fright table.",
+  "IsDefaultTemplate": true,
+  "AccountId": "e39d05f9-0c54-4469-a626-8bb5cff169f8",
+  "AccountName": "vtex",
+  "ApplicationId": 9,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{to}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Plantilla de tarifas de envío de la transportadora {{FreightTableName}}",
+      "Message": "logistics-planilha-de-fretes.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Name": "messageservice_teste_email",
+  "FriendlyName": "[MC] E-mail sending test",
+  "Description": "[Internal Review Required] SMTP e-mail testing.",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 23,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{to.email}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Configuración de SMTP realizada con éxito",
+      "Message": "messageservice_teste_email.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

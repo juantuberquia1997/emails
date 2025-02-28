@@ -1,0 +1,34 @@
+{
+  "Name": "vtexcommerce-cancel-order-customer-store-notification",
+  "FriendlyName": "[OMS] Cancel Order Customer (Store Notification)",
+  "Description": "[Internal Review Required] Notification about a customer order cancellation.",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 19,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{followUpEmail}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Pedido {{orderId}} cancelado por el usuario",
+      "Message": "vtexcommerce-cancel-order-customer-store-notification.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

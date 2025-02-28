@@ -1,0 +1,34 @@
+{
+  "Name": "vtex-log-performance-report",
+  "FriendlyName": "VTEX LOG PERFORMANCE REPORT",
+  "Description": "Template with link to access the performance report of VTEX Log.",
+  "IsDefaultTemplate": true,
+  "AccountId": null,
+  "AccountName": null,
+  "ApplicationId": 9,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{to}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Informe de rendimiento de VTEX Log",
+      "Message": "vtex-log-performance-report.html",
+      "Type": "E",
+      "ProviderId": "556ab22d-861c-42a2-9bdb-2925c53977c3",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": null,
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Name": "licensemanager-cadastro-de-conta",
+  "FriendlyName": "[LM] Account registration",
+  "Description": "[Internal Request] New account confirmation.",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 1,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{userEmail}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Tienda {{_accountInfo.TradingName}} :: Cuenta registrada con éxito",
+      "Message": "licensemanager-cadastro-de-conta.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Name": "vtexcommerce-new-order",
+  "FriendlyName": "[OMS] Order confirmation",
+  "Description": "E-mail sent when the order is completed.",
+  "IsDefaultTemplate": true,
+  "AccountId": "2e7a7b8b-f824-4cac-baf3-95e0a38fdf70",
+  "AccountName": "storebaseeses",
+  "ApplicationId": 19,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{orders.0.clientProfileData.email}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Tu pedido de {{subjectItemAttachment.item}} {{#if subjectItemAttachment.extraItems}} y más {{subjectItemAttachment.extraItems}} ítem(s) {{/if}} se completó con éxito",
+      "Message": "vtexcommerce-new-order.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": "556ab22d-861c-42a2-9bdb-2925c53977c5",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false,
+      "Parameters": [
+        {
+          "Name": "Destination",
+          "Value": "{{orders.0.clientProfileData.phone}}"
+        },
+        {
+          "Name": "MessageText",
+          "Value": "Seu pedido de {{subjectItemAttachment.item}} {{#if subjectItemAttachment.extraItems}} e mais {{subjectItemAttachment.extraItems}} item(ns) {{/if}} foi realizado com sucesso!"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Name": "success-plan-import-file",
+  "FriendlyName": "Success plan import file",
+  "Description": "Success plan import file",
+  "IsDefaultTemplate": true,
+  "AccountId": null,
+  "AccountName": null,
+  "ApplicationId": 83,
+  "IsPersisted": true,
+  "IsRemoved": false,
+  "Type": "",
+  "Templates": {
+    "email": {
+      "To": "{{targetEmail}}",
+      "CC": null,
+      "BCC": null,
+      "Subject": "Importación realizada con éxito",
+      "Message": "success-plan-import-file.html",
+      "Type": "E",
+      "ProviderId": "00000000-0000-0000-0000-000000000000",
+      "ProviderName": null,
+      "IsActive": true,
+      "withError": false
+    },
+    "sms": {
+      "Type": "S",
+      "ProviderId": null,
+      "ProviderName": null,
+      "IsActive": false,
+      "withError": false,
+      "Parameters": []
+    }
+  }
+}
