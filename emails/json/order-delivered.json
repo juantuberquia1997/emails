@@ -1,0 +1,974 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 6528900,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 1,
+        "quantity": 1,
+        "price": 7396700,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 2,
+        "quantity": 1,
+        "price": 11095000,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "Microservicio",
+    "invoiceNumber": "00212722907",
+    "description": null,
+    "invoiceValue": 30274900,
+    "invoiceUrl": "h*****************.c************************************************************",
+    "issuanceDate": "2025-10-08T15:41:26",
+    "trackingNumber": "ec40001938505",
+    "invoiceKey": null,
+    "trackingUrl": "http://tracking.ocasa.com/tracking/index?i=18&airbillnumber=ec40001938505",
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": {
+      "status": "ok",
+      "finished": true,
+      "deliveredDate": "2025-10-10T10:20:08",
+      "data": [
+        {
+          "lastChange": "2025-10-10T10:20:08",
+          "city": "L* R****",
+          "state": "LA RIOJA",
+          "description": "",
+          "createDate": "2025-10-10T13:34:03.6541058Z"
+        }
+      ]
+    },
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "POLITO EQUIPO KINKY ...",
+    "totalItems": 3,
+    "extraItems": 2
+  },
+  "cancellationReason": null,
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "2D3CD98FBC98417EBC456E473220A9B3",
+        "merchantName": "L********",
+        "payments": [
+          {
+            "id": "543C082DC5994DA391439E1C2DB31778",
+            "paymentSystem": "2",
+            "paymentSystemName": "V***",
+            "value": 30274900,
+            "installments": 6,
+            "referenceValue": 30274900,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": "459354",
+            "lastDigits": "8950",
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "creditCard",
+            "tid": "96157720174161",
+            "dueDate": null,
+            "connectorResponses": {
+              "Tid": "96157720174161",
+              "ReturnCode": null,
+              "Message": null,
+              "authId": "96157720174161",
+              "acquirer": "KOIN_FISERV"
+            },
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": "DD8FEB5177B049A481B29012F7B518F5",
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": {
+              "postalCode": "5***",
+              "city": "L* R****",
+              "state": "LA RIOJA",
+              "country": "ARG",
+              "street": "2* d* m***",
+              "number": "4**",
+              "neighborhood": null,
+              "complement": null,
+              "reference": null,
+              "geoCoordinates": [-51.4779552, -0.0039779]
+            },
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancellationRequests": null,
+  "invoiceData": {
+    "address": null,
+    "userPaymentInfo": null,
+    "invoiceSubject": null
+  },
+  "clientProfileData": {
+    "id": "clientProfileData",
+    "email": "a**.h***********@g****.c****************.c*.v***.c**.b*",
+    "firstName": "H***",
+    "lastName": "M******",
+    "documentType": "dni",
+    "document": "2*******",
+    "phone": "+5************",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "userProfileId": "44a78276-8156-4de2-8392-ddddb032b003",
+    "userProfileVersion": null,
+    "customerClass": null,
+    "customerCode": null
+  },
+  "shippingData": {
+    "id": "shippingData",
+    "address": {
+      "addressType": "residential",
+      "receiverName": "H*** M******",
+      "addressId": "8610186570265",
+      "versionId": null,
+      "entityId": null,
+      "postalCode": "5***",
+      "city": "L* R****",
+      "state": "LA RIOJA",
+      "country": "ARG",
+      "street": "2* d* m***",
+      "number": "4**",
+      "neighborhood": null,
+      "complement": null,
+      "reference": null,
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "itemId": "33395",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Envío a domicilio",
+        "lockTTL": "12d",
+        "price": 0,
+        "listPrice": 492100,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": null,
+        "shippingEstimate": "9bd",
+        "shippingEstimateDate": "2025-10-21T11:55:23.7232782Z",
+        "slas": [
+          {
+            "id": "Envío a domicilio",
+            "name": "E****************",
+            "shippingEstimate": "9bd",
+            "shippingEstimateDate": "2025-10-21T11:55:23.7232782Z",
+            "deliveryWindow": null,
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "OCASA_Home_Regular",
+                "courierName": "O****",
+                "dockId": "1",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "l********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 492100,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "12d",
+            "pickupPointId": null,
+            "transitTime": "5bd",
+            "pickupDistance": 0
+          }
+        ],
+        "shipsTo": ["ARG"],
+        "deliveryIds": [
+          {
+            "courierId": "OCASA_Home_Regular",
+            "courierName": "O****",
+            "dockId": "1",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "l********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          },
+          {
+            "id": "pickup-in-point",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "8610186570265",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "5bd"
+      },
+      {
+        "itemIndex": 1,
+        "itemId": "29242",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Envío a domicilio",
+        "lockTTL": "12d",
+        "price": 0,
+        "listPrice": 491800,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": null,
+        "shippingEstimate": "9bd",
+        "shippingEstimateDate": "2025-10-21T11:55:23.7233114Z",
+        "slas": [
+          {
+            "id": "Envío a domicilio",
+            "name": "E****************",
+            "shippingEstimate": "9bd",
+            "shippingEstimateDate": "2025-10-21T11:55:23.7233114Z",
+            "deliveryWindow": null,
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "OCASA_Home_Regular",
+                "courierName": "O****",
+                "dockId": "1",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "l********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 491800,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "12d",
+            "pickupPointId": null,
+            "transitTime": "5bd",
+            "pickupDistance": 0
+          }
+        ],
+        "shipsTo": ["ARG"],
+        "deliveryIds": [
+          {
+            "courierId": "OCASA_Home_Regular",
+            "courierName": "O****",
+            "dockId": "1",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "l********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          },
+          {
+            "id": "pickup-in-point",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "8610186570265",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "5bd"
+      },
+      {
+        "itemIndex": 2,
+        "itemId": "31030",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Envío a domicilio",
+        "lockTTL": "12d",
+        "price": 0,
+        "listPrice": 491800,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": null,
+        "shippingEstimate": "9bd",
+        "shippingEstimateDate": "2025-10-21T11:55:23.7233301Z",
+        "slas": [
+          {
+            "id": "Envío a domicilio",
+            "name": "E****************",
+            "shippingEstimate": "9bd",
+            "shippingEstimateDate": "2025-10-21T11:55:23.7233301Z",
+            "deliveryWindow": null,
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "OCASA_Home_Regular",
+                "courierName": "O****",
+                "dockId": "1",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "l********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 491800,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "12d",
+            "pickupPointId": null,
+            "transitTime": "5bd",
+            "pickupDistance": 0
+          }
+        ],
+        "shipsTo": ["ARG"],
+        "deliveryIds": [
+          {
+            "courierId": "OCASA_Home_Regular",
+            "courierName": "O****",
+            "dockId": "1",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "l********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          },
+          {
+            "id": "pickup-in-point",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "8610186570265",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "5bd"
+      }
+    ],
+    "trackingHints": [],
+    "selectedAddresses": [
+      {
+        "addressId": "8610186570265",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "H*** M******",
+        "street": "2* d* m***",
+        "number": "4**",
+        "complement": null,
+        "neighborhood": null,
+        "postalCode": "5***",
+        "city": "L* R****",
+        "state": "LA RIOJA",
+        "country": "ARG",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressId": "8610186570265",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "H*** M******",
+        "street": "2* d* m***",
+        "number": "4**",
+        "complement": null,
+        "neighborhood": null,
+        "postalCode": "5***",
+        "city": "L* R****",
+        "state": "LA RIOJA",
+        "country": "ARG",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "contactInformation": [],
+    "contactsInfo": []
+  },
+  "customData": {
+    "customApps": [
+      {
+        "fields": {
+          "uuid": "17d52827-e835-4273-99a2-df888a187cfb",
+          "source": "WEB_MOBILE",
+          "snrs_params": "{\"utm_source\":\"meta_infracommerce\",\"utm_medium\":\"cpc\",\"utm_campaign\":\"Infracommerce_LaMartina_Generica_Meta_Advantage_Conversiones_AO\",\"utm_content\":\"banner_diadelamadre%20modo_oct25\",\"utm_id\":\"120203837262310692\",\"utm_term\":\"120203837262330692\"}"
+        },
+        "id": "synerise",
+        "major": 1
+      }
+    ],
+    "customFields": []
+  },
+  "purchaseAgentData": null,
+  "authorizationPolicyData": {
+    "Status": "accepted",
+    "DeniedPolicies": [],
+    "PendingPolicies": []
+  },
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/13/21/",
+        "productClusterId": "140,141,146,155,158,163,200,1245,1511,1543",
+        "commercialConditionId": "2",
+        "dimension": {
+          "cubicweight": 0.2083,
+          "height": 10,
+          "length": 10,
+          "weight": 1000,
+          "width": 10
+        },
+        "brandName": "L*********",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "33395",
+      "priceTable": null,
+      "priceValidUntil": "2026-10-08T11:51:01Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:lamartina:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/33395",
+      "uniqueId": "DD1AC15E1E0448AEA7C1AC1F2ECFF1F2",
+      "id": "33395",
+      "productId": "6869",
+      "productRefId": "12131370074",
+      "refId": "1213137007405",
+      "ean": null,
+      "name": "T****************************************",
+      "skuName": "C**********************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 1371100,
+      "price": 6528900,
+      "listPrice": 6528900,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6528900,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/13/21/",
+      "productCategories": {
+        "1": "HOMBRE",
+        "13": "TOPS",
+        "21": "Remeras"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://lamartina.vteximg.com.br/arquivos/ids/253449-200-300/12131370074.jpg?v=638925916412830000",
+      "detailUrl": "/tshirt-argentina-12131370074/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "t**********************************************************************************",
+          "value": 21,
+          "rawValue": 0.21,
+          "isPercentual": true,
+          "identifier": "df2ac1ef-d655-45aa-bf6e-d6ee27a3ffe2"
+        },
+        {
+          "name": "d******************************************************************************************",
+          "value": -492100,
+          "rawValue": -4921,
+          "isPercentual": false,
+          "identifier": "c1ef88a0-bd26-4a4d-965e-47f2b446e755"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6528900,
+        "total": 6528900,
+        "sellingPrices": [
+          {
+            "value": 6528900,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/5/8/",
+        "productClusterId": "141,146,156,158,159,160,180,201,1245,1536,1538,1543,1555",
+        "commercialConditionId": "3",
+        "dimension": {
+          "cubicweight": 0.2083,
+          "height": 10,
+          "length": 10,
+          "weight": 1000,
+          "width": 10
+        },
+        "brandName": "L*********",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "29242",
+      "priceTable": null,
+      "priceValidUntil": "2026-10-08T11:51:44Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:lamartina:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/29242",
+      "uniqueId": "82E245BBC63E4028B79E640235B800DA",
+      "id": "29242",
+      "productId": "5984",
+      "productRefId": "22230988099",
+      "refId": "2223098809901",
+      "ean": null,
+      "name": "C***************************************",
+      "skuName": "C**********************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 1553300,
+      "price": 14793400,
+      "listPrice": 14793400,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 7396700,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/5/8/",
+      "productCategories": {
+        "2": "MUJER",
+        "5": "TOPS",
+        "8": "Camisas"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://lamartina.vteximg.com.br/arquivos/ids/240080-200-300/22230988099.jpg?v=638663729909970000",
+      "detailUrl": "/camisa-super-bea-22230988099/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "t**********************************************************************************",
+          "value": 21,
+          "rawValue": 0.21,
+          "isPercentual": true,
+          "identifier": "df2ac1ef-d655-45aa-bf6e-d6ee27a3ffe2"
+        },
+        {
+          "name": "d***************************************************************************************",
+          "value": -7396700,
+          "rawValue": -73967,
+          "isPercentual": false,
+          "identifier": "1acbd667-fed9-4802-b94d-8a5fb3e85782"
+        },
+        {
+          "name": "d******************************************************************************************",
+          "value": -491800,
+          "rawValue": -4918,
+          "isPercentual": false,
+          "identifier": "c1ef88a0-bd26-4a4d-965e-47f2b446e755"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 7396700,
+        "total": 7396700,
+        "sellingPrices": [
+          {
+            "value": 7396700,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/5/11/",
+        "productClusterId": "141,146,156,158,159,160,200,201,1245,1448,1508,1538,1543",
+        "commercialConditionId": "4",
+        "dimension": {
+          "cubicweight": 0.2083,
+          "height": 10,
+          "length": 10,
+          "weight": 1000,
+          "width": 10
+        },
+        "brandName": "L*********",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "31030",
+      "priceTable": null,
+      "priceValidUntil": "2026-10-08T11:52:12Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:lamartina:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/31030",
+      "uniqueId": "1E0CE6C3C2884AC5A21F06723A59F870",
+      "id": "31030",
+      "productId": "6356",
+      "productRefId": "29131001074",
+      "refId": "2913100107401",
+      "ean": null,
+      "name": "P******************************************",
+      "skuName": "C**********************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 2330000,
+      "price": 14793400,
+      "listPrice": 14793400,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 11095000,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/5/11/",
+      "productCategories": {
+        "2": "MUJER",
+        "5": "TOPS",
+        "11": "Polos"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://lamartina.vteximg.com.br/arquivos/ids/248905-200-300/29131001074.jpg?v=638826651684630000",
+      "detailUrl": "/polito-equipo-kinky-29131001074/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "t**********************************************************************************",
+          "value": 21,
+          "rawValue": 0.21,
+          "isPercentual": true,
+          "identifier": "df2ac1ef-d655-45aa-bf6e-d6ee27a3ffe2"
+        },
+        {
+          "name": "d***************************************************************************************",
+          "value": -3698400,
+          "rawValue": -36984,
+          "isPercentual": false,
+          "identifier": "f48e105d-916b-4c27-b14e-1f0f85fa4957"
+        },
+        {
+          "name": "d******************************************************************************************",
+          "value": -491800,
+          "rawValue": -4918,
+          "isPercentual": false,
+          "identifier": "c1ef88a0-bd26-4a4d-965e-47f2b446e755"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 11095000,
+        "total": 11095000,
+        "sellingPrices": [
+          {
+            "value": 11095000,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=lamartina",
+      "id": "1",
+      "name": "L*********",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "18018c2857264163b4da2c46aa599673",
+  "sequence": "882713",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "44a78276-8156-4de2-8392-ddddb032b003",
+  "hostName": "l********",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1567320882713-01",
+  "orderGroup": "1567320882713",
+  "state": "invoiced",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1567320882713-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 30274900,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*****************",
+      "value": 36115700
+    },
+    {
+      "id": "Discounts",
+      "name": "T******************",
+      "value": -11095100
+    },
+    {
+      "id": "Shipping",
+      "name": "C********************",
+      "value": 0,
+      "alternativeTotals": [
+        {
+          "id": "AlternativeShippingTotal",
+          "name": "A*************************",
+          "value": 1475700
+        },
+        {
+          "id": "AlternativeShippingDiscount",
+          "name": "A****************************",
+          "value": -1475700
+        }
+      ]
+    },
+    {
+      "id": "Tax",
+      "name": "C*********************",
+      "value": 5254300
+    }
+  ],
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "c1ef88a0-bd26-4a4d-965e-47f2b446e755",
+        "name": "E************************************************",
+        "featured": true,
+        "description": "Envio gratis en compras +250k",
+        "matchedParameters": {
+          "slaIds": "envío a domicilio"
+        },
+        "additionalInfo": null
+      },
+      {
+        "id": "1acbd667-fed9-4802-b94d-8a5fb3e85782",
+        "name": "H********",
+        "featured": true,
+        "description": "50off en seleccionados",
+        "matchedParameters": {
+          "productCluster@CatalogSystem": "1536|inclusive"
+        },
+        "additionalInfo": null
+      },
+      {
+        "id": "f48e105d-916b-4c27-b14e-1f0f85fa4957",
+        "name": "H********",
+        "featured": true,
+        "description": "25OFF en seleccionados",
+        "matchedParameters": {
+          "productCluster@CatalogSystem": "1508|inclusive"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "clientPreferencesData": {
+    "locale": "es-AR",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": "meta_infracommerce",
+    "utmMedium": "cpc",
+    "utmCampaign": "Infracommerce_LaMartina_Generica_Meta_Advantage_Conversiones_AO",
+    "utmipage": "",
+    "utmiPart": "",
+    "utmiCampaign": "",
+    "coupon": null,
+    "marketingTags": []
+  },
+  "storePreferencesData": {
+    "countryCode": "ARG",
+    "saveUserData": false,
+    "timeZone": "Argentina Standard Time",
+    "currencyCode": "ARS",
+    "currencyLocale": 11274,
+    "currencySymbol": "$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 0,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "2**********************************.v***.c**.b*",
+  "creationDate": "2025-10-08T11:55:10.2722389Z",
+  "lastChange": "2025-10-08T18:41:34.9158539Z",
+  "timeZoneCreationDate": "2025-10-08T08:55:10.2722389",
+  "timeZoneLastChange": "2025-10-08T15:41:34.9158539",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "l********",
+    "AccountName": "l********",
+    "Cnpj": "30709964360",
+    "Id": "8cc5055d-436b-4610-b37e-99fe563c3176",
+    "AppId": "a289d5e6-8e1b-4476-9e8b-ca9b87afac0a",
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2017-09-19T22:00:32",
+    "OperationDate": "2017-10-26T13:44:38",
+    "CompanyName": "B*************",
+    "TradingName": "L*********",
+    "City": null,
+    "Complement": null,
+    "Country": "ARG",
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [28],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "84031e48-c6ce-4f10-9c77-a37e3c8245b1"
+  }
+}
