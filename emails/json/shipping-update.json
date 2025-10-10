@@ -1,0 +1,935 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 3499900,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 1,
+        "quantity": 1,
+        "price": 2079920,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 2,
+        "quantity": 1,
+        "price": 4499900,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "Microservicio",
+    "invoiceNumber": "BL.VTEX-20949896",
+    "description": null,
+    "invoiceValue": 10079720,
+    "invoiceUrl": null,
+    "issuanceDate": "2025-09-29T10:06:04",
+    "trackingNumber": "EC40001851816",
+    "invoiceKey": null,
+    "trackingUrl": "http://tracking.ocasa.com/Tracking/index?i=18&airbillnumber=EC40001851816",
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": {
+      "status": "ok",
+      "finished": false,
+      "deliveredDate": "2025-10-09T14:48:05.4561883Z",
+      "data": [
+        {
+          "lastChange": "2025-10-09T11:47:54",
+          "city": "Q******",
+          "state": "BUENOS AIRES",
+          "description": "not_delivered",
+          "createDate": "2025-10-09T14:48:05.4561879Z"
+        }
+      ]
+    },
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "SHORT MUJER TRAINING...",
+    "totalItems": 3,
+    "extraItems": 2
+  },
+  "cancellationReason": null,
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "7CDDFFEF755646B7900ECD1431CAF30B",
+        "merchantName": "T********",
+        "payments": [
+          {
+            "id": "360EB531D2804900BE18BA2B205ABF38",
+            "paymentSystem": "127",
+            "paymentSystemName": "M*************",
+            "value": 10079720,
+            "installments": 1,
+            "referenceValue": 10079720,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "MercadoPagoPro",
+            "tid": "127298564135",
+            "dueDate": null,
+            "connectorResponses": {
+              "Tid": "127298564135",
+              "ReturnCode": null,
+              "Message": null,
+              "authId": "127298564135",
+              "nsu": "127298564135",
+              "acquirer": "MercadoPagoV2"
+            },
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null,
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancellationRequests": null,
+  "invoiceData": {
+    "address": null,
+    "userPaymentInfo": null,
+    "invoiceSubject": null
+  },
+  "clientProfileData": {
+    "id": "clientProfileData",
+    "email": "v********@g****.c****************.c*.v***.c**.b*",
+    "firstName": "V****** ",
+    "lastName": "D******* ",
+    "documentType": "dni",
+    "document": "2*******",
+    "phone": "+5************",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "userProfileId": "a47e73ab-5d50-4ef2-9f2c-f75fc4367ed9",
+    "userProfileVersion": null,
+    "customerClass": null,
+    "customerCode": null
+  },
+  "shippingData": {
+    "id": "shippingData",
+    "address": {
+      "addressType": "residential",
+      "receiverName": "V****** ",
+      "addressId": "1759088921186",
+      "versionId": null,
+      "entityId": null,
+      "postalCode": "1***",
+      "city": "Q******",
+      "state": "Buenos Aires",
+      "country": "ARG",
+      "street": "M***** ",
+      "number": "4***",
+      "neighborhood": null,
+      "complement": null,
+      "reference": null,
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "itemId": "53168",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "ENVIAR a mi dirección (Estándar)",
+        "lockTTL": "10d",
+        "price": 0,
+        "listPrice": 563651,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": null,
+        "shippingEstimate": "5bd",
+        "shippingEstimateDate": "2025-10-03T19:57:53.639213Z",
+        "slas": [
+          {
+            "id": "ENVIAR a mi dirección (Estándar)",
+            "name": "E*******************************",
+            "shippingEstimate": "5bd",
+            "shippingEstimateDate": "2025-10-03T19:57:53.639213Z",
+            "deliveryWindow": null,
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "OCASA_Home_Regular",
+                "courierName": "O**********",
+                "dockId": "1",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "t********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 563651,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "10d",
+            "pickupPointId": null,
+            "transitTime": "5bd",
+            "pickupDistance": 0
+          }
+        ],
+        "shipsTo": ["ARG"],
+        "deliveryIds": [
+          {
+            "courierId": "OCASA_Home_Regular",
+            "courierName": "O**********",
+            "dockId": "1",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "t********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          },
+          {
+            "id": "pickup-in-point",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "1759088921186",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "5bd"
+      },
+      {
+        "itemIndex": 1,
+        "itemId": "52707",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "ENVIAR a mi dirección (Estándar)",
+        "lockTTL": "10d",
+        "price": 0,
+        "listPrice": 281825,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": null,
+        "shippingEstimate": "5bd",
+        "shippingEstimateDate": "2025-10-03T19:57:53.639213Z",
+        "slas": [
+          {
+            "id": "ENVIAR a mi dirección (Estándar)",
+            "name": "E*******************************",
+            "shippingEstimate": "5bd",
+            "shippingEstimateDate": "2025-10-03T19:57:53.639213Z",
+            "deliveryWindow": null,
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "OCASA_Home_Regular",
+                "courierName": "O**********",
+                "dockId": "1",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "t********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 281825,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "10d",
+            "pickupPointId": null,
+            "transitTime": "5bd",
+            "pickupDistance": 0
+          }
+        ],
+        "shipsTo": ["ARG"],
+        "deliveryIds": [
+          {
+            "courierId": "OCASA_Home_Regular",
+            "courierName": "O**********",
+            "dockId": "1",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "t********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          },
+          {
+            "id": "pickup-in-point",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "1759088921186",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "5bd"
+      },
+      {
+        "itemIndex": 2,
+        "itemId": "56486",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "ENVIAR a mi dirección (Estándar)",
+        "lockTTL": "10d",
+        "price": 0,
+        "listPrice": 281825,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": null,
+        "shippingEstimate": "5bd",
+        "shippingEstimateDate": "2025-10-03T19:57:53.639213Z",
+        "slas": [
+          {
+            "id": "ENVIAR a mi dirección (Estándar)",
+            "name": "E*******************************",
+            "shippingEstimate": "5bd",
+            "shippingEstimateDate": "2025-10-03T19:57:53.639213Z",
+            "deliveryWindow": null,
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "OCASA_Home_Regular",
+                "courierName": "O**********",
+                "dockId": "1",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "t********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 281825,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "10d",
+            "pickupPointId": null,
+            "transitTime": "5bd",
+            "pickupDistance": 0
+          }
+        ],
+        "shipsTo": ["ARG"],
+        "deliveryIds": [
+          {
+            "courierId": "OCASA_Home_Regular",
+            "courierName": "O**********",
+            "dockId": "1",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "t********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          },
+          {
+            "id": "pickup-in-point",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "1759088921186",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "5bd"
+      }
+    ],
+    "trackingHints": [],
+    "selectedAddresses": [
+      {
+        "addressId": "1759088921186",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "V****** ",
+        "street": "M***** ",
+        "number": "4***",
+        "complement": null,
+        "neighborhood": null,
+        "postalCode": "1***",
+        "city": "Q******",
+        "state": "Buenos Aires",
+        "country": "ARG",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressId": "1759088921186",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "V****** ",
+        "street": "M***** ",
+        "number": "4***",
+        "complement": null,
+        "neighborhood": null,
+        "postalCode": "1***",
+        "city": "Q******",
+        "state": "Buenos Aires",
+        "country": "ARG",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "contactInformation": [],
+    "contactsInfo": []
+  },
+  "customData": null,
+  "purchaseAgentData": null,
+  "authorizationPolicyData": {
+    "Status": "accepted",
+    "DeniedPolicies": [],
+    "PendingPolicies": []
+  },
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/45/",
+        "productClusterId": "138,148,192,193,210,255,258,260,262,266,273,274,276,278,337,338,344,354,481,484,499,531,538,540,543,558,560",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.2083,
+          "height": 10,
+          "length": 10,
+          "weight": 2000,
+          "width": 10
+        },
+        "brandName": "T*****",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "53168",
+      "priceTable": "1",
+      "priceValidUntil": "2026-09-28T19:53:35Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:topperarg:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/53168",
+      "uniqueId": "0FA95D573229408EABC4236329669F8E",
+      "id": "53168",
+      "productId": "9468",
+      "productRefId": "166957",
+      "refId": "166957-M",
+      "ean": null,
+      "name": "P*******************************************",
+      "skuName": "T***********************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 3499900,
+      "listPrice": 3499900,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 3499900,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/45/",
+      "productCategories": {
+        "2": "INDUMENTARIA",
+        "45": "polleras"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://topperarg.vteximg.com.br/arquivos/ids/437426-100-100/POLLERA_MUJER_TENIS_166957_1.jpg?v=638755706319630000",
+      "detailUrl": "/pollera-mujer-tenis-166957/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [
+        {
+          "name": "P**************",
+          "required": false,
+          "schema": {
+            "BolsaRegalo": {
+              "maximumNumberOfCharacters": 2,
+              "domain": ["si"]
+            }
+          }
+        }
+      ],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d******************************************************************************************",
+          "value": -563651,
+          "rawValue": -5636.51,
+          "isPercentual": false,
+          "identifier": "4bb697f9-ee86-46c0-94b3-3a1a63ed7beb"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 3499900,
+        "total": 3499900,
+        "sellingPrices": [
+          {
+            "value": 3499900,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/46/",
+        "productClusterId": "138,148,192,193,210,255,258,260,262,266,273,274,276,278,300,337,338,344,354,444,447,481,484,499,531,538,543,545,546,559,560",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.2083,
+          "height": 10,
+          "length": 10,
+          "weight": 1000,
+          "width": 10
+        },
+        "brandName": "T*****",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "52707",
+      "priceTable": "1",
+      "priceValidUntil": "2026-09-28T19:53:57Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:topperarg:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/52707",
+      "uniqueId": "E4C16791F7B34178A3DA341C997D8DCE",
+      "id": "52707",
+      "productId": "9374",
+      "productRefId": "167720",
+      "refId": "167720-L",
+      "ean": null,
+      "name": "R****************************************************************",
+      "skuName": "T***********************************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 2079920,
+      "listPrice": 2599900,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 2079920,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/46/",
+      "productCategories": {
+        "2": "INDUMENTARIA",
+        "46": "remeras"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://topperarg.vteximg.com.br/arquivos/ids/437338-100-100/REMERA_MUJER_TRAINING_B-C3-81SICA_167720_1.jpg?v=638755705885800000",
+      "detailUrl": "/remera-mujer-training-basica-167720/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [
+        {
+          "name": "P**************",
+          "required": false,
+          "schema": {
+            "BolsaRegalo": {
+              "maximumNumberOfCharacters": 2,
+              "domain": ["si"]
+            }
+          }
+        }
+      ],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d******************************************************************************************",
+          "value": -281825,
+          "rawValue": -2818.25,
+          "isPercentual": false,
+          "identifier": "4bb697f9-ee86-46c0-94b3-3a1a63ed7beb"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 2079920,
+        "total": 2079920,
+        "sellingPrices": [
+          {
+            "value": 2079920,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/48/",
+        "productClusterId": "138,148,192,193,210,255,258,260,262,266,273,274,276,278,300,337,338,344,354,481,484,499,538,558,560",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.2083,
+          "height": 10,
+          "length": 10,
+          "weight": 1000,
+          "width": 10
+        },
+        "brandName": "T*****",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "56486",
+      "priceTable": "1",
+      "priceValidUntil": "2026-09-28T19:56:50Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:topperarg:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/56486",
+      "uniqueId": "31C827FE2DFE4082B5E4772ED11E1DF6",
+      "id": "56486",
+      "productId": "10079",
+      "productRefId": "167792",
+      "refId": "167792-L",
+      "ean": null,
+      "name": "S******************************************************",
+      "skuName": "T**************************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 4499900,
+      "listPrice": 4499900,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 4499900,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/48/",
+      "productCategories": {
+        "2": "INDUMENTARIA",
+        "48": "shorts"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://topperarg.vteximg.com.br/arquivos/ids/482499-100-100/167792_1.jpg?v=638925201042530000",
+      "detailUrl": "/short-mujer-training-2-en-1-167792/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [
+        {
+          "name": "P**************",
+          "content": {
+            "BolsaRegalo": "si"
+          }
+        }
+      ],
+      "attachmentOfferings": [
+        {
+          "name": "P**************",
+          "required": false,
+          "schema": {
+            "BolsaRegalo": {
+              "maximumNumberOfCharacters": 2,
+              "domain": ["si"]
+            }
+          }
+        }
+      ],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d******************************************************************************************",
+          "value": -281825,
+          "rawValue": -2818.25,
+          "isPercentual": false,
+          "identifier": "4bb697f9-ee86-46c0-94b3-3a1a63ed7beb"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 4499900,
+        "total": 4499900,
+        "sellingPrices": [
+          {
+            "value": 4499900,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=topperarg",
+      "id": "1",
+      "name": "T*********",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "fe9f591b8a594e4db7a595f8712db39c",
+  "sequence": "4112440",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "a47e73ab-5d50-4ef2-9f2c-f75fc4367ed9",
+  "hostName": "t********",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1565004112440-01",
+  "orderGroup": "1565004112440",
+  "state": "invoiced",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1565004112440-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 10079720,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*****************",
+      "value": 10079720
+    },
+    {
+      "id": "Discounts",
+      "name": "T******************",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "C********************",
+      "value": 0,
+      "alternativeTotals": [
+        {
+          "id": "AlternativeShippingTotal",
+          "name": "A*************************",
+          "value": 1127301
+        },
+        {
+          "id": "AlternativeShippingDiscount",
+          "name": "A****************************",
+          "value": -1127301
+        }
+      ]
+    },
+    {
+      "id": "Tax",
+      "name": "C*********************",
+      "value": 0
+    }
+  ],
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "4bb697f9-ee86-46c0-94b3-3a1a63ed7beb",
+        "name": "E*******************",
+        "featured": true,
+        "description": "nuevo monto minimo para always on",
+        "matchedParameters": {
+          "slaIds": "enviar a mi dirección (estándar),next day pm,retiro en sucursal pickit"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "clientPreferencesData": {
+    "locale": "es-AR",
+    "optinNewsLetter": true
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": "facebook",
+    "utmMedium": "cpc",
+    "utmCampaign": "Topper_General_Compra_Advantage",
+    "utmipage": "",
+    "utmiPart": "",
+    "utmiCampaign": "",
+    "coupon": null,
+    "marketingTags": []
+  },
+  "storePreferencesData": {
+    "countryCode": "ARG",
+    "saveUserData": false,
+    "timeZone": "Argentina Standard Time",
+    "currencyCode": "ARS",
+    "currencyLocale": 11274,
+    "currencySymbol": "$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 0,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": {
+    "value": ""
+  },
+  "itemMetadata": null,
+  "taxData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "3**********************************.v***.c**.b*",
+  "creationDate": "2025-09-28T19:57:07.0047332Z",
+  "lastChange": "2025-09-29T13:06:12.7530337Z",
+  "timeZoneCreationDate": "2025-09-28T16:57:07.0047332",
+  "timeZoneLastChange": "2025-09-29T10:06:12.7530337",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "t********",
+    "AccountName": "t********",
+    "Cnpj": "30709964360",
+    "Id": "82366317-3e29-4e4a-9627-e0b5127a6dea",
+    "AppId": "7ff08782-a6ae-4cc6-9cb2-8acdcb0c9cd5",
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2017-09-12T18:00:20",
+    "OperationDate": "2018-07-27T15:14:24",
+    "CompanyName": "B*************",
+    "TradingName": "T*********",
+    "City": null,
+    "Complement": null,
+    "Country": "ARG",
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [28],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "3f29e577-433f-42b8-9ded-d2ede67d8ab3"
+  }
+}
