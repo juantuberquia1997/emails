@@ -1,704 +1,504 @@
 {
-	"orders": [
-		{
-			"package": null,
-			"subjectItemAttachment": {
-				"item": "Luminária de Mesa C/...",
-				"totalItems": 9,
-				"extraItems": 8
-			},
-			"cancellationReason": null,
-			"items": [
-				{
-					"additionalInfo": {
-						"categoriesIds": "/000/000/",
-						"productClusterId": "0000,000,000",
-						"commercialConditionId": "1",
-						"dimension": {
-							"cubicweight": 0.35,
-							"height": 12.2,
-							"length": 11.2,
-							"weight": 0.35,
-							"width": 12.2
-						},
-						"brandName": "my-store",
-						"brandId": "00000000",
-						"offeringInfo": null,
-						"offeringType": null,
-						"offeringTypeId": null
-					},
-					"sellerSku": "000",
-					"priceTable": null,
-					"priceValidUntil": "2021-12-30T02:30:00Z",
-					"callCenterOperator": null,
-					"commission": 0,
-					"freightCommission": 0,
-					"taxCode": "0000.40.90",
-					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:my-store:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/000",
-					"costPrice": null,
-					"uniqueId": "00000000000000000000000000000",
-					"id": "000",
-					"productId": "608",
-					"productRefId": "00000000000000",
-					"refId": "00000000000000",
-					"ean": null,
-					"name": "Luminária de Mesa C/ Ventilador Fan Desk Lampa Branco",
-					"skuName": "Luminária de Mesa C/ Ventilador Fan Desk Lampa Branco",
-					"modalType": null,
-					"parentItemIndex": null,
-					"parentAssemblyBinding": null,
-					"assemblies": [],
-					"tax": 0,
-					"priceDefinitions": null,
-					"price": 16000,
-					"listPrice": 16000,
-					"manualPrice": null,
-					"manualPriceAppliedBy": null,
-					"sellingPrice": 14400,
-					"skuSpecifications": null,
-					"orderRewardStatus": null,
-					"rewardValue": 0,
-					"isGift": false,
-					"preSaleDate": null,
-					"productCategoryIds": "/320/329/",
-					"productCategories": {
-						"320": "Ambiente",
-						"329": "Luminária de mesa"
-					},
-					"quantity": 7,
-					"seller": "1",
-					"sellerChain": [
-						"1"
-					],
-					"imageUrl": "http://my-store.vteximg.com.br/arquivos/ids/0000000/00000000000000",
-					"detailUrl": "/luminaria-de-mesa-c-ventilador-fan-desk-lampa-branco-00000000000000/p",
-					"components": [],
-					"bundleItems": [],
-					"attachments": [],
-					"attachmentOfferings": [],
-					"offerings": [],
-					"priceTags": [
-						{
-							"name": "discount@price-000000000000000000000000000000000000000",
-							"value": -11200,
-							"rawValue": -112,
-							"isPercentual": false,
-							"identifier": "0000000000000000000000000000000"
-						}
-					],
-					"availability": "available",
-					"measurementUnit": "un",
-					"unitMultiplier": 1,
-					"manufacturerCode": ""
-				},
-				{
-					"additionalInfo": {
-						"categoriesIds": "/000/00/",
-						"productClusterId": "000,000,000",
-						"commercialConditionId": "1",
-						"dimension": {
-							"cubicweight": 0.07,
-							"height": 17,
-							"length": 3,
-							"weight": 0.07,
-							"width": 9
-						},
-						"brandName": "my-store",
-						"brandId": "00000000",
-						"offeringInfo": null,
-						"offeringType": null,
-						"offeringTypeId": null
-					},
-					"sellerSku": "000",
-					"priceTable": null,
-					"priceValidUntil": "2021-02-12T02:30:00Z",
-					"callCenterOperator": null,
-					"commission": 0,
-					"freightCommission": 0,
-					"taxCode": "0000.40.90",
-					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:my-store:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/000",
-					"costPrice": null,
-					"uniqueId": "E9F8C38587614870BA34DF4AE28D4462",
-					"id": "000",
-					"productId": "000",
-					"productRefId": "00000000000",
-					"refId": "00000000000",
-					"ean": null,
-					"name": "Mini Luminária Usb Lamp Branco",
-					"skuName": "Mini Luminária Usb Lamp Branco",
-					"modalType": null,
-					"parentItemIndex": null,
-					"parentAssemblyBinding": null,
-					"assemblies": [],
-					"tax": 0,
-					"priceDefinitions": null,
-					"price": 5000,
-					"listPrice": 5000,
-					"manualPrice": null,
-					"manualPriceAppliedBy": null,
-					"sellingPrice": 4500,
-					"skuSpecifications": null,
-					"orderRewardStatus": null,
-					"rewardValue": 0,
-					"isGift": false,
-					"preSaleDate": null,
-					"productCategoryIds": "/020/029/",
-					"productCategories": {
-						"320": "Ambiente",
-						"329": "Luminária de mesa"
-					},
-					"quantity": 1,
-					"seller": "1",
-					"sellerChain": [
-						"1"
-					],
-					"imageUrl": "http://my-store.vteximg.com.br/arquivos/ids/00000-0000-000/00000000000_mini_luminaria_usb_lamp_branco_1.jpg",
-					"detailUrl": "/mini-luminaria-usb-lamp-branco-00000000000/p",
-					"components": [],
-					"bundleItems": [],
-					"attachments": [],
-					"attachmentOfferings": [],
-					"offerings": [],
-					"priceTags": [
-						{
-							"name": "discount@price-0000000000000000000000000000000#97c3e386-34ef-4112-b4fa-5c4aaa8d243e",
-							"value": -500,
-							"rawValue": -5,
-							"isPercentual": false,
-							"identifier": "0000000000000000000000000000000"
-						}
-					],
-					"availability": "available",
-					"measurementUnit": "un",
-					"unitMultiplier": 1,
-					"manufacturerCode": ""
-				},
-				{
-					"additionalInfo": {
-						"categoriesIds": "/024/056/020/",
-						"productClusterId": "000,000,000",
-						"commercialConditionId": "1",
-						"dimension": {
-							"cubicweight": 0.68,
-							"height": 7.7,
-							"length": 1.5,
-							"weight": 0.68,
-							"width": 7.5
-						},
-						"brandName": "my-store",
-						"brandId": "00000000",
-						"offeringInfo": null,
-						"offeringType": null,
-						"offeringTypeId": null
-					},
-					"sellerSku": "000",
-					"priceTable": null,
-					"priceValidUntil": "4000-01-01T03:00:00Z",
-					"callCenterOperator": null,
-					"commission": 0,
-					"freightCommission": 0,
-					"taxCode": "000.20.10",
-					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:my-store:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/000",
-					"costPrice": null,
-					"uniqueId": "000000000000000000000000",
-					"id": "000",
-					"productRefId": "0000000000000",
-					"refId": "0000000000000",
-					"ean": null,
-					"name": "Paleta de Sombras Nádia Tambasco To Go Basic 7,2g",
-					"skuName": "Paleta de Sombras Nádia Tambasco To Go Basic 7,2g",
-					"modalType": null,
-					"parentItemIndex": null,
-					"parentAssemblyBinding": null,
-					"assemblies": [],
-					"tax": 0,
-					"priceDefinitions": null,
-					"price": 5500,
-					"listPrice": 5500,
-					"manualPrice": null,
-					"manualPriceAppliedBy": null,
-					"sellingPrice": 0,
-					"skuSpecifications": null,
-					"orderRewardStatus": null,
-					"rewardValue": 0,
-					"isGift": true,
-					"preSaleDate": null,
-					"productCategoryIds": "/024/056/020/",
-					"productCategories": {
-						"324": "Maquiagem",
-						"356": "Paleta",
-						"420": "Paleta de sombra"
-					},
-					"quantity": 1,
-					"seller": "1",
-					"sellerChain": [
-						"1"
-					],
-					"imageUrl": "http://my-store.vteximg.com.br/arquivos/ids/000000-000-000/0000000000000_paleta_de_sombras_nadia_tambasco_to_go_basic_72g_1.jpg?v=637448506345230000",
-					"detailUrl": "/paleta-de-sombras-nadia-tambasco-to-go-basic-72g-0000000000000/p",
-					"components": [],
-					"bundleItems": [],
-					"attachments": [],
-					"attachmentOfferings": [],
-					"offerings": [],
-					"priceTags": [
-						{
-							"name": "DISCOUNT@GIFT",
-							"value": 100,
-							"rawValue": 1,
-							"isPercentual": true,
-							"identifier": "000000000000000000000000000000000000"
-						}
-					],
-					"availability": "available",
-					"measurementUnit": "un",
-					"unitMultiplier": 1,
-					"manufacturerCode": ""
-				}
-			],
-			"sellers": [
-				{
-					"subSellerId": "1",
-					"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=my-store",
-					"id": "1",
-					"name": "IMPORTACAO E EXPORTACAO LTDA",
-					"logo": ""
-				}
-			],
-			"giftRegistryData": null,
-			"receiptData": null,
-			"contextData": null,
-			"marketPlaceOrderId": "",
-			"marketPlaceOrderGroup": null,
-			"marketplaceServicesEndpoint": null,
-			"orderId": "00000000000000000000",
-			"sequence": "0000000",
-			"affiliateId": "",
-			"status": "",
-			"callCenterOperator": "",
-			"userProfileId": "00000000000000000000000000000000000",
-			"hostName": "my-store",
-			"creationVersion": null,
-			"creationEnvironment": null,
-			"lastChangeVersion": null,
-			"workflowInstanceId": null,
-			"marketplacePaymentValue": null,
-			"state": "payment-pending",
-			"isCheckedIn": false,
-			"storeId": null,
-			"checkedInPickupPointId": null,
-			"value": 106805,
-			"totals": [
-				{
-					"id": "Items",
-					"name": "Total dos Itens",
-					"value": 117000
-				},
-				{
-					"id": "Discounts",
-					"name": "Total dos Descontos",
-					"value": -11700
-				},
-				{
-					"id": "Shipping",
-					"name": "Total do Frete",
-					"value": 1505
-				},
-				{
-					"id": "Tax",
-					"name": "Total da Taxa",
-					"value": 0
-				}
-			],
-			"clientProfileData": {
-				"email": "000000000000000000000000000000@ct.vtex.com.br",
-				"firstName": "Joanna",
-				"lastName": "lastname",
-				"document": "0000000000000000",
-				"documentType": "cpf",
-				"phone": "0000000000000000",
-				"corporateName": null,
-				"tradeName": null,
-				"corporateDocument": null,
-				"stateInscription": null,
-				"corporatePhone": null,
-				"isCorporate": false,
-				"profileCompleteOnLoading": true,
-				"profileErrorOnLoading": false,
-				"customerClass": null
-			},
-			"ratesAndBenefitsData": {
-				"rateAndBenefitsIdentifiers": [
-					{
-						"id": "0000000000000000000000000000000",
-						"name": "10% de desconto a vista",
-						"featured": false,
-						"description": "10% de desconto a vista",
-						"matchedParameters": {
-							"paymentMethodId": "6"
-						},
-						"additionalInfo": null
-					},
-					{
-						"id": "0000000000000000000000000000",
-						"name": "Compre e ganhe",
-						"featured": true,
-						"description": "Compre e ganhe",
-						"matchedParameters": {
-							"buyAndWin@Marketing": "000"
-						},
-						"additionalInfo": null
-					}
-				],
-				"teaser": []
-			},
-			"shippingData": {
-				"address": {
-					"addressType": "residential",
-					"receiverName": "nome",
-					"addressId": "000000000000",
-					"isDisposable": false,
-					"postalCode": "00000000",
-					"city": "city",
-					"state": "state",
-					"country": "BRA",
-					"street": "street",
-					"number": "000",
-					"neighborhood": "neighborhood",
-					"complement": null,
-					"reference": null,
-					"geoCoordinates": [
-						-40.000000000000,
-						-20.0000000000000
-					]
-				},
-				"logisticsInfo": [
-					{
-						"itemIndex": 0,
-						"selectedSla": "Normal",
-						"selectedDeliveryChannel": "delivery",
-						"addressId": "000000000000000",
-						"slas": [
-							{
-								"id": "Normal",
-								"deliveryChannel": "delivery",
-								"name": "Normal",
-								"deliveryIds": [
-									{
-										"courierId": "1e4eac5",
-										"warehouseId": "1_1",
-										"dockId": "1",
-										"courierName": "Total Express",
-										"quantity": 7,
-										"kitItemDetails": [],
-										"totalListPrice": 0
-									}
-								],
-								"shippingEstimate": "5bd",
-								"shippingEstimateDate": null,
-								"lockTTL": "12d",
-								"availableDeliveryWindows": [],
-								"deliveryWindow": null,
-								"price": 1152,
-								"listPrice": 1152,
-								"tax": 0,
-								"pickupStoreInfo": {
-									"isPickupStore": false,
-									"friendlyName": null,
-									"address": null,
-									"additionalInfo": null,
-									"dockId": null
-								},
-								"pickupPointId": null,
-								"pickupDistance": 0,
-								"polygonName": null,
-								"transitTime": "3bd"
-							}
-						],
-						"shipsTo": [
-							"BRA"
-						],
-						"itemId": "000",
-						"deliveryChannels": [
-							{
-								"id": "delivery",
-								"stockBalance": 0
-							}
-						]
-					},
-					{
-						"itemIndex": 1,
-						"selectedSla": "Normal",
-						"selectedDeliveryChannel": "delivery",
-						"addressId": "000000000000000",
-						"slas": [
-							{
-								"id": "Normal",
-								"deliveryChannel": "delivery",
-								"name": "Normal",
-								"deliveryIds": [
-									{
-										"courierId": "1e4eac5",
-										"warehouseId": "1_1",
-										"dockId": "1",
-										"courierName": "Total Express",
-										"quantity": 1,
-										"kitItemDetails": [],
-										"totalListPrice": 0
-									}
-								],
-								"shippingEstimate": "5bd",
-								"shippingEstimateDate": null,
-								"lockTTL": "12d",
-								"availableDeliveryWindows": [],
-								"deliveryWindow": null,
-								"price": 33,
-								"listPrice": 33,
-								"tax": 0,
-								"pickupStoreInfo": {
-									"isPickupStore": false,
-									"friendlyName": null,
-									"address": null,
-									"additionalInfo": null,
-									"dockId": null
-								},
-								"pickupPointId": null,
-								"pickupDistance": 0,
-								"polygonName": null,
-								"transitTime": "3bd"
-							}
-						],
-						"shipsTo": [
-							"BRA"
-						],
-						"itemId": "000",
-						"deliveryChannels": [
-							{
-								"id": "delivery",
-								"stockBalance": 0
-							}
-						]
-					},
-					{
-						"itemIndex": 2,
-						"selectedSla": "Normal",
-						"selectedDeliveryChannel": "delivery",
-						"addressId": "000000000000000",
-						"slas": [
-							{
-								"id": "Normal",
-								"deliveryChannel": "delivery",
-								"name": "Normal",
-								"deliveryIds": [
-									{
-										"courierId": "1e4eac5",
-										"warehouseId": "1_1",
-										"dockId": "1",
-										"courierName": "Total Express",
-										"quantity": 1,
-										"kitItemDetails": [],
-										"totalListPrice": 0
-									}
-								],
-								"shippingEstimate": "5bd",
-								"shippingEstimateDate": null,
-								"lockTTL": "12d",
-								"availableDeliveryWindows": [],
-								"deliveryWindow": null,
-								"price": 320,
-								"listPrice": 320,
-								"tax": 0,
-								"pickupStoreInfo": {
-									"isPickupStore": false,
-									"friendlyName": null,
-									"address": null,
-									"additionalInfo": null,
-									"dockId": null
-								},
-								"pickupPointId": null,
-								"pickupDistance": 0,
-								"polygonName": null,
-								"transitTime": "3bd"
-							}
-						],
-						"shipsTo": [
-							"BRA"
-						],
-						"itemId": "000",
-						"deliveryChannels": [
-							{
-								"id": "delivery",
-								"stockBalance": 0
-							}
-						]
-					}
-				],
-				"selectedAddresses": [
-					{
-						"addressType": "residential",
-						"receiverName": "receiver ",
-						"addressId": "000000000000000",
-						"isDisposable": false,
-						"postalCode": "00000000",
-						"city": "city",
-						"state": "state",
-						"country": "BRA",
-						"street": "street",
-						"number": "000",
-						"neighborhood": "neighborhood",
-						"complement": null,
-						"reference": null,
-						"geoCoordinates": [
-							-43.0000000000000,
-							-22.0000000000000
-						]
-					}
-				],
-				"availableAddresses": [
-					{
-						"addressType": "residential",
-						"receiverName": "receiver ",
-						"addressId": "000000000000000",
-						"isDisposable": false,
-						"postalCode": "00000000",
-						"city": "city",
-						"state": "state",
-						"country": "BRA",
-						"street": "street",
-						"number": "000",
-						"neighborhood": "neighborhood",
-						"complement": null,
-						"reference": null,
-						"geoCoordinates": [
-							-43.0000000000000,
-							-22.0000000000000
-						]
-					}
-				],
-				"pickupPoints": []
-			},
-			"paymentData": {
-				"giftCards": [],
-				"transactions": [
-					{
-						"isActive": true,
-						"transactionId": "00000000000000000",
-						"merchantName": "my-store",
-						"payments": [
-							{
-								"id": "00000000000000000000000",
-								"paymentSystem": "6",
-								"paymentSystemName": "Boleto Bancário",
-								"value": 106805,
-								"installments": 1,
-								"connectorResponses": {},
-								"referenceValue": 106805,
-								"cardHolder": null,
-								"cardNumber": null,
-								"firstDigits": null,
-								"lastDigits": null,
-								"cvv2": null,
-								"expireMonth": null,
-								"expireYear": null,
-								"url": "https://my-store.vtexpayments.com.br:443/BankIssuedInvoice/Transaction/00000000000000000/Payment/00000000000000000000000/Installment/{Installment}",
-								"koinUrl": null,
-								"tid": null,
-								"redemptionCode": null,
-								"giftCardId": null,
-								"giftCardProvider": null,
-								"giftCardAsDiscount": null,
-								"group": "bankInvoice",
-								"dueDate": "2021-01-16",
-								"accountId": null,
-								"parentAccountId": null,
-								"bankIssuedInvoiceIdentificationNumber": "00000000000000000000000000000",
-								"bankIssuedInvoiceIdentificationNumberFormatted": "0000.00000 0000.00000 00000.00000 1 00000000000",
-								"bankIssuedInvoiceBarCodeNumber": "0000000000000000000000000000",
-								"bankIssuedInvoiceBarCodeType": "i00",
-								"billingAddress": null
-							}
-						],
-						"sharedTransaction": false
-					}
-				]
-			},
-			"clientPreferencesData": {
-				"locale": "pt-BR",
-				"optinNewsLetter": false
-			},
-			"commercialConditionData": null,
-			"marketingData": null,
-			"storePreferencesData": {
-				"countryCode": "BRA",
-				"saveUserData": false,
-				"timeZone": "E. South America Standard Time",
-				"currencyCode": "BRL",
-				"currencyLocale": 1046,
-				"currencySymbol": "R$",
-				"currencyFormatInfo": {
-					"currencyDecimalDigits": 2,
-					"currencyDecimalSeparator": ",",
-					"currencyGroupSeparator": ".",
-					"currencyGroupSize": 3,
-					"startsWithCurrencySymbol": true
-				}
-			},
-			"openTextField": null,
-			"invoiceData": null,
-			"itemMetadata": null,
-			"taxData": null,
-			"customData": null,
-			"hooksData": null,
-			"changeData": null,
-			"subscriptionData": null,
-			"salesChannel": "1",
-			"followUpEmail": "000000000000000000000000@ct.vtex.com.br",
-			"creationDate": "2021-01-15T19:29:17.1040432Z",
-			"lastChange": "2021-01-15T19:29:32.9543053Z",
-			"timeZoneCreationDate": "2021-01-15T16:29:17.1040432",
-			"timeZoneLastChange": "2021-01-15T16:29:32.9543053",
-			"isCompleted": true,
-			"merchantName": null,
-			"userType": "",
-			"roundingError": 0,
-			"allowEdition": false,
-			"allowCancellation": false,
-			"isUserDataVisible": false,
-			"allowChangeSeller": false
-		}
-	],
-	"ordersUrl": "http://homolog--my-store.myvtex.com/account#/orders",
-	"orderGroup": "00000000000000000",
-	"subjectItemAttachment": {
-		"item": "Luminária de Mesa C/...",
-		"totalItems": 9,
-		"extraItems": 8
-	},
-	"split": false,
-	"totalValue": 106805,
-	"callCenterOperatorData": null,
-	"_accountInfo": {
-		"MainAccountName": "my-store",
-		"AccountName": "my-store",
-		"Cnpj": "000000000000",
-		"Id": "000000-0000-0000-000-000000000",
-		"IsActive": true,
-		"IsOperating": false,
-		"CreationDate": "2020-01-01T18:16:27",
-		"OperationDate": null,
-		"CompanyName": "My Store IMPORTACAO E EXPORTACAO LTDA",
-		"TradingName": "My Store",
-		"City": null,
-		"Complement": null,
-		"Country": null,
-		"State": null,
-		"Address": null,
-		"District": null,
-		"Number": null,
-		"PostalCode": null,
-		"Licences": null,
-		"ParentAccountName": null,
-		"InactivationDate": null,
-		"Platform": "vtex"
-	}
+  "orders": [
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "ZAPATILLA BARCA COLO...",
+        "totalItems": 1
+      },
+      "cancellationReason": null,
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "66D84D5B35324AAD846616FDD26334AD",
+            "merchantName": "L********",
+            "payments": [
+              {
+                "id": "AD1DFA5A608D469CBB13EC84CD70398F",
+                "paymentSystem": "2",
+                "paymentSystemName": "V***",
+                "value": 18797300,
+                "installments": 6,
+                "referenceValue": 18797300,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": "469771",
+                "lastDigits": "7974",
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": null,
+                "giftCardId": null,
+                "giftCardName": null,
+                "giftCardCaption": null,
+                "redemptionCode": null,
+                "group": "creditCard",
+                "tid": "61711111174706",
+                "dueDate": null,
+                "connectorResponses": {
+                  "Tid": "61711111174706",
+                  "ReturnCode": null,
+                  "Message": null,
+                  "authId": "61711111174706",
+                  "acquirer": "KOIN_FISERV"
+                },
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "koinUrl": null,
+                "accountId": "F8D68E90070743F89F5F1B4A81D0263D",
+                "parentAccountId": "F8D68E90070743F89F5F1B4A81D0263D",
+                "bankIssuedInvoiceIdentificationNumber": null,
+                "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                "bankIssuedInvoiceBarCodeNumber": null,
+                "bankIssuedInvoiceBarCodeType": null,
+                "billingAddress": {
+                  "postalCode": "5***",
+                  "city": "H*******",
+                  "state": "CÓRDOBA",
+                  "country": "ARG",
+                  "street": "S**** f*",
+                  "number": "3**",
+                  "neighborhood": null,
+                  "complement": null,
+                  "reference": "3**",
+                  "geoCoordinates": [-51.4779552, -0.0039779]
+                },
+                "paymentOrigin": null
+              }
+            ]
+          }
+        ]
+      },
+      "cancellationRequests": null,
+      "invoiceData": null,
+      "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "a****@e**********.c**.a***************.c*.v***.c**.b*",
+        "firstName": "A********",
+        "lastName": "R***",
+        "documentType": "dni",
+        "document": "3*******",
+        "phone": "3*********",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "userProfileId": "488bd1e8-0c3e-4bb8-93fc-77ec60d98262",
+        "userProfileVersion": null,
+        "customerClass": null,
+        "customerCode": null
+      },
+      "shippingData": {
+        "id": "shippingData",
+        "address": {
+          "addressType": "residential",
+          "receiverName": "A******** R***",
+          "addressId": "12230903327006",
+          "versionId": null,
+          "entityId": null,
+          "postalCode": "5***",
+          "city": "H*******",
+          "state": "CÓRDOBA",
+          "country": "ARG",
+          "street": "S**** f*",
+          "number": "3**",
+          "neighborhood": null,
+          "complement": null,
+          "reference": "3**",
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "itemId": "24461",
+            "selectedDeliveryChannel": "delivery",
+            "selectedSla": "Envío a domicilio",
+            "lockTTL": "10d",
+            "price": 897300,
+            "listPrice": 897300,
+            "sellingPrice": 897300,
+            "deliveryWindow": null,
+            "deliveryCompany": null,
+            "shippingEstimate": "8bd",
+            "shippingEstimateDate": "2025-10-24T12:41:06.9625372Z",
+            "slas": [
+              {
+                "id": "Envío a domicilio",
+                "name": "E****************",
+                "shippingEstimate": "8bd",
+                "shippingEstimateDate": "2025-10-24T12:41:06.9625372Z",
+                "deliveryWindow": null,
+                "availableDeliveryWindows": [],
+                "deliveryIds": [
+                  {
+                    "courierId": "OCASA_Home_Regular",
+                    "courierName": "O****",
+                    "dockId": "1",
+                    "quantity": 1,
+                    "warehouseId": "1_1",
+                    "accountCarrierName": "l********",
+                    "kitItemDetails": []
+                  }
+                ],
+                "listPrice": 897300,
+                "price": 897300,
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                  "additionalInfo": null,
+                  "address": null,
+                  "dockId": null,
+                  "friendlyName": null,
+                  "isPickupStore": false
+                },
+                "polygonName": "",
+                "lockTTL": "10d",
+                "pickupPointId": null,
+                "transitTime": "4bd",
+                "pickupDistance": 0
+              }
+            ],
+            "shipsTo": ["ARG"],
+            "deliveryIds": [
+              {
+                "courierId": "OCASA_Home_Regular",
+                "courierName": "O****",
+                "dockId": "1",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "l********",
+                "kitItemDetails": []
+              }
+            ],
+            "deliveryChannels": [
+              {
+                "id": "delivery",
+                "stockBalance": 0
+              },
+              {
+                "id": "pickup-in-point",
+                "stockBalance": 0
+              }
+            ],
+            "deliveryChannel": null,
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "addressId": "12230903327006",
+            "versionId": null,
+            "entityId": null,
+            "polygonName": "",
+            "pickupPointId": null,
+            "transitTime": "4bd"
+          }
+        ],
+        "trackingHints": [],
+        "selectedAddresses": [
+          {
+            "addressId": "12230903327006",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "residential",
+            "receiverName": "A******** R***",
+            "street": "S**** f*",
+            "number": "3**",
+            "complement": null,
+            "neighborhood": null,
+            "postalCode": "5***",
+            "city": "H*******",
+            "state": "CÓRDOBA",
+            "country": "ARG",
+            "reference": "3**",
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressId": "12230903327006",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "residential",
+            "receiverName": "A******** R***",
+            "street": "S**** f*",
+            "number": "3**",
+            "complement": null,
+            "neighborhood": null,
+            "postalCode": "5***",
+            "city": "H*******",
+            "state": "CÓRDOBA",
+            "country": "ARG",
+            "reference": "3**",
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "contactInformation": [],
+        "contactsInfo": []
+      },
+      "customData": {
+        "customApps": [
+          {
+            "fields": {
+              "source": "WEB_DESKTOP",
+              "uuid": "50aa2215-fe9e-40a6-a330-5522ab45036f",
+              "snrs_params": "{\"utm_source\":\"google\",\"utm_medium\":\"cpc\",\"utm_campaign\":\"Infracommerce_LaMartina_Productos_Google_PMax_Conversiones_AO\",\"utm_id\":\"18382962227\",\"utm_term\":\"\"}"
+            },
+            "id": "synerise",
+            "major": 1
+          }
+        ],
+        "customFields": []
+      },
+      "purchaseAgentData": null,
+      "authorizationPolicyData": {
+        "Status": "accepted",
+        "DeniedPolicies": [],
+        "PendingPolicies": []
+      },
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/1/45/",
+            "productClusterId": "140,141,155,158,163,1245,1542,1543,1544,1547,1548",
+            "commercialConditionId": "3",
+            "dimension": {
+              "cubicweight": 0.2083,
+              "height": 10,
+              "length": 10,
+              "weight": 1000,
+              "width": 10
+            },
+            "brandName": "L*********",
+            "brandId": "2000000",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "24461",
+          "priceTable": null,
+          "priceValidUntil": "2026-10-14T12:35:21Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:lamartina:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/24461",
+          "uniqueId": "0F26A4DA599E44FBAAC2AC06C3A46C8A",
+          "id": "24461",
+          "productId": "4998",
+          "productRefId": "12930423074",
+          "refId": "1293042307440",
+          "ean": null,
+          "name": "Z***************************************",
+          "skuName": "C***********************",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 3106600,
+          "price": 14793400,
+          "listPrice": 14793400,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 14793400,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/1/45/",
+          "productCategories": {
+            "1": "HOMBRE",
+            "45": "Calzados"
+          },
+          "quantity": 1,
+          "seller": "1",
+          "sellerChain": ["1"],
+          "imageUrl": "https://lamartina.vteximg.com.br/arquivos/ids/215501-200-300/12930423074.jpg?v=638187211540100000",
+          "detailUrl": "/zapatilla-barca-12930423074/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [
+            {
+              "name": "t**********************************************************************************",
+              "value": 21,
+              "rawValue": 0.21,
+              "isPercentual": true,
+              "identifier": "df2ac1ef-d655-45aa-bf6e-d6ee27a3ffe2"
+            }
+          ],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 14793400,
+            "total": 14793400,
+            "sellingPrices": [
+              {
+                "value": 14793400,
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=lamartina",
+          "id": "1",
+          "name": "L*********",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "e77d4ea20480430dad41b3d186e6b464",
+      "sequence": "883329",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "488bd1e8-0c3e-4bb8-93fc-77ec60d98262",
+      "hostName": "l********",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1568770883329-01",
+      "orderGroup": "1568770883329",
+      "state": "payment-approved",
+      "isCheckedIn": false,
+      "sellerOrderId": "00-1568770883329-01",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 18797300,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "T*****************",
+          "value": 14793400
+        },
+        {
+          "id": "Discounts",
+          "name": "T******************",
+          "value": 0
+        },
+        {
+          "id": "Shipping",
+          "name": "C********************",
+          "value": 897300
+        },
+        {
+          "id": "Tax",
+          "name": "C*********************",
+          "value": 3106600
+        }
+      ],
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+      },
+      "clientPreferencesData": {
+        "locale": "es-AR",
+        "optinNewsLetter": true
+      },
+      "commercialConditionData": null,
+      "marketingData": {
+        "utmSource": "google",
+        "utmMedium": "cpc",
+        "utmCampaign": "Infracommerce_LaMartina_Productos_Google_PMax_Conversiones_AO",
+        "utmipage": "",
+        "utmiPart": "",
+        "utmiCampaign": "",
+        "coupon": null,
+        "marketingTags": []
+      },
+      "storePreferencesData": {
+        "countryCode": "ARG",
+        "saveUserData": false,
+        "timeZone": "Argentina Standard Time",
+        "currencyCode": "ARS",
+        "currencyLocale": 11274,
+        "currencySymbol": "$",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 0,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": true
+        }
+      },
+      "openTextField": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "c**********************************.v***.c**.b*",
+      "creationDate": "2025-10-14T12:40:51.7857159Z",
+      "lastChange": "2025-10-14T12:41:07.349521Z",
+      "timeZoneCreationDate": "2025-10-14T09:40:51.7857159",
+      "timeZoneLastChange": "2025-10-14T09:41:07.349521",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    }
+  ],
+  "ordersUrl": "http://www.lamartina.com.ar/account#/orders",
+  "orderGroup": "1568770883329",
+  "subjectItemAttachment": {
+    "item": "ZAPATILLA BARCA COLO...",
+    "totalItems": 1
+  },
+  "split": false,
+  "totalValue": 18797300,
+  "callCenterOperatorData": null,
+  "_accountInfo": {
+    "MainAccountName": "l********",
+    "AccountName": "l********",
+    "Cnpj": "30709964360",
+    "Id": "8cc5055d-436b-4610-b37e-99fe563c3176",
+    "AppId": "a289d5e6-8e1b-4476-9e8b-ca9b87afac0a",
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2017-09-19T22:00:32",
+    "OperationDate": "2017-10-26T13:44:38",
+    "CompanyName": "B*************",
+    "TradingName": "L*********",
+    "City": null,
+    "Complement": null,
+    "Country": "ARG",
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [28],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "84031e48-c6ce-4f10-9c77-a37e3c8245b1"
+  }
 }
