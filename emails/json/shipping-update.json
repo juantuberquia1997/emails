@@ -1,0 +1,540 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 8464900,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "Microservicio",
+    "invoiceNumber": "00212716828",
+    "description": null,
+    "invoiceValue": 9154400,
+    "invoiceUrl": "h*****************.c**************************************************************",
+    "issuanceDate": "2025-10-07T06:13:03",
+    "trackingNumber": "5ddb70a0-a2e1-11f0-a149-8f1db305062e",
+    "invoiceKey": null,
+    "trackingUrl": "https://dashboard.moova.io/external?id=5ddb70a0-a2e1-11f0-a149-8f1db305062e",
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": {
+      "status": "ok",
+      "finished": false,
+      "deliveredDate": "2025-10-14T23:01:04.483503Z",
+      "data": [
+        {
+          "lastChange": "2025-10-14T20:00:27",
+          "city": "C***** A******* d* B***** A****",
+          "state": "CIUDAD AUTONOMA DE BUENOS AIRES",
+          "description": "not_delivered",
+          "createDate": "2025-10-14T23:01:04.4835027Z"
+        }
+      ]
+    },
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "Mixer Masterpic",
+    "totalItems": 1
+  },
+  "cancellationReason": null,
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "C0EC1FBAE95249DA860B6582A84BD56E",
+        "merchantName": "L********",
+        "payments": [
+          {
+            "id": "882F14769DFB49FBBC3BA2A2E326E7B8",
+            "paymentSystem": "187",
+            "paymentSystemName": "M***********",
+            "value": 9154400,
+            "installments": 1,
+            "referenceValue": 9154400,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "Modo Payment",
+            "tid": "43cca97c-c724-4290-b365-9991aa29a305",
+            "dueDate": null,
+            "connectorResponses": {
+              "Tid": "43cca97c-c724-4290-b365-9991aa29a305",
+              "ReturnCode": null,
+              "Message": null,
+              "authId": "43cca97c-c724-4290-b365-9991aa29a305",
+              "nsu": "NSU-43cca97c-c724-4290-b365-9991aa29a305"
+            },
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null,
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancellationRequests": null,
+  "invoiceData": {
+    "address": null,
+    "userPaymentInfo": null,
+    "invoiceSubject": null
+  },
+  "clientProfileData": {
+    "id": "clientProfileData",
+    "email": "f***.n*******@g****.c****************.c*.v***.c**.b*",
+    "firstName": "F********",
+    "lastName": "N****",
+    "documentType": "dni",
+    "document": "3*******",
+    "phone": "+5***********",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "userProfileId": "322edc81-b636-4953-a5e2-a40d6d48ec78",
+    "userProfileVersion": null,
+    "customerClass": null,
+    "customerCode": null
+  },
+  "shippingData": {
+    "id": "shippingData",
+    "address": {
+      "addressType": "residential",
+      "receiverName": "F********* P**** R****** E********",
+      "addressId": "1759774339920",
+      "versionId": null,
+      "entityId": null,
+      "postalCode": "1***",
+      "city": "C***** A******* d* B***** A****",
+      "state": "Ciudad Autónoma de Buenos Aires",
+      "country": "ARG",
+      "street": "A*******",
+      "number": "3***",
+      "neighborhood": null,
+      "complement": "P*** 1* D*** 5*",
+      "reference": null,
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "itemId": "190",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Envío Regular - Lun a Vie de 9 a 21 hs",
+        "lockTTL": "10d",
+        "price": 689500,
+        "listPrice": 689500,
+        "sellingPrice": 689500,
+        "deliveryWindow": null,
+        "deliveryCompany": null,
+        "shippingEstimate": "3bd",
+        "shippingEstimateDate": "2025-10-09T18:19:21.2867848+00:00",
+        "slas": [
+          {
+            "id": "Envío Regular - Lun a Vie de 9 a 21 hs",
+            "name": "E*************************************",
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2025-10-09T18:19:21.2867848+00:00",
+            "deliveryWindow": null,
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "Moova_Home_NextDay_PM",
+                "courierName": "M********************",
+                "dockId": "Muelle Express",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "l********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 689500,
+            "price": 689500,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "10d",
+            "pickupPointId": null,
+            "transitTime": "2bd",
+            "pickupDistance": 0
+          }
+        ],
+        "shipsTo": ["ARG"],
+        "deliveryIds": [
+          {
+            "courierId": "Moova_Home_NextDay_PM",
+            "courierName": "M********************",
+            "dockId": "Muelle Express",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "l********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "1759774339920",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "2bd"
+      }
+    ],
+    "trackingHints": [],
+    "selectedAddresses": [
+      {
+        "addressId": "1759774339920",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "F********* P**** R****** E********",
+        "street": "A*******",
+        "number": "3***",
+        "complement": "P*** 1* D*** 5*",
+        "neighborhood": null,
+        "postalCode": "1***",
+        "city": "C***** A******* d* B***** A****",
+        "state": "Ciudad Autónoma de Buenos Aires",
+        "country": "ARG",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressId": "1759774339920",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "F********* P**** R****** E********",
+        "street": "A*******",
+        "number": "3***",
+        "complement": "P*** 1* D*** 5*",
+        "neighborhood": null,
+        "postalCode": "1***",
+        "city": "C***** A******* d* B***** A****",
+        "state": "Ciudad Autónoma de Buenos Aires",
+        "country": "ARG",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "contactInformation": [],
+    "contactsInfo": []
+  },
+  "customData": {
+    "customApps": [
+      {
+        "fields": {
+          "clientId": "173889868.1759774139",
+          "sessionId": "1759774138"
+        },
+        "id": "ids",
+        "major": 1
+      }
+    ],
+    "customFields": []
+  },
+  "purchaseAgentData": null,
+  "authorizationPolicyData": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/18/47/",
+        "productClusterId": "137,147,149,151,152,154,155,166,167,170,176",
+        "commercialConditionId": "6",
+        "dimension": {
+          "cubicweight": 1.5226,
+          "height": 22,
+          "length": 13.9,
+          "weight": 1440,
+          "width": 23.9
+        },
+        "brandName": "L******",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "190",
+      "priceTable": null,
+      "priceValidUntil": "2026-10-06T18:14:40Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:lilianaar:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/190",
+      "uniqueId": "EF3A406A8F584A4EA459AC8DB5274EBE",
+      "id": "190",
+      "productId": "190",
+      "productRefId": null,
+      "refId": "AAH130",
+      "ean": "7793862009764",
+      "name": "M**************",
+      "skuName": "M**************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 14469900,
+      "listPrice": 14469900,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 8464900,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/18/47/",
+      "productCategories": {
+        "18": "Preparación",
+        "47": "Mixers"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://lilianaar.vteximg.com.br/arquivos/ids/158524-300-300/AH130_01.jpg?v=638829384110200000",
+      "detailUrl": "/mixer-masterpic/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d*********************************************************************************************************",
+          "value": -5064500,
+          "rawValue": -50645,
+          "isPercentual": false,
+          "identifier": "48c2638e-d245-4873-88fd-611104d1fdd8"
+        },
+        {
+          "name": "d***************************************************************************************",
+          "value": -940500,
+          "rawValue": -9405,
+          "isPercentual": false,
+          "identifier": "abd09e33-85a9-4528-9dd6-8d2cccc605cc"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 8464900,
+        "total": 8464900,
+        "sellingPrices": [
+          {
+            "value": 8464900,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=lilianaar",
+      "id": "1",
+      "name": "T***********************",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "5a337c892da946368fc0ce9761b8ddb8",
+  "sequence": "515519",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "322edc81-b636-4953-a5e2-a40d6d48ec78",
+  "hostName": "l********",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1566900515519-01",
+  "orderGroup": "1566900515519",
+  "state": "invoiced",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1566900515519-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 9154400,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*****************",
+      "value": 14469900
+    },
+    {
+      "id": "Discounts",
+      "name": "T******************",
+      "value": -6005000
+    },
+    {
+      "id": "Shipping",
+      "name": "C********************",
+      "value": 689500
+    },
+    {
+      "id": "Tax",
+      "name": "C*********************",
+      "value": 0
+    }
+  ],
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "48c2638e-d245-4873-88fd-611104d1fdd8",
+        "name": "P***********************************",
+        "featured": true,
+        "description": "Promociones - Lista de precios Junio",
+        "matchedParameters": {},
+        "additionalInfo": null
+      },
+      {
+        "id": "abd09e33-85a9-4528-9dd6-8d2cccc605cc",
+        "name": "N*********",
+        "featured": false,
+        "description": "10% Dcto. de descuento con el cupón HOLALILIANA\nAplica a todos los productos\nSolo en primera compra\nMínimo de compra $50.000",
+        "matchedParameters": {
+          "couponCode@Marketing": "HOLALILIANA"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "clientPreferencesData": {
+    "locale": "es-AR",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": null,
+    "utmMedium": null,
+    "utmCampaign": null,
+    "utmipage": null,
+    "utmiPart": null,
+    "utmiCampaign": null,
+    "coupon": "HOLALILIANA",
+    "marketingTags": []
+  },
+  "storePreferencesData": {
+    "countryCode": "ARG",
+    "saveUserData": false,
+    "timeZone": "Argentina Standard Time",
+    "currencyCode": "ARS",
+    "currencyLocale": 11274,
+    "currencySymbol": "$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "8**********************************.v***.c**.b*",
+  "creationDate": "2025-10-06T18:18:50.7843972Z",
+  "lastChange": "2025-10-07T09:13:12.281234Z",
+  "timeZoneCreationDate": "2025-10-06T15:18:50.7843972",
+  "timeZoneLastChange": "2025-10-07T06:13:12.281234",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "l********",
+    "AccountName": "l********",
+    "Cnpj": null,
+    "Id": "980d63f5-783c-4a3c-8043-52a9bfaa1230",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2025-01-22T15:04:49.2102439Z",
+    "OperationDate": "2025-04-07T15:08:55.7298677Z",
+    "CompanyName": "B***********",
+    "TradingName": "T***********************",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "3f29e577-433f-42b8-9ded-d2ede67d8ab3"
+  }
+}

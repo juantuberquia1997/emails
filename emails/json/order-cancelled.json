@@ -1,398 +1,679 @@
 {
-	"package": null,
-	"subjectItemAttachment": {
-		"item": "Facial Cleaner ...",
-		"totalItems": 1
-	},
-	"cancellationReason": null,
-	"items": [
-		{
-			"additionalInfo": {
-				"categoriesIds": "/300/108/",
-				"productClusterId": "137",
-				"commercialConditionId": "1",
-				"dimension": {
-					"cubicweight": 1,
-					"height": 6.5,
-					"length": 6.5,
-					"weight": 0.08,
-					"width": 6.5
-				},
-				"brandName": "My-Store",
-				"brandId": "000000",
-				"offeringInfo": null,
-				"offeringType": null,
-				"offeringTypeId": null
-			},
-			"sellerSku": "107",
-			"priceTable": null,
-			"priceValidUntil": "2021-10-03T23:59:05Z",
-			"callCenterOperator": null,
-			"commission": 0,
-			"freightCommission": 0,
-			"taxCode": "8509.80.90",
-			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:vtex.store:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/107",
-			"costPrice": null,
-			"uniqueId": "0000000000000000000000",
-			"id": "107",
-			"productId": "509",
-			"productRefId": "AP6020710CR77",
-			"refId": "051_0_0_U",
-			"ean": "12345",
-			"name": " Facial Cleaner - Aparelho de Limpeza Facial",
-			"skuName": " Facial Cleaner - Aparelho de Limpeza Facial",
-			"modalType": null,
-			"parentItemIndex": null,
-			"parentAssemblyBinding": null,
-			"assemblies": [],
-			"tax": 0,
-			"priceDefinitions": null,
-			"price": 7000,
-			"listPrice": 10000,
-			"manualPrice": null,
-			"manualPriceAppliedBy": null,
-			"sellingPrice": 7000,
-			"skuSpecifications": null,
-			"orderRewardStatus": null,
-			"rewardValue": 0,
-			"isGift": false,
-			"preSaleDate": null,
-			"productCategoryIds": "/203/108/",
-			"productCategories": {
-				"303": "Cuidados para pele",
-				"308": "Olhos"
-			},
-			"quantity": 1,
-			"seller": "1",
-			"sellerChain": [
-				"1"
-			],
-			"imageUrl": "http://My-Store.vteximg.com.br/arquivos/ids/155410-55-55/AP2000710CR88_1.jpg?v=637418356089600000",
-			"detailUrl": "/mini-facial-cleaner---aparelho-de-limpeza-facial--ap2000710cr88/p",
-			"components": [],
-			"bundleItems": [],
-			"attachments": [],
-			"attachmentOfferings": [],
-			"offerings": [],
-			"priceTags": [],
-			"availability": "available",
-			"measurementUnit": "un",
-			"unitMultiplier": 1,
-			"manufacturerCode": ""
-		}
-	],
-	"sellers": [
-		{
-			"subSellerId": "1",
-			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=My-Store",
-			"id": "1",
-			"name": " IMPORTACAO E EXPORTACAO LTDA",
-			"logo": ""
-		}
-	],
-	"giftRegistryData": null,
-	"receiptData": null,
-	"contextData": null,
-	"marketPlaceOrderId": "",
-	"marketPlaceOrderGroup": null,
-	"marketplaceServicesEndpoint": null,
-	"orderFormId": "00000000000000000000000000000",
-	"sequence": "500001",
-	"affiliateId": "",
-	"status": "",
-	"callCenterOperator": "",
-	"userProfileId": "0000000000000000000000000000000",
-	"hostName": "My-Store",
-	"creationVersion": null,
-	"creationEnvironment": null,
-	"lastChangeVersion": null,
-	"workflowInstanceId": null,
-	"marketplacePaymentValue": null,
-	"orderId": "0000000000000-01",
-	"orderGroup": "1000000000000002",
-	"state": "canceled",
-	"isCheckedIn": false,
-	"sellerOrderId": "00-000000000000000-01",
-	"storeId": null,
-	"checkedInPickupPointId": null,
-	"value": 7500,
-	"totals": [
-		{
-			"id": "Items",
-			"name": "Items Total",
-			"value": 7000
-		},
-		{
-			"id": "Discounts",
-			"name": "Discounts Total",
-			"value": 0
-		},
-		{
-			"id": "Shipping",
-			"name": "Shipping Total",
-			"value": 500
-		},
-		{
-			"id": "Tax",
-			"name": "Tax Total",
-			"value": 0
-		}
-	],
-	"clientProfileData": {
-		"email": "0000000000000000000000@ct.vtex.com.br",
-		"firstName": "Joanna",
-		"lastName": "lastname",
-		"document": "0000000000",
-		"documentType": "cpf",
-		"phone": "+5500000000",
-		"corporateName": null,
-		"tradeName": null,
-		"corporateDocument": null,
-		"stateInscription": "",
-		"corporatePhone": null,
-		"isCorporate": false,
-		"profileCompleteOnLoading": false,
-		"profileErrorOnLoading": false,
-		"customerClass": null
-	},
-	"ratesAndBenefitsData": {
-		"rateAndBenefitsIdentifiers": [],
-		"teaser": []
-	},
-	"shippingData": {
-		"address": {
-			"addressType": "residential",
-			"receiverName": "name lastname",
-			"addressId": "4000000000002881",
-			"isDisposable": true,
-			"postalCode": "00000-001",
-			"city": "São Paulo",
-			"state": "SP",
-			"country": "BRA",
-			"street": "Avenida Tal",
-			"number": "300",
-			"neighborhood": "Bairro",
-			"complement": "APTO 04",
-			"reference": null,
-			"geoCoordinates": [
-				-46.000000000,
-				-23.000000000000
-			]
-		},
-		"logisticsInfo": [
-			{
-				"itemIndex": 0,
-				"selectedSla": "Normal",
-				"selectedDeliveryChannel": "delivery",
-				"addressId": "4000000000002881",
-				"slas": [
-					{
-						"id": "Normal",
-						"deliveryChannel": "delivery",
-						"name": "Normal",
-						"deliveryIds": [
-							{
-								"courierId": "1",
-								"warehouseId": "1_1",
-								"dockId": "1",
-								"courierName": "Transportadora",
-								"quantity": 1,
-								"kitItemDetails": [],
-								"totalListPrice": 0
-							}
-						],
-						"shippingEstimate": "2bd",
-						"shippingEstimateDate": null,
-						"lockTTL": "6d",
-						"availableDeliveryWindows": [],
-						"deliveryWindow": null,
-						"price": 500,
-						"listPrice": 500,
-						"tax": 0,
-						"pickupStoreInfo": {
-							"isPickupStore": false,
-							"friendlyName": null,
-							"address": null,
-							"additionalInfo": null,
-							"dockId": null
-						},
-						"pickupPointId": null,
-						"pickupDistance": 0,
-						"polygonName": null,
-						"transitTime": "2bd"
-					}
-				],
-				"shipsTo": [
-					"BRA"
-				],
-				"itemId": "100",
-				"deliveryChannels": [
-					{
-						"id": "delivery",
-						"stockBalance": 0
-					}
-				]
-			}
-		],
-		"selectedAddresses": [
-			{
-				"addressType": "residential",
-				"receiverName": "name lastname",
-				"addressId": "4000000000000081",
-				"isDisposable": true,
-				"postalCode": "00000-001",
-				"city": "São Paulo",
-				"state": "SP",
-				"country": "BRA",
-				"street": "Avenida Tal",
-				"number": "300",
-				"neighborhood": "Bairro",
-				"complement": "APTO 04",
-				"reference": null,
-				"geoCoordinates": [
-					-46.000000000,
-					-23.000000000000
-				]
-			}
-		],
-		"availableAddresses": [
-			{
-				"addressType": "residential",
-				"receiverName": "name lastname",
-				"addressId": "4000000000002881",
-				"isDisposable": true,
-				"postalCode": "00000-001",
-				"city": "São Paulo",
-				"state": "SP",
-				"country": "BRA",
-				"street": "Avenida Tal",
-				"number": "300",
-				"neighborhood": "Bairro",
-				"complement": "APTO 04",
-				"reference": null,
-				"geoCoordinates": [
-					-46.000000000,
-					-23.000000000000
-				]
-			}
-		],
-		"pickupPoints": []
-	},
-	"paymentData": {
-		"giftCards": [],
-		"transactions": [
-			{
-				"isActive": true,
-				"transactionId": "000000000000000000000",
-				"merchantName": "my-store",
-				"payments": [
-					{
-						"id": "000000000000000000000",
-						"paymentSystem": "201",
-						"paymentSystemName": "Promissória teste",
-						"value": 7500,
-						"installments": 1,
-						"connectorResponses": {},
-						"referenceValue": 7500,
-						"cardHolder": null,
-						"cardNumber": null,
-						"firstDigits": null,
-						"lastDigits": null,
-						"cvv2": null,
-						"expireMonth": null,
-						"expireYear": null,
-						"url": null,
-						"koinUrl": null,
-						"tid": null,
-						"redemptionCode": null,
-						"giftCardId": null,
-						"giftCardProvider": null,
-						"giftCardAsDiscount": null,
-						"group": "promissory",
-						"dueDate": null,
-						"accountId": null,
-						"parentAccountId": null,
-						"bankIssuedInvoiceIdentificationNumber": null,
-						"bankIssuedInvoiceIdentificationNumberFormatted": null,
-						"bankIssuedInvoiceBarCodeNumber": null,
-						"bankIssuedInvoiceBarCodeType": null,
-						"billingAddress": null
-					}
-				],
-				"sharedTransaction": false
-			}
-		]
-	},
-	"clientPreferencesData": {
-		"locale": "en-US",
-		"optinNewsLetter": false
-	},
-	"commercialConditionData": null,
-	"marketingData": null,
-	"storePreferencesData": {
-		"countryCode": "BRA",
-		"saveUserData": false,
-		"timeZone": "E. South America Standard Time",
-		"currencyCode": "BRL",
-		"currencyLocale": 1046,
-		"currencySymbol": "R$",
-		"currencyFormatInfo": {
-			"currencyDecimalDigits": 2,
-			"currencyDecimalSeparator": ",",
-			"currencyGroupSeparator": ".",
-			"currencyGroupSize": 3,
-			"startsWithCurrencySymbol": true
-		}
-	},
-	"openTextField": null,
-	"invoiceData": null,
-	"itemMetadata": null,
-	"taxData": null,
-	"customData": null,
-	"hooksData": null,
-	"changeData": null,
-	"subscriptionData": null,
-	"salesChannel": "1",
-	"followUpEmail": "00000000000000000000000@ct.vtex.com.br",
-	"creationDate": "2021-01-01T00:00:00",
-	"lastChange": "2021-01-01T00:00:00",
-	"timeZoneCreationDate": "2020-12-03T21:00:07.3030556",
-	"timeZoneLastChange": "2020-12-29T21:00:36.8554346",
-	"isCompleted": true,
-	"merchantName": null,
-	"userType": "",
-	"roundingError": 0,
-	"allowEdition": false,
-	"allowCancellation": false,
-	"isUserDataVisible": false,
-	"allowChangeSeller": false,
-	"cancellationData": {
-		"requestedByUser": false,
-		"reason": null,
-		"cancellationDate": "2021-01-00T00:00:33.5015013Z"
-	},
-	"_accountInfo": {
-		"MainAccountName": "my-Store",
-		"AccountName": "my-Store",
-		"Cnpj": "0000001000001",
-		"Id": "00000000-000-000-000-0000000",
-		"IsActive": true,
-		"IsOperating": false,
-		"CreationDate": "2021-01-01T00:00:00",
-		"OperationDate": null,
-		"CompanyName": "My Store IMPORTACAO E EXPORTACAO LTDA",
-		"TradingName": "My Store",
-		"City": null,
-		"Complement": null,
-		"Country": null,
-		"State": null,
-		"Address": null,
-		"District": null,
-		"Number": null,
-		"PostalCode": null,
-		"Licences": null,
-		"ParentAccountName": null,
-		"InactivationDate": null,
-		"Platform": "vtex"
-	}
+  "package": null,
+  "subjectItemAttachment": {
+    "item": "Procesadora Fullpros",
+    "totalItems": 2,
+    "extraItems": 1
+  },
+  "cancellationReason": null,
+  "paymentData": {
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "F06078486FEB4562A6AA4A2BCC9A32D3",
+        "merchantName": "L********",
+        "payments": [
+          {
+            "id": "78994D6ECE074B3CA5206C21EAAB3406",
+            "paymentSystem": "2",
+            "paymentSystemName": "V***",
+            "value": 31602800,
+            "installments": 6,
+            "referenceValue": 31602800,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": "493719",
+            "lastDigits": "8971",
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "creditCard",
+            "tid": "130000935180",
+            "dueDate": null,
+            "connectorResponses": {
+              "Tid": "130000935180",
+              "ReturnCode": null,
+              "Message": "pending_review_manual",
+              "authId": "130000935180",
+              "nsu": "130000935180",
+              "acquirer": "MercadoPagoV2"
+            },
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": "D6D65BE219E7430B88A9C649955A7AAC",
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": {
+              "postalCode": "1***",
+              "city": "I***** C*******",
+              "state": "BUENOS AIRES",
+              "country": "ARG",
+              "street": "D**** A********",
+              "number": "3***",
+              "neighborhood": null,
+              "complement": "C***",
+              "reference": null,
+              "geoCoordinates": [-51.4779552, -0.0039779]
+            },
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancellationRequests": null,
+  "invoiceData": null,
+  "clientProfileData": {
+    "id": "clientProfileData",
+    "email": "m************************@g****.c****************.c*.v***.c**.b*",
+    "firstName": "M******** g*****",
+    "lastName": "A*** a*****",
+    "documentType": "dni",
+    "document": "2*******",
+    "phone": "+5***********",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "userProfileId": "58c07644-5ff5-45c2-baca-297278ddc96c",
+    "userProfileVersion": null,
+    "customerClass": null,
+    "customerCode": null
+  },
+  "shippingData": {
+    "id": "shippingData",
+    "address": {
+      "addressType": "residential",
+      "receiverName": "M******** g***** A*** a*****",
+      "addressId": "5281432243971",
+      "versionId": null,
+      "entityId": null,
+      "postalCode": "1***",
+      "city": "I***** C*******",
+      "state": "BUENOS AIRES",
+      "country": "ARG",
+      "street": "D**** A********",
+      "number": "3***",
+      "neighborhood": null,
+      "complement": "C***",
+      "reference": null,
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "itemId": "214",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Same Day AM",
+        "lockTTL": "12d",
+        "price": 0,
+        "listPrice": 699800,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": null,
+        "shippingEstimate": "0bd",
+        "shippingEstimateDate": null,
+        "slas": [
+          {
+            "id": "Same Day AM",
+            "name": "S**********",
+            "shippingEstimate": "0bd",
+            "shippingEstimateDate": null,
+            "deliveryWindow": null,
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "Moova_Home_SameDay",
+                "courierName": "M*****************",
+                "dockId": "Muelle Premium",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "l********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 699800,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "12d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": 0
+          }
+        ],
+        "shipsTo": ["ARG"],
+        "deliveryIds": [
+          {
+            "courierId": "Moova_Home_SameDay",
+            "courierName": "M*****************",
+            "dockId": "Muelle Premium",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "l********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "5281432243971",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      },
+      {
+        "itemIndex": 1,
+        "itemId": "138",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Same Day AM",
+        "lockTTL": "12d",
+        "price": 0,
+        "listPrice": 639400,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": null,
+        "shippingEstimate": "0bd",
+        "shippingEstimateDate": null,
+        "slas": [
+          {
+            "id": "Same Day AM",
+            "name": "S**********",
+            "shippingEstimate": "0bd",
+            "shippingEstimateDate": null,
+            "deliveryWindow": null,
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "Moova_Home_SameDay",
+                "courierName": "M*****************",
+                "dockId": "Muelle Premium",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "l********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 639400,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "12d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": 0
+          }
+        ],
+        "shipsTo": ["ARG"],
+        "deliveryIds": [
+          {
+            "courierId": "Moova_Home_SameDay",
+            "courierName": "M*****************",
+            "dockId": "Muelle Premium",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "l********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "5281432243971",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      }
+    ],
+    "trackingHints": [],
+    "selectedAddresses": [
+      {
+        "addressId": "5281432243971",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "M******** g***** A*** a*****",
+        "street": "D**** A********",
+        "number": "3***",
+        "complement": "C***",
+        "neighborhood": null,
+        "postalCode": "1***",
+        "city": "I***** C*******",
+        "state": "BUENOS AIRES",
+        "country": "ARG",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressId": "5281432243971",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "M******** g***** A*** a*****",
+        "street": "D**** A********",
+        "number": "3***",
+        "complement": "C***",
+        "neighborhood": null,
+        "postalCode": "1***",
+        "city": "I***** C*******",
+        "state": "BUENOS AIRES",
+        "country": "ARG",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "contactInformation": [],
+    "contactsInfo": []
+  },
+  "customData": null,
+  "purchaseAgentData": null,
+  "authorizationPolicyData": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/18/48/",
+        "productClusterId": "137,141,147,149,151,152,153,154,155,166,167,170,176,181",
+        "commercialConditionId": "6",
+        "dimension": {
+          "cubicweight": 5.4692,
+          "height": 36.1,
+          "length": 20.2,
+          "weight": 4460,
+          "width": 36
+        },
+        "brandName": "L******",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "214",
+      "priceTable": null,
+      "priceValidUntil": "2026-10-15T12:18:46Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:lilianaar:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/214",
+      "uniqueId": "F84BA1BC1411400F963F280AF556FE73",
+      "id": "214",
+      "productId": "214",
+      "productRefId": null,
+      "refId": "AAM790",
+      "ean": "7793862009580",
+      "name": "P*******************",
+      "skuName": "P*******************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 32309900,
+      "listPrice": 32309900,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 21001400,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/18/48/",
+      "productCategories": {
+        "18": "Preparación",
+        "48": "Procesadoras"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://lilianaar.vteximg.com.br/arquivos/ids/158836-300-300/AM790_01.jpg?v=638829389688470000",
+      "detailUrl": "/procesadora-fullpros/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d*********************************************************************************************************",
+          "value": -11308500,
+          "rawValue": -113085,
+          "isPercentual": false,
+          "identifier": "48c2638e-d245-4873-88fd-611104d1fdd8"
+        },
+        {
+          "name": "d******************************************************************************************",
+          "value": -699800,
+          "rawValue": -6998,
+          "isPercentual": false,
+          "identifier": "4a77479c-c2aa-4ba6-8ff7-da48ccf031f0"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 21001400,
+        "total": 21001400,
+        "sellingPrices": [
+          {
+            "value": 21001400,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/8/32/",
+        "productClusterId": "137,147,151,152,154,155,166,167,170,181",
+        "commercialConditionId": "6",
+        "dimension": {
+          "cubicweight": 5.3,
+          "height": 32,
+          "length": 15,
+          "weight": 4075,
+          "width": 53
+        },
+        "brandName": "L******",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "138",
+      "priceTable": null,
+      "priceValidUntil": "2026-10-15T12:19:46Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:lilianaar:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/138",
+      "uniqueId": "B15BEF07B0624F8F98AE3D6543579CAB",
+      "id": "138",
+      "productId": "138",
+      "productRefId": null,
+      "refId": "AAK920",
+      "ean": "7793862013358",
+      "name": "C*******************************",
+      "skuName": "C*******************************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 16309900,
+      "listPrice": 16309900,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 10601400,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/8/32/",
+      "productCategories": {
+        "8": "Cocción",
+        "32": "Parrillas"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://lilianaar.vteximg.com.br/arquivos/ids/158370-300-300/AK920_01.jpg?v=638829380860000000",
+      "detailUrl": "/cocina-electrica-cookchef-7-en-1/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d*********************************************************************************************************",
+          "value": -5708500,
+          "rawValue": -57085,
+          "isPercentual": false,
+          "identifier": "48c2638e-d245-4873-88fd-611104d1fdd8"
+        },
+        {
+          "name": "d******************************************************************************************",
+          "value": -639400,
+          "rawValue": -6394,
+          "isPercentual": false,
+          "identifier": "4a77479c-c2aa-4ba6-8ff7-da48ccf031f0"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 10601400,
+        "total": 10601400,
+        "sellingPrices": [
+          {
+            "value": 10601400,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=lilianaar",
+      "id": "1",
+      "name": "T***********************",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "04bb8b55fa084635a04335c7fe97d687",
+  "sequence": "516859",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "58c07644-5ff5-45c2-baca-297278ddc96c",
+  "hostName": "l********",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1569000516859-01",
+  "orderGroup": "1569000516859",
+  "state": "canceled",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1569000516859-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 31602800,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*****************",
+      "value": 48619800
+    },
+    {
+      "id": "Discounts",
+      "name": "T******************",
+      "value": -17017000
+    },
+    {
+      "id": "Shipping",
+      "name": "C********************",
+      "value": 0,
+      "alternativeTotals": [
+        {
+          "id": "AlternativeShippingTotal",
+          "name": "A*************************",
+          "value": 1339200
+        },
+        {
+          "id": "AlternativeShippingDiscount",
+          "name": "A****************************",
+          "value": -1339200
+        }
+      ]
+    },
+    {
+      "id": "Tax",
+      "name": "C*********************",
+      "value": 0
+    }
+  ],
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "48c2638e-d245-4873-88fd-611104d1fdd8",
+        "name": "P***********************************",
+        "featured": true,
+        "description": "Promociones - Lista de precios Junio",
+        "matchedParameters": {},
+        "additionalInfo": null
+      },
+      {
+        "id": "4a77479c-c2aa-4ba6-8ff7-da48ccf031f0",
+        "name": "E********************",
+        "featured": true,
+        "description": "Envío gratis por compras superiores a 250 k",
+        "matchedParameters": {},
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "clientPreferencesData": {
+    "locale": "es-AR",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "ARG",
+    "saveUserData": false,
+    "timeZone": "Argentina Standard Time",
+    "currencyCode": "ARS",
+    "currencyLocale": 11274,
+    "currencySymbol": "$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "5**********************************.v***.c**.b*",
+  "creationDate": "2025-10-15T12:22:27.62412Z",
+  "lastChange": "2025-10-15T12:22:50.7831188Z",
+  "timeZoneCreationDate": "2025-10-15T09:22:27.62412",
+  "timeZoneLastChange": "2025-10-15T09:22:50.7831188",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "cancellationData": {
+    "requestedByUser": false,
+    "requestedByPaymentNotification": true,
+    "reason": null,
+    "cancellationDate": "2025-10-15T12:22:41.1252972Z"
+  },
+  "_accountInfo": {
+    "MainAccountName": "l********",
+    "AccountName": "l********",
+    "Cnpj": null,
+    "Id": "980d63f5-783c-4a3c-8043-52a9bfaa1230",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2025-01-22T15:04:49.2102439Z",
+    "OperationDate": "2025-04-07T15:08:55.7298677Z",
+    "CompanyName": "B***********",
+    "TradingName": "T***********************",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "3f29e577-433f-42b8-9ded-d2ede67d8ab3"
+  }
 }

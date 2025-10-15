@@ -1,0 +1,458 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; width: 100%; height: 100%; margin: 0; padding: 0; background: #f1f1f1 !important;">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{_accountInfo.TradingName}}</title>
+  <!--[if gte mso 9]>
+  <xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+  <style>
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+  </style>
+  <style>
+    @media (max-width: 600px) {
+
+      img {
+        max-width: 100% !important;
+        height: auto !important;
+      }
+    }
+  </style>
+  <style>
+    @media screen and (min-width: 30em) {
+
+      .w-70-ns {
+        width: 70% !important;
+      }
+
+      .ph4-ns {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+      }
+
+      .mv1-ns {
+        margin-top: .25rem !important;
+        margin-bottom: .25rem !important;
+      }
+
+      .mv4-ns {
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+      }
+    }
+  </style>
+</head>
+
+<body
+  style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; width: 100%; height: 100%; margin: 0; padding: 0; background: #f1f1f1 !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0"
+    style="box-sizing: border-box; margin: 0; padding: 0; background: #f1f1f1; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%; height: 100%; line-height: 100% !important;">
+    <tr style="box-sizing: border-box !important;">
+      <td align="left" valign="top"
+        style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+        <table class="mv4-ns" width="100%" align="center" border="0" cellpadding="0" cellspacing="0"
+          style="box-sizing: border-box; max-width: 40rem; width: 100%; background-color: #fff; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+          bgcolor="#fff">
+
+          <tr style="box-sizing: border-box !important;">
+
+
+            <td class=""
+              style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; border-bottom-style: solid; border-bottom-width: 1px; border-color: #eee; width: 100%; padding-bottom: 2rem; text-align: center !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+              align="center">
+              <div
+                style="box-sizing: border-box; width: 100%; margin-bottom: 1rem; margin-top: 2rem; margin-right: auto; margin-left: auto !important; background-color: #EEEEEE;   margin-top: 0;padding: 23px 0;">
+                <a href="https://www.liliana.com.ar" style="box-sizing: border-box !important;">
+                  <img alt="Liliana®" height="auto"
+                    src="https://lilianaar.vtexassets.com/assets/vtex.file-manager-graphql/images/187d4cf0-7678-430c-9b5e-0468e6e196f4___3fcc6760bf5e883ee10cdf02735f0c2e.png"
+                    style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%; margin: 0 auto; max-width: 120px;"
+                    width="120" />
+                </a>
+              </div>
+              <!-- <h1 style="margin: 0; font-size: 50px; line-height: 58px; box-sizing: border-box !important;">Tu entrega
+                ha sido actualizada.</h1> -->
+              <div style="box-sizing: border-box; color: #777; margin-top: .5rem !important;">
+                <strong> Pedido número </strong> <span style="font-weight: 500 !important;">#{{orderId}}</span>
+              </div>
+              <div>
+                <p>
+                  !hola {{clientProfileData.firstName}}¡
+                </p>
+              </div>
+
+              {{#eq package.courierStatus.data.0.description "not_delivered"}}
+                <div style="text-align: left; margin-top: 2rem;" class="ph4-ns">
+                  <p>
+                    Te informamos que no fue posible entregar tu compra de liliana.com.ar. Estaremos
+                    gestionando el reintegro del dinero al mismo método de pago con el que realizaste la compra. Los
+                    plazos en los que verás la devolución en tu cuenta pueden ser de hasta 15 días hábiles, dependiendo
+                    de
+                    tu entidad bancaria.
+                  </p>
+                   <div>
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center"
+                      style="margin:auto;">
+                      <tr>
+                        <td style="padding: 10px; text-align:center;">
+                          <img
+                            src="data:image/png;base64,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"
+                             alt="Escaneá para contactarnos" width="180" height="180"
+                            style="border: 4px solid #eee; padding: 5px; border-radius: 8px;">
+                        </td>
+                      </tr>
+
+                      <!-- Botón de WhatsApp -->
+                      <tr>
+                        <td style="padding: 10px; text-align: center;">
+                          <a href="https://api.whatsapp.com/send?phone=5491166895334" target="_blank"
+                            style="display:inline-block; padding:12px 25px; background:#25D366; color:white; border-radius:6px;">
+                            Contactános
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div> 
+                  <p>¡Saludos!</p>
+                  <p>Equipo liliana</p>
+                </div>
+                {{else}}
+                  <div class="w-70-ns"
+                    style="box-sizing: border-box; display: inline-block; font-weight: 500; line-height: 1.5; background-color: #eee; padding-top: .5rem; padding-bottom: .5rem; padding-left: 1rem; padding-right: 1rem; margin-top: 2rem; margin-right: auto; margin-left: auto !important;">
+                    <div
+                      style="box-sizing: border-box; font-weight: 700; color: #777; margin-bottom: .25rem !important;">
+                      {{formatDateTime package.courierStatus.data.0.lastChange}}
+                    </div>
+                    <div
+                      style="box-sizing: border-box; font-weight: 700; line-height: 1.25; font-size: 1.25rem !important;">
+                      {{package.courierStatus.data.0.description}}
+                    </div>
+                    {{#if package.courierStatus.data.0.city}}
+                      <div style="box-sizing: border-box; font-size: 1.25rem !important;">
+                        {{package.courierStatus.data.0.city}}
+                        {{#if package.courierStatus.data.0.state}} - {{package.courierStatus.data.0.state}}{{/if}}
+                      </div>
+                    {{/if}}
+          <tr style="box-sizing: border-box !important;">
+            <td class="ph4-ns"
+              style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; width: 100%; padding-bottom: 1rem !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+              align="left">
+              <p style="box-sizing: border-box; margin-top: 2rem !important;">
+                {{#if orders}}
+                  {{#if orders.0.clientProfileData.firstName}}
+                    {{#compare orders.0.clientProfileData.firstName '!=' 'isAnonymous'}}
+                      Hola, {{orders.0.clientProfileData.firstName}}.
+                    {{/compare}}
+                  {{/if}}
+                {{else}}
+                  {{#if clientProfileData.firstName}}
+                    {{#compare clientProfileData.firstName '!=' 'isAnonymous'}}
+                      Hola, {{clientProfileData.firstName}}.
+                    {{/compare}}
+                  {{/if}}
+                {{/if}}
+                {{#compare package.courierStatus.data.length '>' 1}}
+                  Rastrea tu entrega:
+                  {{else}}
+                    Aquí están los detalles de tu entrega:
+                {{/compare}}
+              </p>
+
+              <div style="box-sizing: border-box; padding-bottom: 1rem !important;">
+                {{#if package.courier}}
+                  <div style="box-sizing: border-box; font-weight: 700 !important;">Transporte vía {{package.courier}}
+                  </div>
+                {{/if}}
+                <div style="box-sizing: border-box;">Rastreo #{{package.trackingNumber}} - <a
+                    href="{{package.trackingUrl}}" style="box-sizing: border-box !important;">ver el historial
+                    detallado</a></div>
+              </div>
+
+              {{#compare package.courierStatus.data.length '>' 1}}
+                {{#each package.courierStatus.data}}
+                  <div style="box-sizing: border-box; margin-bottom: .5rem !important;">
+                    <div style="box-sizing: border-box; color: #777; font-size: .75rem !important;">
+                      {{formatDateTime lastChange}}
+                    </div>
+                    <div style="box-sizing: border-box !important;">
+                      {{description}}
+                    </div>
+                    {{#if city}}
+                      <div style="box-sizing: border-box !important;">
+                        {{city}}
+                        {{#if state}} - {{state}}{{/if}}
+                      </div>
+                    {{/if}}
+                  </div>
+                {{/each}}
+              {{/compare}}
+            </td>
+          </tr>
+
+          <tr style="box-sizing: border-box !important;">
+            <td class="ph4-ns"
+              style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; border-top-style: solid; border-top-width: 1px; border-color: #eee; width: 100%; padding-top: 2rem; padding-bottom: 2rem !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+              align="left">
+              {{#richShippingData shippingData}}
+                {{#group logisticsInfo by="addessId"}}
+                  <div style="box-sizing: border-box; clear: both; float: none !important;">
+                    <h3
+                      style="font-size: 20px; line-height: 36px; text-transform: uppercase; letter-spacing: 1.2pt; font-weight: 300; margin-top: 16px; box-sizing: border-box; margin: 0; margin-bottom: .5rem !important;">
+                      Entrega</h3>
+                    {{#compare items.0.selectedDeliveryChannel '==' null}}
+                      <div
+                        style="box-sizing: border-box; max-width: 24rem; background-color: #eee; padding: 1rem; margin-bottom: 1rem !important;">
+                        {{#if orders.0.giftRegistryData}}
+                          {{orders.0.giftRegistryData.description}}
+                        {{else}}
+                          {{#each ../../shippingData.availableAddresses}}
+                            {{#eq ../addressId AddressId}}
+                              <strong>{{receiverName}}</strong>
+                              <br />{{street}}, {{number}}{{#if complement}} - {{complement}}{{/if}}
+                              <br />{{neighborhood}} - {{city}} - {{state}}
+                              <br />Código postal {{postalCode}}
+                            {{/eq}}
+                          {{/each}}
+                        {{/if}}
+                      </div>
+                    {{/compare}}
+
+                    {{#eq items.0.selectedDeliveryChannel "delivery"}}
+                      <div
+                        style="box-sizing: border-box; max-width: 24rem; background-color: #eee; padding: 1rem; margin-bottom: 1rem !important;">
+                        {{#if orders.0.giftRegistryData}}
+                          {{orders.0.giftRegistryData.description}}
+                        {{else}}
+                          {{#each ../../shippingData.availableAddresses}}
+                            {{#eq ../addressId AddressId}}
+                              <strong>{{receiverName}}</strong>
+                              <br />{{street}}, {{number}}{{#if complement}} - {{complement}}{{/if}}
+                              <br />{{neighborhood}} - {{city}} - {{state}}
+                              <br />Código postal {{postalCode}}
+                            {{/eq}}
+                          {{/each}}
+                        {{/if}}
+                      </div>
+                    {{/eq}}
+                    {{#eq items.0.selectedDeliveryChannel "pickup-in-point"}}
+                      <div
+                        style="box-sizing: border-box; max-width: 24rem; background-color: #eee; padding: 1rem; margin-bottom: 1rem !important;">
+                        <strong>{{items.0.slas.0.pickupStoreInfo.friendlyName}}</strong>
+                        {{#with items.0.slas.0.pickupStoreInfo.address}}
+                          <br />{{street}}, {{number}}{{#if complement}}, {{complement}}{{/if}}
+                          <br />{{neighborhood}}
+                        {{/with}}
+                      </div>
+                    {{/eq}}
+                    {{#group items by="selectedSla"}}
+                      {{#each items}}
+                        {{#compare @index '==' 0}}
+                          <div
+                            style="box-sizing: border-box; max-width: 24rem; font-weight: 500; background-color: #eee; padding-top: .5rem; padding-bottom: .5rem; padding-left: 1rem; padding-right: 1rem; margin-top: 1rem; margin-bottom: 1rem !important;">
+                            {{#compare selectedDeliveryChannel "!=" "pickup-in-point"}}
+                              {{#if deliveryWindow}}
+                                <div style="box-sizing: border-box; color: #777; font-size: .75rem !important;">Agendada
+                                  para</div>
+                              {{else}}
+                                <div style="box-sizing: border-box; color: #777; font-size: .75rem !important;">
+                                  {{selectedSla}}</div>
+                              {{/if}}
+                            {{/compare}}
+
+                            {{#if deliveryWindow}}
+                              {{formatDate deliveryWindow.startDateUtc}}
+                              entre
+                              {{formatTime deliveryWindow.startDateUtc}}
+                              y
+                              {{formatTime deliveryWindow.endDateUtc}}
+                            {{else}}
+                              {{#unless shippingEstimateDate}}
+                                {{#eq shippingEstimateDays "0"}}
+                                  {{#eq selectedDeliveryChannel "pickup-in-point"}}
+                                    A partir de hoy
+                              {{else}}
+                                Hoy
+                                  {{/eq}}
+
+                              {{else}}
+                                {{#eq selectedDeliveryChannel "pickup-in-point"}}
+                                  Después de
+                              {{else}}
+                                En hasta
+                                {{/eq}}
+
+                                {{#compare shippingEstimateDays ">" "1"}}
+                                  {{#eq shippingEstimateDaysType "bd"}}
+                                    {{shippingEstimateDays}} días laborales
+                              {{else}}
+                                {{#eq shippingEstimateDaysType "d"}}
+                                  {{shippingEstimateDays}} días
+                              {{else}}
+                                {{#eq shippingEstimateDaysType "h"}}
+                                  {{shippingEstimateDays}} horas
+                              {{else}}
+                                {{shippingEstimateDays}} minutos
+                                {{/eq}}
+                                {{/eq}}
+                                  {{/eq}}
+                              {{else}}
+                                {{#eq shippingEstimateDaysType "bd"}}
+                                  {{shippingEstimateDays}} día laboral
+                              {{else}}
+                                {{#eq shippingEstimateDaysType "d"}}
+                                  {{shippingEstimateDays}} día
+                              {{else}}
+                                {{#eq shippingEstimateDaysType "h"}}
+                                  {{shippingEstimateDays}} hora
+                              {{else}}
+                                {{shippingEstimateDays}} minuto
+                                {{/eq}}
+                                {{/eq}}
+                                {{/eq}}
+                                {{/compare}}
+                                {{/eq}}
+                              {{else}}
+                                {{#eq deliveryChannel "pickup-in-point"}}
+                                  Después de
+                              {{else}}
+                                Hasta
+                                {{/eq}}
+
+                                {{formatDate shippingEstimateDate}}
+                              {{/unless}}
+                            {{/if}}
+                          </div>
+                        {{/compare}}
+                      {{/each}}
+
+                      <table width="100%" border="0" cellpadding="0" cellspacing="0"
+                        style="box-sizing: border-box; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+                        <thead>
+                        </thead>
+                        <tbody>
+                          {{#each items}}
+                            {{#each ../../../../items}}
+                              {{#eq id ../itemId}}
+                                <tr style="box-sizing: border-box !important;">
+                                  <td
+                                    style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; width: 4rem; padding-right: .5rem; padding-top: .5rem; padding-bottom: .5rem; vertical-align: top; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                                    align="left" valign="top"><img alt="" src="{{imageUrl}}"
+                                      style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100% !important;" />
+                                  </td>
+                                  <td
+                                    style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; padding-top: .5rem; padding-bottom: .5rem; vertical-align: top !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                                    align="left" valign="top">
+                                    <div class="mv1-ns"
+                                      style="box-sizing: border-box; line-height: 1.25; font-size: 1rem !important;">
+                                      {{name}}</div>
+                                    <div style="box-sizing: border-box; color: #777 !important;">
+                                      {{quantity}} un.
+                                      {{#if sellingPrice}}
+                                        R$ {{formatCurrency sellingPrice}}
+                                      {{else}}
+                                        Gratis
+                                      {{/if}}
+                                    </div>
+                                  </td>
+                                </tr>
+                                {{#each bundleItems}}
+                                  {{#if name}}
+                                    <tr style="box-sizing: border-box !important;">
+                                      <td
+                                        style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; width: 4rem; padding-right: .5rem; padding-top: .5rem; padding-bottom: .5rem; vertical-align: top; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                                        align="left" valign="top"><img alt="" src="{{imageUrl}}"
+                                          style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100% !important;" />
+                                      </td>
+                                      <td
+                                        style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; padding-top: .5rem; padding-bottom: .5rem; vertical-align: top !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                                        align="left" valign="top">
+                                        <div class="mv1-ns"
+                                          style="box-sizing: border-box; line-height: 1.25; font-size: 1rem !important;">
+                                          {{name}}</div>
+                                        <div style="box-sizing: border-box; color: #777 !important;">
+                                          {{quantity}} un.
+                                          {{#if price}}
+                                            R$ {{formatCurrency price}}
+                                          {{else}}
+                                            Gratis
+                                          {{/if}}
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  {{/if}}
+                                {{/each}}
+                              {{/eq}}
+                            {{/each}}
+                        </tbody>
+                        {{/each}}
+                      </table>
+                    {{/group}}
+                  </div>
+                {{/group}}
+              {{/richShippingData}}
+            </td>
+          </tr>
+          <tr>
+            <td>
+               <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center"
+                      style="margin:auto;">
+                      <tr>
+                        <td style="padding: 10px; text-align:center;">
+                          <img
+                            src="data:image/png;base64,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"
+                             alt="Escaneá para contactarnos" width="180" height="180"
+                            style="border: 4px solid #eee; padding: 5px; border-radius: 8px;">
+                        </td>
+                      </tr>
+
+                      <!-- Botón de WhatsApp -->
+                      <tr>
+                        <td style="padding: 10px; text-align: center;">
+                          <a href="https://api.whatsapp.com/send?phone=5491166895334" target="_blank"
+                            style="display:inline-block; padding:12px 25px; background:#25D366; color:white; border-radius:6px;">
+                            Contactános
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+
+            </td>
+          </tr>
+
+          <tr style="box-sizing: border-box !important;">
+            <td class="ph4-ns"
+              style="font-size: 14px; line-height: 20px; box-sizing: border-box; border-collapse: collapse; text-align: left; border-top-style: solid; border-top-width: 1px; border-color: #eee; padding-top: 1rem; padding-bottom: 1rem !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+              align="left">
+              <p style="box-sizing: border-box !important;">
+                Saludos,<br />Equipo Lilianaa
+              </p>
+            </td>
+          </tr>
+          </div>
+          {{/eq}}
+      </td>
+    </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+</body>
+
+</html>
